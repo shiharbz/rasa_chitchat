@@ -39,3 +39,8 @@ stories:
   - intent: clever
   - action: utter_smart
 
+- story: surprise path
+  steps:
+  - intent: unexpected
+  - action: utter_sudden
+

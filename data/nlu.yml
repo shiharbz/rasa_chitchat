@@ -132,3 +132,27 @@ nlu:
     - why are you so smart
     - why you supposed to be smarter?
     - you are way good than others
+
+- intent: unexpected
+  examples: |
+    - i am surprised to meet you
+    - surprise meeting of my friends
+    - I was surprised by my colleages
+    - i love giving surprise to my dear ones
+    - i am surprised by my spouse cooking
+    - i got birthday surprise from my kids
+    - we went for a surprise visit for our friends home
+    - that moment of surprise was awesome
+    - i trust strangers quickly
+    - i love giving surprise to my friends
+    - are you clever enough to surprise others?
+    - i want to give surprise gift to my children
+    - I had a surprise party at my home as well as my office
+    - I got a birthday card in my mail unexpectedly from my friends
+    - I got a salary hike which is quite unexpected
+    - being faithful to others is really hard to accomplish
+    - i got a surprise invitation for the five star party
+    - i was really shocked to see my school friend near my seay in my last flight
+    - i am good at giving surprises to my daer ones
+    - i actually ordered one pizza but i got one more as a complimentory
+    - it was a surprise to see my dear teacher at the confeerenc   

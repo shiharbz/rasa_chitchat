@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - user_hungry
   - clever
+  - unexpected
 
 responses:
   utter_greet:
@@ -37,6 +38,11 @@ responses:
   
   utter_smart:
   - text: "Thank you for the appreciation"
+
+  utter_sudden:
+  - text: "How can I help you to give the surprise?"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
