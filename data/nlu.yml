@@ -89,3 +89,30 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: user_hungry
+  examples: |
+    - I am very hungry
+    - I am so hungry
+    - I am super hungry
+    - I am extremely hungry
+    - I Would like to eat something
+    - I want to eat
+    - I want something to eat
+    - feeling hungry
+    - need something to munch
+    - needs to bite something
+    - I am starving
+    - I am really hungry now
+    - I am ready for a meal
+    - I am interested in eating new food varieties
+    - I am excited to order food now
+    - I am expecting a healthy meal
+    - really hungry
+    - am hungry
+    - ready for a meal
+    - craving for fast food
+    - choosing for healthy food
+    - need to eat now
+    - excited for chicken
+    - I want some food

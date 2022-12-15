@@ -28,3 +28,9 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+  
+- story: food path 1
+  steps:
+  - intent: user_hungry
+  - action: utter_food
+
