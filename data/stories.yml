@@ -34,3 +34,8 @@ stories:
   - intent: user_hungry
   - action: utter_food
 
+- story: clever path
+  steps:
+  - intent: clever
+  - action: utter_smart
+

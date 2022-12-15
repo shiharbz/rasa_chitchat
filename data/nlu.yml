@@ -116,3 +116,19 @@ nlu:
     - need to eat now
     - excited for chicken
     - I want some food
+
+- intent: clever
+  examples: |
+    - clever
+    - you are clever
+    - you are intelligent
+    - you are smart
+    - you are extraordinary
+    - brave
+    - you are brave
+    - you are a genius
+    - you look clever
+    - you must be very clever
+    - why are you so smart
+    - why you supposed to be smarter?
+    - you are way good than others

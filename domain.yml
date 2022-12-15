@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - user_hungry
+  - clever
 
 responses:
   utter_greet:
@@ -33,7 +34,9 @@ responses:
 
   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
-
+  
+  utter_smart:
+  - text: "Thank you for the appreciation"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
