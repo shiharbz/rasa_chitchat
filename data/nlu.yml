@@ -34,6 +34,7 @@ nlu:
   examples: |
     - yes
     - y
+    - ya that helps, thanks!
     - indeed
     - of course
     - that sounds good
