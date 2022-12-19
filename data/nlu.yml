@@ -83,12 +83,14 @@ nlu:
     - so saad
     - so sad
 
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
 
 - intent: user_hungry
   examples: |
@@ -132,7 +134,7 @@ nlu:
     - why are you so smart
     - why you supposed to be smarter?
     - you are way good than others
-
+    
 - intent: unexpected
   examples: |
     - i am surprised to meet you
@@ -154,5 +156,57 @@ nlu:
     - i got a surprise invitation for the five star party
     - i was really shocked to see my school friend near my seay in my last flight
     - i am good at giving surprises to my daer ones
-    - i actually ordered one pizza but i got one more as a complimentory
-    - it was a surprise to see my dear teacher at the confeerenc   
+    - i actually ordered one pizza, but i got one more as a complimentory
+    - it was a surprise to see my dear teacher at the confeerence
+
+
+- intent: trustworthy
+  examples: |
+    - I believe in hardwork
+    - if we do our work with passion, we will definitely win
+    - true friend does not deceive
+    - i have confidence in my exam results
+    - i love being surrounded by dear ones
+    - I have many problems with my friend and we convince each other in faithfulness
+    - completely believe in one day when all my dreams comes true
+    - i have been with my boyfriend for 8 years and still be faithful
+    - positive attitude will direct you to success
+    - i do my prayers every single day
+    - we have our breakfast from same restaurant for the past couple of years
+    - i hope my exams will be fine
+    - Hope you recover soon
+    - i believe in miracles 
+    - I will not lie to the cops
+    - i hope he is the best doctor you have ever met
+    - hopes to score really good in my semestere exams
+    - hopefully you will get a good career
+    - ater attending my interview very well, hopes to get my desired job offer
+    - looking forward a good reason to lay off
+    - hopes to get a reply for my mail
+    - hope my interview will be fine 
+    - you will recover soon
+    - i am hoping for a good position in this company
+    - I dont know why i trust others easily
+    - faith is the key to success
+
+- intent: modesty
+  examples: |
+    - I believe in simplicity
+    - simple look
+    - simple walk
+    - pray in a modest style
+    - always obey modest principles in our life
+    - Great leaders are always modest
+    - you are not boastful
+    - i like modest persons in my life
+    - you are simple person
+    - you are a modest person
+    - you are so simple
+    - i am modest
+    - i want a modest friend
+    - i am simple
+    - i am a simple person
+    - i like to do my things in a modest way
+    
+
+    

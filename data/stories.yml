@@ -44,3 +44,29 @@ stories:
   - intent: unexpected
   - action: utter_sudden
 
+- story: food path 1
+  steps:
+  - intent: user_hungry
+  - action: utter_food
+
+- story: clever path
+  steps:
+  - intent: clever
+  - action: utter_smart
+
+- story: surprise path
+  steps:
+  - intent: unexpected
+  - action: utter_sudden
+
+- story: faith path
+  steps:
+  - intent: trustworthy
+  - action: utter_hope
+
+- story: simple path
+  steps:
+  - intent: modesty
+  - action: utter_pure
+
+ 

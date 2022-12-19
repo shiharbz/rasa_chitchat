@@ -11,6 +11,8 @@ intents:
   - user_hungry
   - clever
   - unexpected
+  - trustworthy
+  - modesty
 
 responses:
   utter_greet:
@@ -41,6 +43,13 @@ responses:
 
   utter_sudden:
   - text: "How can I help you to give the surprise?"
+
+  utter_hope:
+  - text: "Best wishes for your action"
+
+  utter_pure:
+  - text: "Great!!..that is a good quality"
+
 
 session_config:
   session_expiration_time: 60
