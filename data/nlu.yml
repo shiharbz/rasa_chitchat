@@ -175,6 +175,85 @@ nlu:
     - don't like that
     - no way
     - not really
+    - thanks but no thanks
+    - stop it
+    - stop
+    - sorry cancel
+    - no
+    - so cancel
+    - skip skip skip
+    - skip it
+    - skip
+    - of course not
+    - now cancel
+    - nothing cancel
+    - not today
+    - not this time
+    - not this
+    - not that
+    - not right now thanks
+    - not really no
+    - not really
+    - not needed
+    - not interested
+    - not exactly
+    - not at this time
+    - nope sorry
+    - nope
+    - nooo
+    - no.i think i donn't need to
+    - no way
+    - no that's wrong
+    - no that's fine thank you
+    - no thanks not right now
+    - no thanks
+    - no thank you very much
+    - no thank you though
+    - no thank you not right now
+    - no tanks
+    - no stop
+    - no sorry
+    - no never
+    - no need thanks
+    - no need
+    - no leave it
+    - no just no
+    - no just cancel it
+    - no just cancel
+    - no it's not
+    - no it isn't
+    - no I would not
+    - no I don't
+    - no forget
+    - no don't do that
+    - no don't
+    - no do not
+    - no cancel this
+    - no cancel everything
+    - no cancel cancel
+    - no but thank you
+    - no actually
+    - no
+    - never
+    - nah
+    - na
+    - n
+    - let 's not
+    - just stop it
+    - just cancel it
+    - I'm not
+    - i would like to cancel
+    - i want to cancel it
+    - i want to cancel
+    - I think no
+    - I say no
+    - I said no
+    - i said cancel it
+    - I said cancel cancel
+    - i said cancel
+    - I don't want to
+    - I don't want that
+    - I don't want
 
 - intent: mood_great
   examples: |
@@ -192,6 +271,100 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+     - very well
+    - very then
+    - very nice
+    - very good
+    - this is great
+    - this is good
+    - this is awesome
+    - that's wonderful
+    - that's very nice of you
+    - that's very nice
+    - that's sweet of you
+    - that's really nice
+    - that's really good
+    - that's pretty good
+    - that's perfect
+    - that's not bad
+    - that's nice of you
+    - that's nice
+    - that's much better
+    - that's great
+    - that's fine
+    - that's fantastic
+    - that's cute
+    - that's better
+    - that's awesome thank you
+    - that's awesome
+    - that's amazing
+    - that's a good thing
+    - that's a good idea
+    - that was very good
+    - that was pretty good
+    - that was good
+    - that was cute
+    - that was awesome
+    - that was amazing
+    - that is wonderful
+    - that is nice
+    - that is good
+    - that is awesome
+    - terrific
+    - sweet
+    - super stoked
+    - super fantastic
+    - super
+    - straight
+    - splendid
+    - so sweet of you
+    - so so perfect
+    - so sad
+    - so saad
+    - so cool
+    - really nice
+    - really good
+    - pretty good
+    - pleasant
+    - okay good
+    - ok good
+    - oh well
+    - not too bad
+    - not bad
+    - it's okay
+    - nice
+    - much better
+    - marvelous
+    - looks good
+    - it's very good
+    - it's perfect
+    - it's great
+    - it's good
+    - it's fine
+    - it's awesome
+    - it's amazing
+    - it was good
+    - it is good
+    - it is fine
+    - I'm great thanks
+    - I'm good
+    - I'm glad to hear that
+    - I'm doing just great
+    - I'm doing good
+    - I'm doing fine
+    - I am great
+    - I am good
+    - good very good
+    - good to know
+    - good thing
+    - good for you
+    - good
+    - glad to hear that
+    - glad to hear it
+    - fine
+    - fantastic
+    - excellent
+    - cool
 
 - intent: mood_unhappy
   examples: |
