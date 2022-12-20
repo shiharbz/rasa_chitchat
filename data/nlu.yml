@@ -6,6 +6,8 @@ nlu:
     - hey
     - hello
     - hi
+    - heya
+    - howdy
     - hello there
     - good morning
     - good evening
@@ -13,12 +15,12 @@ nlu:
     - hey there
     - let's go
     - hey dude
-    - goodmorning
     - goodevening
     - good afternoon
 
 - intent: goodbye
   examples: |
+    - good afternoon
     - cu
     - good by
     - cee you later
@@ -29,16 +31,74 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - nice to meet you
+    - see you soon
+
 
 - intent: affirm
   examples: |
     - yes
     - y
-    - ya that helps, thanks!
     - indeed
     - of course
     - that sounds good
     - correct
+    - hmm
+    - yes
+    - thanks
+    - ok
+    - ok done
+    - ok i will follow
+    - Yes, i have all of the above
+    - let's do it
+    - ya
+    - sure
+    - ya sure
+    - Anyway thanks
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: thank_you
+  examples: |
+    - you helped a lot thank you
+    - appreciate your help
+    - cheers
+    - thank you
+    - ya that helps, thanks!
+    - thanks
+    - thanks a lot
+    - terrific thank you
+    - great thank you
+    - thanks so much
+    - thank you so much
+    - thanks for your help
+    - thank you for your help
+    - nice thank you
+    - I appreciate it
+    - I thank you
+    - thank you that will be all
+    - thanks buddy
+    - thanks love
+    - thank you my friend
+    - well thanks
+    - very good thank you
+    - good thanks
+    - thanks again
+    - thank you again
+    - all thank you
+    - alright thank you
+    - alright thanks
+    - no thank you that's all
+    - perfect thank you
+    - so nice of you
+    - well thank you
+    - well thanks
+    - thnx
+    - thank you
+    - tqsm
+    - ty    
 
 - intent: deny
   examples: |
@@ -49,6 +109,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - no it's not like that
 
 - intent: mood_great
   examples: |
@@ -76,6 +137,8 @@ nlu:
     - super sad
     - I'm so sad
     - sad
+    - not so good
+    - not really
     - very sad
     - unhappy
     - not good
@@ -83,6 +146,7 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - not feeling well 
 
 - intent: bot_challenge
   examples: |
@@ -90,3 +154,195 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - you're an AI
+    - are you artificially intelligent?
+    - are you an AI?
+    - you are a program
+    - you are just a bot
+    - you are a conversational AI
+
+- intent: bot_q
+  examples: |
+    - what is your name ?
+    - tell me your name ?
+    - who are you ?
+    - I can call you as ? 
+
+- intent: can_not_sleep
+  examples: |
+    - I'm insomnia's
+    - I'm sleepless
+    - I can't get any sleep
+    - I can't sleep
+    - I can't fall asleep
+    - I can't get to sleep
+    - I'm insomniac
+    - I'm not able to sleep
+    - I'm wide awake
+    - I can't seem to fall asleep
+    - I couldn't sleep
+    - I just can't sleep
+    - I can't sleep at all
+    - I didn't go to sleep
+    - I just couldn't sleep
+    - I'm not sleeping well
+    - Trying to get some sleep
+    - I can't sleep at night
+    - I couldn't get to sleep
+    - I didn't get much sleep
+
+- intent: cause_of_sleeplessness
+  examples: |  
+    - What causes sleeping difficulties?
+    
+- intent: sleep_disorders
+  examples: |      
+    - What are sleep disorders?
+
+- intent: sleeplessness_diagnosis  
+  examples: | 
+    - How are sleeping disorders diagnosed?
+
+- intent: treatment_options
+  examples: |
+    - What are the treatment options for sleeping disorders?
+    
+- intent: lonely
+  examples: |
+    - feeling sad and alone
+    - Im alone
+    - feeling lonely
+    - I feel very lonely these days
+    - I felt lonely
+    - I feel very lonely
+    - A lonely feeling stole over me
+    - sometimes i feel i have no one to turn to
+    - so glad my kids are back from summer break
+    - Sitting at a computer at 3am with the lights off alone
+    - she was m only true friend
+    - it gets lonely out there all by myself.
+    - It gets lonely out here
+    - Sat in my house yesterday by myself
+    - Sat home all day by myself
+    - No one wants to eat lunch with me.
+    - No one even cares about me.
+    - No one came to my marriage.
+    - No one came to my birthday. 
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - One of the disadvantages of living alone is that you have no one to talk to
+    - I am still alone
+    - i lives in this city all alone
+    - I am used to living alone 
+
+- intent: depression
+  examples: |
+    - I am depressed
+    - The financial burden and the stress from my family give me so much pressure.
+    - I'm feeling really depressed
+    - No one likes me because I'm so fucked and no one gives a shit if I live or fucking die so why not just end it already.
+    - Life sucks.
+    - I've been depressed
+    - I get depressed by the slightest things
+    - feeling depressed
+    - The sad story depressed me
+    - I feel a bit depressed
+    - Life is just so hard.
+    - I had a stressful day at work today
+    - I often feel depressed
+    - I think im suffering from depression
+    - Now I'm depressed
+    - I suddenly feel depressed
+    - I get depressed whenever I think about future
+    - I am feeling so depressed
+    
+
+- intent: what_is_depression
+  examples: |
+    - what is depression ? 
+    - define depression
+    - tell me about depression
+    - what exactly is depression ?
+
+- intent: symptoms_of_depression
+  examples: |
+    - what are symptoms_of_depression ? 
+    - Did you have any of these symptoms ?
+    - how to identify that i am depressed ?
+    - what are common symptoms of depression ?
+    - early symptoms of depression.
+    - some symptoms of depression.
+
+- intent: type_of_depression
+  examples: |
+    - what are types of depression ? 
+    - types of depression
+    - different types of depression.
+    - How many types of depression is there?
+    - do we have type in depression ?
+    - common types of depresion.
+    - different types
+    - different kinds of depression 
+
+- intent: treatment_for_depression
+  examples: |
+    - how is depression treated ? 
+    - treatment for depression.
+    - can depression be treated ? 
+    - how to treat depression ?
+    - treatment for depresion.
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment mathods.
+
+
+- intent: women_are_more_prone
+  examples: |
+    - depression in women. 
+    - are women more likely to get depressed? 
+    - depression in men vs women. 
+    - Why are women more likely to get depression?
+    - is depression more common in women than in men ?
+    - why women are more prone to depression than man ?
+    - why women are more prone to depression. 
+    - depression in men vs women.  
+  
+- intent: repetition
+  examples: |
+    - Will someone who has had depression get it again?
+    - will my depression repeat ? 
+    - will i again suffer from depression ? 
+    - can depression come agian ?
+    - can depression be repeated ? 
+    - will i have it again ?
+    - chances of reoccuring of depression ?
+    - will i suffer from it again ?
+
+
+- intent: adults
+  examples: |
+    - depression in adults.
+    - what are chances of depression in adults. 
+    - can aged people be depressed ?
+    - depression in old age. 
+    - depression in old people.
+  
+
+- intent: test
+  examples: |
+    - Am i depressed ?
+    - am i suffering from depression ?
+
+
+- intent: causes
+  examples: |
+    - what causes depression ?
+    - causes of depression ?
+    - why depression happens ?
+    - resons for depression
+    - why am i depressed ? 
+    - common causes of depression.
