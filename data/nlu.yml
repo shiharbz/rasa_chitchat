@@ -44,6 +44,36 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - you can go now
+    - till next time
+    - that's it goodbye
+    - that's all goodbye
+    - thanks bye bye
+    - talk to you later
+    - see you tomorrow
+    - see you soon
+    - see you
+    - see ya
+    - ok see you soon
+    - ok bye
+    - now bye
+    - never mind bye
+    - I said bye
+    - I must go
+    - hope to see you later
+    - have a nice day
+    - goodbye see you later
+    - goodbye for now
+    - go to bed
+    - bye good night
+    - bye for now
+    - bye bye take care
+    - bye bye see you soon
+    - bye bye see you
+    - bye bye
+    - bye
+    - alright bye
+
 
 - intent: affirm
   examples: |
@@ -53,6 +83,88 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - you are so right
+    - you are right
+    - you are correct
+    - yes you may
+    - yes this is correct
+    - yes thank you
+    - yes sure
+    - yes of course
+    - yes it is correct
+    - yes it is
+    - yes indeed
+    - yes I would like to
+    - yes i need rest
+    - yes I do 
+    - yes I agree
+    - yes for sure
+    - yes definitely
+    - yes correct
+    - yep
+    - yeh
+    - yeah that's right 
+    - yeah right
+    - yeah of course
+    - yeah I'm sure
+    - yeah go ahead
+    - yeah exactly
+    - yeah
+    - yea
+    - ye
+    - ya 
+    - why not
+    - what you say is true
+    - this is correct
+    - that's true
+    - that's so true
+    - that's correct
+    - that s okay
+    - that is very true
+    - that is true
+    - that is right
+    - that is ok 
+    - that is correct
+    - sure why not
+    - sure thing
+    - sure is
+    - sure
+    - sounds nice
+    - right
+    - please do
+    - okie dokie
+    - okey
+    - okay then
+    - okay that's fine
+    - okay sounds good
+    - okay
+    - ok you can
+    - ok yes 
+    - ok thank you
+    - ok sure
+    - ok go ahead
+    - ok
+    - oh yes 
+    - of course why not
+    - obviously
+    - it's true
+    - it's the truth
+    - it's right
+    - it is true
+    - I think so
+    - I know that's right
+    - I guess
+    - I do 
+    - I agree
+    - go for it
+    - go ahead
+    - exactly
+    - do it 
+    - definitely
+    - certainly
+    - all right
+    - affirmative
+    - absolutely
 
 - intent: deny
   examples: |
