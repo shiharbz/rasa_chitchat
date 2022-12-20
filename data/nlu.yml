@@ -16,6 +16,21 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - lovely day isn't it
+    - long time no see
+    - let's go
+    - just going to say hi
+    - I greet you
+    - howdy
+    - hihi
+    - hi there
+    - heya
+    - hey there
+    - hello hi
+    - hello again
+    - greetings
+    - afternoon
+    - a good day
 
 - intent: goodbye
   examples: |
