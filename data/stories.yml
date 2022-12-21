@@ -28,3 +28,31 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+
+- story: happy path 2
+  steps:
+  - intent: happy_emotion
+  - action: action_happy_emotion
+  
+- story: angry path 
+  steps:
+  - intent: smalltalk_user_angry
+  - action: utter_smalltalk_user_angryrasa
+  - intent: affirm
+  - action: utter_happy
+
+
+- story: excited path 
+  steps:
+  - intent: smalltalk_user_excited
+  - action: utter_smalltalk_user_excited
+  - intent: funny
+  - action: utter_funny
+  - intent: affirm
+  - action: utter_happy
+  
+- story: funny path
+  steps:
+  - intent: funny
+  - action: utter_funny
