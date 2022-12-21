@@ -25,3 +25,56 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+
+class ActionHappyEmotion(Action):
+
+     def name(self) -> Text:
+         return "action_happy_emotion"
+
+     def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+         dispatcher.utter_message(text="be Happy emotion")
+
+         return []
+     
+class ActionAngryEmotion(Action):
+
+     def name(self) -> Text:
+         return "utter_smalltalk_user_angry"
+
+     def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+         dispatcher.utter_message(text="be angry emotion")
+
+         return []
+     
+class ActionExcitedEmotion(Action):
+
+  def name(self) -> Text:
+      return "utter_smalltalk_user_excited"
+
+  def run(self, dispatcher: CollectingDispatcher,
+          tracker: Tracker,
+          domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+      dispatcher.utter_message(text="be angry emotion")
+
+      return []
+  
+    
+class ActionFunnyEmotion(Action):
+
+  def name(self) -> Text:
+      return "utter_funny"
+
+  def run(self, dispatcher: CollectingDispatcher,
+          tracker: Tracker,
+          domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+      dispatcher.utter_message(text="you are so funny")
+
+      return []
