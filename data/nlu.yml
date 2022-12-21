@@ -194,18 +194,29 @@ nlu:
 - intent: cause_of_sleeplessness
   examples: |  
     - What causes sleeping difficulties?
+    - What prevents people from falling asleep? 
+    - What factors contribute to insomnia? 
     
 - intent: sleep_disorders
   examples: |      
     - What are sleep disorders?
+    - tell me about sleeping disorders
 
 - intent: sleeplessness_diagnosis  
   examples: | 
     - How are sleeping disorders diagnosed?
+    - can it be diagnosed ?
+    - How are sleeping problems identified? 
 
 - intent: treatment_options
   examples: |
     - What are the treatment options for sleeping disorders?
+    - treatment for sleeping disorders
+    - how to treat sleeping disorders ?
+    - treatment options ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods.
     
 - intent: lonely
   examples: |
@@ -264,15 +275,25 @@ nlu:
   examples: |
     - what is depression ? 
     - define depression
+    - Describe depression 
     - tell me about depression
+    - Can you please describe depression
     - what exactly is depression ?
+    - Describe depression for me
+    - What is depression, exactly? 
 
 - intent: symptoms_of_depression
   examples: |
-    - what are symptoms_of_depression ? 
+    - what are symptoms of depression ? 
     - Did you have any of these symptoms ?
+    - What signs of depression are there? 
     - how to identify that i am depressed ?
+    - preliminary signs of depression 
     - what are common symptoms of depression ?
+    - depression symptoms 
+    - signs of depression. 
+    - depression indications 
+    - What are some typical signs of depression? 
     - early symptoms of depression.
     - some symptoms of depression.
 
@@ -281,9 +302,12 @@ nlu:
     - what are types of depression ? 
     - types of depression
     - different types of depression.
+    - depression types 
+    - various forms of depression. 
     - How many types of depression is there?
     - do we have type in depression ?
     - common types of depresion.
+    - prevalent depressions 
     - different types
     - different kinds of depression 
 
@@ -293,33 +317,46 @@ nlu:
     - treatment for depression.
     - can depression be treated ? 
     - how to treat depression ?
-    - treatment for depresion.
+    - depresion treatments.
+    - depression therapy. 
     - treatment includes ?
     - is it possible to get over it ?
     - can it be treated ?
-    - treatment mathods.
+    - treatment methods.
 
 
 - intent: women_are_more_prone
   examples: |
     - depression in women. 
     - are women more likely to get depressed? 
-    - depression in men vs women. 
+    - Why do women have a higher risk of depression? 
+    - Are females more prone to depression? 
     - Why are women more likely to get depression?
+    - why depression is more common in women 
+    - Why do women experience depression more frequently? 
     - is depression more common in women than in men ?
+    - Are women more likely than males to experience depression? 
     - why women are more prone to depression than man ?
+    - Depression is more likely to affect women. 
     - why women are more prone to depression. 
+    - Do women have a higher risk of depression? 
     - depression in men vs women.  
   
 - intent: repetition
   examples: |
     - Will someone who has had depression get it again?
+    - Will someone who has had depression relapse? 
     - will my depression repeat ? 
+    - Will my depressive episode recur? 
     - will i again suffer from depression ? 
+    - Will I experience depression once more? 
     - can depression come agian ?
+    - Can depression return once more? 
     - can depression be repeated ? 
     - will i have it again ?
+    - Will I get it once more? 
     - chances of reoccuring of depression ?
+    - risks of depression returning? 
     - will i suffer from it again ?
 
 
@@ -329,7 +366,12 @@ nlu:
     - what are chances of depression in adults. 
     - can aged people be depressed ?
     - depression in old age. 
+    - depression in later life. 
+    - depression in senior citizens. 
     - depression in old people.
+    - Can seniors experience depression? 
+    - what the likelihood of adult depression is 
+    
   
 
 - intent: test
@@ -342,7 +384,15 @@ nlu:
   examples: |
     - what causes depression ?
     - causes of depression ?
+    - Why does depression occur? 
     - why depression happens ?
-    - resons for depression
+    - Why do people get depressed? 
+    - What causes depression? 
+    - reasons for depression
+    - Why does depression occur? 
     - why am i depressed ? 
+    - Why am I feeling down? 
+    - What causes depression in people? 
+    - typical reasons for depression 
+    - the causes of depression 
     - common causes of depression.
