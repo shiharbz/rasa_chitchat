@@ -54,9 +54,3 @@ session_config:
   carry_over_slots_to_new_session: true
 
 
-actions:
-   - action_happy_emotion
-   - utter_smalltalk_user_angry
-   - utter_smalltalk_user_excited
-   - utter_funny
-
