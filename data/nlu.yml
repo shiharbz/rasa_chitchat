@@ -291,6 +291,36 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - you're a robot
+    - you are so real
+    - you are real
+    - well,i don't think I can control my happiness
+    - you are not fake
+    - you are chatbot
+    - you are a real person
+    - you are a bot
+    - who do you think you are?
+    - who are you?
+    - who are you
+    - what the hell are you?
+    - what the fuck are you?
+    - what are you?
+    - what are you really?
+    - I think you are real
+    - I suppose you're real
+    - I don't think you're fake
+    - I don't even know who you are?
+    - glad you're real
+    - could you sing a song?
+    - are you real
+    - are you just a bot
+    - are you a robot?
+    - are you a robot
+    - are you a real person
+    - are you a real human
+    - are you a program
+    - are you a chatbot
+    - are you a bot
 
 - intent: mood_unhappy
   examples: |
@@ -563,4 +593,168 @@ nlu:
     - you are so hilarious
 
 
-    
+- intent: clever
+  examples: |
+    - you're very smart
+    - you're really smart
+    - you're really brainy
+    - you're qualified
+    - you're pretty smart
+    - you're intelligent
+    - you're clever
+    - you're a smart cookie
+    - you're a genius
+    - you should study better
+    - you must learn
+    - you know so much
+    - you know a lot
+    - you have a lot of knowledge
+    - you are very smart
+    - you are very intelligent
+    - you are very clever
+    - you are too smart
+    - you are so smart
+    - you are so intelligent
+    - you are so clever
+    - you are so brainy
+    - you are really smart
+    - you are qualified
+    - you are intelligent
+    - you are clever
+    - you are a genius
+    - why are you so smart
+    - study
+    - smart
+    - how smart you are
+    - how clever you are
+    - how brilliant you are
+    - how brainy you are
+    - get qualified
+    - clever
+    - can you get smarter
+    - brilliant
+    - be smarter
+    - be smart
+    - be more clever
+    - be clever
+  
+
+- intent: boring
+  examples: |
+   - you're so boring
+   - you're really boring
+   - you're incredibly boring
+   - you are very boring
+   - you are boring me
+   - you are boring
+   - very boring
+   - this is boring
+   - how boring you are
+   - boring
+   - bored
+   - that was boring
+   - it bores me
+   - I'm bored
+   - I am getting bored
+   - You're so dull.
+   - You're so monotonous.
+   - You're so uninteresting.
+   - You're really dull.
+   - You are so monotonous.
+   - You're just unbelievably dull.
+   - You're so unbearably boring.
+   - You're very dull.
+   - You are quite dull
+   - You are monotonous
+   - You are tedious
+   - very dull
+   - This is tedious.
+   - how dull you are
+   - how uninteresting you are
+   - how monotonous you are
+   - That was tedious.
+   - I'm becoming bored.
+   - I'm getting bored.
+   - I'm getting tired of it.
+
+- intent: forget  
+  examples: |
+   - Sometimes I even forget that I'm alive because all I do just sleep.
+   - nothing just forget it
+   - nevermind forget about it
+   - just forget it
+   - just forget about it
+   - just forget
+   - i said forget it
+   - forget this
+   - forget that
+   - forget it nevermind
+   - forget about that
+   - forget about it
+   - forget
+   - I sometimes forget I'm alive since all I do is sleep.
+   - I sometimes forget that I'm alive since all I do is sleep.
+   - I often forget I'm alive since all I do is sleep.
+   - Nothing, just forget about it.
+   - Never mind, disregard it.
+   - forget it
+   - Simply disregard it.
+   - Just disregard it
+   - simply forget
+   - merely forget
+   - forget about
+   - I advised you to disregard it.
+   - I advised putting it out of your mind.
+   - I advised forgetting about it.
+   - Skip over this
+   - Nevermind that
+   - Forget it, forget it
+   - Nevermind, set it aside
+
+
+- intent: bot_bad
+  examples: |
+   - you're worthless
+   - you're very bad
+   - you're the worst ever
+   - you're the worst
+   - you're terrible
+   - you're so out of your mind
+   - you're so crazy
+   - you're really bad
+   - you're out of your mind
+   - you're not wrong
+   - you're not very good
+   - you're not helping me
+   - you're not a good
+   - you're bad
+   - you're awful
+   - you're a bad
+   - you went crazy
+   - you are waste
+   - you are very bad
+   - you are useless
+   - you are totally useless
+   - you are terrible
+   - you are so useless
+   - you are so bad
+   - you are not good
+   - you are not cool
+   - you are no good
+   - you are mad
+   - you are lame
+   - you are insane
+   - you are horrible
+   - you are disgusting
+   - you are crazy
+   - you are bad
+   - you are a weirdo
+   - you are a waste of time
+   - I think you're crazy
+   - how crazy you are
+   - are you nuts
+   - are you mad or what
+   - are you mad
+   - are you just a bot
+   - are you insane
+   - are you crazy
