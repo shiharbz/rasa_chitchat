@@ -118,8 +118,29 @@ nlu:
     - need to eat now
     - excited for chicken
     - I want some food
-
-- intent: clever
+    - I need food
+    - I am craving
+    - I am starving
+    - starving
+    - craving for food
+    - i am empty stomach
+    - i am unenthusiastic due to lack of food
+    - i am hungry and thirsty
+    - desirous of food
+    - i have strong appetite
+    - i want to munch something
+    - i have a strong desire for food
+    - i am peckish
+    - i want tasty food
+    - delicious meal
+    - the dinner is uperb
+    - the supper is awesome
+    - i want a healthy breakfast
+    - i am somewhat hungry
+    - underfed
+    - i am half starved
+    
+- intent: cclever
   examples: |
     - clever
     - you are clever
@@ -134,7 +155,28 @@ nlu:
     - why are you so smart
     - why you supposed to be smarter?
     - you are way good than others
-    
+    - you are bright
+    - talented
+    - you are very talented
+    - you are very smart
+    - you are very skillful
+    - very gifted personality
+    - you are capable of doing things in a smart way
+    - you are very skilled at doing things
+    - i like your smart way of thinking
+    - you are extremely clever
+    - how clever of you think about this?
+    - this is a simple and clever way of thinking
+    - clever idea
+    - you are knowledgeable
+    - wise way of thinking
+    - you are very sensible
+    - you are very competent
+    - you are an edurite
+    - scholarly
+    - you are an expert in this field
+    - quick-witted
+
 - intent: unexpected
   examples: |
     - i am surprised to meet you
@@ -158,6 +200,21 @@ nlu:
     - i am good at giving surprises to my daer ones
     - i actually ordered one pizza, but i got one more as a complimentory
     - it was a surprise to see my dear teacher at the confeerence
+    - this is an astonishing event
+    - the unexpected gift you gave me was a jaw dropper
+    - i was shocked
+    - i was startled by the dance party
+    - i was amazed by the theme of the show
+    - the revelation of truth was surpirsing
+    - amazing way of studying
+    - i was very surprised by my moms reaction
+    - i want to surprise my parents
+    - my sister gave me a surprise
+    - my brother gave me a surprise
+    - my cousins thrown a huge surprise party
+    - i was stunned by the surprises
+    - my husband gave me a surprise dinner 
+    - i have arranged a surprise anniversary party
 
 
 - intent: trustworthy
@@ -188,6 +245,23 @@ nlu:
     - i am hoping for a good position in this company
     - I dont know why i trust others easily
     - faith is the key to success
+    - leave a spare key with a trustworthy person
+    - he or she is a cerdible person
+    - credible
+    - he or she is believable
+    - he or she is reliable
+    - the book is authentic
+    - the authentic taste is assured by the restaurant
+    - nothing that is authentiic is known to him
+    - keep it authentic 
+    - keep it trustworthy
+    - i believe in truth
+    - they are able to win the trust of others
+    - dont trust strangers blindly
+    - he or she is trustworthy
+    - i entrust you
+    - he is a man of trust
+    - matter of truth
 
 - intent: modesty
   examples: |
@@ -207,6 +281,176 @@ nlu:
     - i am simple
     - i am a simple person
     - i like to do my things in a modest way
-    
+    - the modesty of his political aspirations
+    - modest way of teaching
+    - modestly writing humours
+    - simple as well as modest
+    - unpretencious way 
+    - the place is unpretentious
+    - his characrter is unpretentious
+    - he or she is simple 
+    - my unpretentious cousin wear simple clothing 
+    - the food is delicious and unpretentious
+    - simple way of dealing things
+    - very pleasant and unpretentious place
+    - the place is so serene and unpretentious
+    - simple and elegant
+    - she had a simple and modest hairstyle
+    - my friend is honest and modest
+    - she is very down to earth person
+    - her humble character makes her beloved for everyone
+
+- intent: careful
+  examples: |
+    - be careful
+    - care your loved ones
+    - cautious
+    - walk carefully
+    - drive slowly
+    - take care
+    - you are not caring
+    - i admire caring persons in my life
+    - you are very caring person
+    - careful while diving
+    - care for your mind
+    - i am caring
+    - i want a caring friend
+    - i want a caring partner
+    - careful
+    - be caring
+    - be alert when doing adventures
+    - caring is a good quality
+    - i am careful while driving
+    - be cautious
+    - be alert
+    - be more careful
+    - vigilnt
+    - be minful of new diseases
+    - be alert on new variants of corona
+    - watchful
+    - he is heedful
+    - be alert on strangers
+    - careful in your studies
+    - be alert on board exam
+    - be vigilant of semester exams
+    - careful nature
+    - be mindful while talking to strangers
+    - be careful of the pandemic
+    - travelling while pandemic needs extra care
+    - care for your health
+
+- intent: I_am_relaxed
+  examples: |
+    - relax
+    - relaxed
+    - i am stress free now
+    - i want to relax
+    - i am feeling relaxed
+    - stress free
+    - relaxing mood
+    - my jobs needs a relaxation now
+    - i feel relaxed
+    - sense of stress free
+    - i relax by doing my hobbies
+    - motivational talks are relaxing to our mind
+    - needs a break for free mind
+    - love to be in stress free mode
+    - i feel breezy
+    - i am comfortable with informal way of talking
+    - now i feel cool as a cucumber
+    - the place makes me very relaxed
+    - because of the relaxation time i feel lively now
+    - the place is soothing
+    - i feel tranquilized
+    - taking my mind off something
+    - i want to chill out
+    - chillax
+    - chill
+    - i zonk out for an hour
+    - this holiday is well deserved for me
+    - i am on holiday, i am just going to take it easy
+    - i just want to sit back for a long time
+    - i am in a calming mode now
+    - i am an easy going type
+
+- intent: be_positive
+  examples: |
+    - be positive
+    - positive
+    - you are positive
+    - spread positivity
+    - you have a positive influence
+    - this video has a beneficial impact on our course
+    - positive environment
+    - i admire positive persons in my life
+    - you are very positive person
+    - the product has a positive report
+    - the film has a positive ending
+    - i want to be positive
+    - you are very positive
+    - positive thinking always makes us happy
+    - positivity to your mind
+    - he is very positive
+    - she is very positive
+    - we are a positive community
+    - dont be negative
+    - dont be a negating person
+    - dont allow yourself surrounded by negative people
+    - negativity kills positive vibes
+    - mental health is related to positive thoughts
+    - a person with positive attitude always wins heart
+    - a boss always needs to be positive to his workers
+    - his sense of humour is positive
+    - i like to be in a positive environment
+    - positive culture builds a strong community
+    - positive affirmation
+    - her attitude is positive
+    - my friends are positively motivating
+    - saying greetings is a positive start
+    - my husband has a positive vision
+    - ambiguity is less in a positive talk
+    - he has a positiveness around him
+    - positive reaction
+    - he has a can-do attitude
+
+
+- intent: ambitious
+  examples: |
+    - be ambitious
+    - he is an aspiring candidate
+    - i am ambitious
+    - he is an ambitious man
+    - i am a go-getter
+    - you are very ambitious
+    - that is an ambitious project
+    - goal-oriented
+    - you are emulous of fame
+    - dont be overambitious
+    - i am high flying
+    - he is ambitious
+    - she is ambitious
+    - greatly desirous
+    - inordinately desirous
+    - he is over desirous
+    - she is over desirous
+    - we are an ambitious community
+    - dont be over ambitious
+    - he is motivated by his ambition
+    - over motivated
+    - ambitiousness
+    - he has set an ambitious target
+    - be ambitious and we will support you
+    - i am tough and ambitious
+    - it is an ambitious idea
+    - she is an ambitious young woman
+    - the company is very ambitious
+    - an ambitious long term agenda
+    - the goals defined are ambitious but achievable
+    - but it is not ambitious enough
+    - i was very ambitious at your age
+    - ambitions should become aspirations
+    - it has clear and ambitious objectives
+    - celebities life are very ambitious
+   
 
     

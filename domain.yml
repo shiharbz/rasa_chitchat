@@ -13,6 +13,10 @@ intents:
   - unexpected
   - trustworthy
   - modesty
+  - careful
+  - I_am_relaxed
+  - be_positive
+  - ambitious
 
 responses:
   utter_greet:
@@ -49,6 +53,21 @@ responses:
 
   utter_pure:
   - text: "Great!!..that is a good quality"
+
+  utter_alert:
+  - text: "be cautious in you actions!"
+
+  utter_nostress:
+  - text: "hope you have a great time !!"
+
+  utter_forward:
+  - text: "be proud that you are able to manage in a nice way"
+
+  utter_desire:
+  - text: "hope you achieve your goals soon!!"
+
+
+
 
 
 session_config:

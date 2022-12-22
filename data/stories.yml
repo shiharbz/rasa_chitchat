@@ -69,4 +69,24 @@ stories:
   - intent: modesty
   - action: utter_pure
 
+- story: careful path
+  steps:
+  - intent: careful
+  - action: utter_alert
+
+- story: relax path
+  steps:
+  - intent: I_am_relaxed
+  - action: utter_nostress
+
+- story: positive path
+  steps:
+  - intent: be_positive
+  - action: utter_forward
+
+- story: ambitious path
+  steps:
+  - intent: ambitious
+  - action: utter_desire
+
  
