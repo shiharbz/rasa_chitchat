@@ -758,3 +758,162 @@ nlu:
    - are you just a bot
    - are you insane
    - are you crazy
+
+- intent: bot_busy
+  examples: |
+   - you're very busy
+   - you're a busy person
+   - you seem to be very busy
+   - you seem to be busy
+   - you are busy
+   - have you got much to do
+   - have you been busy
+   - do you have a lot of things to do
+   - are you working today
+   - are you working now
+   - are you working
+   - are you very busy right now
+   - are you very busy
+   - are you still working on it
+   - are you still working
+   - are you so busy
+   - are you busy
+   - You're highly occupied.
+   - You're incredibly busy.
+   - You're quite busy.
+   - You lead a hectic life.
+   - You're always busy.
+   - Your schedule is hectic.
+   - You appear to be quite active.
+   - I notice you're really busy
+   - You appear preoccupied.
+   - You appear to be busy
+   - You're occupied.
+   - Are you currently really busy?
+   - Are you still employed?
+   - Do you have a lot on your plate?
+
+
+- intent: bot_appreciation
+  examples: |
+  - you're very special to me
+  - you're very special
+  - you're special
+  - you're so special to me
+  - you're so special
+  - you're so kind
+  - you're pretty
+  - you're perfect
+  - you're looking good today
+  - you're just super
+  - you're great
+  - you're funny I like you
+  - you're cute
+  - you're awesome I like you
+  - you're attractive
+  - you're a true professional
+  - you work well
+  - you work very well
+  - you rock
+  - you make my day
+  - you made my day
+  - you made me feel good
+  - you made me feel better
+  - you look wonderful today
+  - you look so well
+  - you look so beautiful today
+  - you look so beautiful
+  - you look pretty good
+  - you look great
+  - you look gorgeous
+  - you look fantastic
+  - you look awesome
+  - you look amazing today
+  - you know I love you
+  - you know I like you
+  - you are wonderful
+  - you are very special to me
+  - you are very special
+  - you are very pretty
+  - you are very lovely
+  - you are very kind
+  - you are very helpful
+  - you are very good at it
+  - you are very cute
+  - you are very cool
+  - you are very attractive
+
+
+- intent: my_friend
+  examples: |
+  - you're my dear friend
+  - you're my childhood friend
+  - you are my only friend
+  - you are my good friend
+  - you are my friend
+  - you are my bestie
+  - you are my best wellwisher
+  - you are my best friend
+  - you are a good friend
+  - you and me are friends
+  - would you be my friend
+  - will you be my friend
+  - will you be my best friend
+  - we are the best friends ever
+  - we are friends
+  - we are best friends
+  - want to be my friend
+  - you are my best friend
+  - let's be friends
+  - I want you to be my friend
+  - I want to have a friend like you
+  - I want to be your friend
+  - I am your friend
+  - do you want to be my friend
+  - do you want to be my best friend
+  - can you be my friend
+  - can you be my best friend
+  - can we be friends
+  - can we be best friends
+  - be my friend
+  - be my best friend
+  - are you my friend
+  - are you my best friend
+  - are we still friends
+  - are we friends
+  - are we best friends
+
+  
+- intent: empty
+  examples: |
+  - where is the love
+  - Whenever it's late at night and I'm on the couch watching T.V., I feel alone and empty inside.
+  - Sometimes I even forget that I'm alive because all I do just sleep.
+  - Nothing really gives me joy
+  - My life just doesn't seem to get any better, anytime something good happens something terrible happens.
+  - I feel completely empty inside.
+  - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.
+  - I'm just so tired and I don't know what to do.
+  - I just feel emotionless a lot of the time.
+  - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.
+  - I have a good job, family but yet fill feel empty inside.
+  - I get numbness and it won't let me work or have fun, just constantly staring into nothing.
+  - I feel like a fucking alien without and heart and soul because everyone was so different to me.
+  - I feel like a broken person and all the therapist, and all the psychologist were no help.
+  - I don't get joy by doing anything.
+  - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.
+  - I am moving out of my parent's home for the first time, and I feel completely empty.
+  - I am crying constantly and nothing motivates me to do anything, I have no energy.
+  - I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?
+  - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.
+  - Everyday I just feel super lonely and empty, and I have slept well in such a long time.
+  - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.
+  - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.
+  - Where has the love gone?
+  - When it's late at night and I'm sitting on the couch watching TV, I feel alone and empty on the inside.
+  - Nothing truly brings me joy.
+  - I'm entirely empty on the inside.
+  - A lot of the time, I simply feel emotionless.
+  - I don't find delight in anything.
+  - Nothing makes me happy.
+  - I'm becoming numb and careless.
