@@ -917,3 +917,289 @@ nlu:
   - I don't find delight in anything.
   - Nothing makes me happy.
   - I'm becoming numb and careless.
+
+
+- intent: nostalgic
+  examples: |
+  - You know how FB will show you memories from years ago? It's showed me a few that made me think of my pets who have passed and how much I miss times with them.
+  - when I was a teenager my mother always tried to get me to be ready for being sexually active, and I knew what to do and where to go to get birth control.
+  - When I came across my parents old wedding rings.
+  - when i came across my parents old wedding rings
+  - when i came across an old letter from high school
+  - Went to the beach the other day and remember how much my friend liked going together.
+  - watching an old tv show
+  - This time of year always makes me reminiscence.
+  - The last time we went on vacation, I brought more than enough stuff for everyone.
+  - The first time someone gave me flowers made me feel so special.
+  - sometimes i miss the old days when there was no social media
+  - Romance movies bring me back to my youthful days.
+  - Our dining room table is beat up but it belonged to my grandma.
+  - Orlando trip
+  - Old pokemon games make me nostalgic and emotional for some odd reason, they were a big part of my childhood
+  - nothing like visiting a place you used to live
+  - My son is getting ready to start college this fall and it's really bringing back a lot of memories of my college days.
+  - My niece is getting old enough to read the books I read as a kid.
+  - My mom used to make me fried rice all the time, when I was little.
+  - My mom gave me a box of old toys I used when I was a kid.
+  - My keep my dads necklace close to me as much as possible.
+  - My grandfather gave me a pocket watch he has had for years
+  - My first day of work begins on Monday and I feel like I am ready.
+  - Looking through my picture albums really makes me relive so many memories.
+  - Looking in my yearbook and seen a lot of people that passed away
+  - Looking back to the useless deadbeat I was back then...I'm really glad I've decided to man up and make something of myself
+  - looking at old baby items
+  - It makes me feel great to drive my old truck.
+  - In the winter months its hard to stay ready for emergency needs in storms.
+  - in my school days
+  - I'be been thinking a lot about my childhood lately, sort or reminiscing.
+
+
+- intent: apprehensive
+  examples: |
+  - with all the crime that has increased in my area, i decided to get myself a new shotgun
+  - Who knows what the future hold? All is in Gods hands! Take no thought about the morrow
+  - When waiting for my final grades before college graduation.
+  - When selling my house and the buyer wanted to move in prior to closing date.
+  - when my girlfriend got sick
+  - When my friend got into a car accident
+  - when my daughter wanted to get dropped off at the movies
+  - When I was at the pool and some guy came in wearing all dark clothing and a bookbag.
+  - When I was at college, some tenagers were extorting money from me.
+  - When I used to be prescribed on Adderall and the dosage was too high I would get jumpy and paranoid.
+  - when i forgot my wallet!
+  - When I first started working out, I was very nervous and apprehensive while lifting weights.
+  - We're going roller coaster riding this weekend
+  - We keep getting these flood warnings, but they never happen when we're told it will.
+  - We just bought a used car and we've already had to take it to the shop
+  - was late to an appointment recently because I got stuck in a traffic jam
+  - This guy on the phone kept asking for info and i was worried it was a scam
+  - This guy called from the phone company asking for very personal info
+  - this car nearly hit me head on while driving down the freeway at a medium speed
+  - There's this guy that keeps wondering around my home the same time each day.
+  - There was a traffic jam because people were slowing to look at a wreck on the other side of the highway.
+  - There was a time when my family got lost in the middle of nowhere at night.
+  - The person taking my information at the Registry was very slow and they misspelled my name twice
+  - The other week my one year old daughter almost fell in the pool
+  - The first thing that popped into my head was fear and worry 'I'll be all alone, I won't have fun, I will be an outcast' etc.
+  - The feeling I had the day before my final exam
+  - the amount of deaths in mexico is shocking
+  - taking a new cbd oil
+  - son preparing to leave for college
+  - son applying to colleges
+  - Sometimes I'm afraid to ride the city bus because you never know what kind of drama will unfold.
+  - someone tried to take my phone today
+  - Someone ran over my dog and then ran away
+  - Someone offered me a job online to make a lot of money.
+  - Someone keyed my car at work today! Injust got the car last week!
+  - Someone keyed my brand new car.
+  - Someone cut me off on the road and almost caused me to wreck.
+  - Someone cut me off in trafic a few days ago.
+  - someone cut me off in traffic today
+  - Someone cut me off in traffic this morning.
+  - Someone cut me off in traffic the other day.
+  - someone almost hit me with their car today
+  - Someone almost crashed into me
+  - Some people egged my house.
+  - Some guy cut me off in traffic and caused me to swerve to the ramp.
+  - seeing a little kid crying at the store i decided to ask what was wrong
+  - seeing a kid cry in a store
+  - One time my girlfriend hid around the corner and jumped out at me.
+  - my wife keeps giving our son a stick and he keeps hurting himslef.
+  - My son crashed my car.
+  - my sister gave me $400 once but she's always broke
+  - My pet bird is always making noise.
+  - My new job promised a raise at the end of 90 days, but I still haven't heard anything.
+  - my neighbor dog keeps barking for no reason
+  - My moms full coverage insurance won't pay for ANY dental workSo she has had to save $500 per tooth to get them pulled and it's over $800 for each NEW tooth.
+  - MY kids never go to bed at a decent time.
+  - My kids are driving me nuts! I can't wait for back to school time!
+  - My husband says he stopped drinking but I'm reluctant to believe him
+  - My friends tried to convince me to jump into the lake.
+
+- intent: guilty
+  examples: |
+  - Yesterday was my sister's birthday and I totally forgot to call her until today.
+  - When i was a kid i threw a rock at a glass door and it broke but i blamed it on my brother.
+  - When I used to have a six pack I felt like I betrayed myself everytime I would eat anything with a milligram of sugar....now I just don't care
+  - when i mistakenly hit someone into the gutter with a car that caused him to miss his interview
+  - when i lost my temper with my dad
+  - when i lost my temper due to just having stress in my life.
+  - when i lied to a friend
+  - when I got upset with my daughter for something silly
+  - when i go past 2 cheat days
+  - When I broke my mothers favorite glass while playing.
+  - when i bought myself a new phone and not my wife
+  - Went to the bar and forgot to tip the waitress
+  - Went to the bar and forgot tip
+  - We had some birthday cake from my husband's party this past weekend in the fridge, and I ate the last piece because I was craving chocolate like crazy! I feel so bad now.
+  - There's no reason for loving me, I'm ruining their lives.
+  - stepfather in hospital and I didn't call
+  - Sometimes in college I used to drink too much and made bad choices which led to regret.
+  - Sometimes I feel bad for other students as they cannot afford college while my parents are paying my tuition in full.
+  - Someone gave my husband and I tickets to a concert and we can't wait to go, but my sister really loves the band we're seeing so I feel bad going too.
+  - once I drank alcohol even though I promised my wife I wouldnt.
+  - My wife was sleeping and i ate her leftovers
+  - My wife asked me to clean the house while she was away for a few days and I ended up wasting my time playing video games instead.
+  - My kids were being bad and I yelled at them.
+  - My husband was asleep and i ate his leftovers
+  - My daughter got a birthday card full of money this week and I took the cash before she could see it.
+  - My cat room needs to be painted so bad! I feel bad that I haven't done it in months
+  - Last week I stole a donut from my boyfriend's desk
+  - It was christmas time and i did not give anythign to those salvation army bell ringers
+  - I yelled at my toddler.
+  - I wish I never lied to my dad.
+  - I wish I didn't cheat on my girlfriend.
+  - I went into my cousins kitchen and drank all his beer.
+  - I was really hungry today and ate my roomates' leftovers.
+  - I was in the break room and took two donuts when i was only allowed one
+  - I was given something for free that I didn't pay for
+  - I was at work and when I went to the bathroom, it got really busy and my coworker go overloaded! I feel really bad
+  - i was accused and sentenced for a crime ,though it was a set up
+  - I wanted to be alone today so I lied to my friend about being too busy to hang out.
+  - I walked out of a store without paying for an item and couldn't be bothered to go back in to return it.
+  - I used the last of the milk and didn't replace it.
+  - i use to steal my moms money when i was younger
+  - I took the money that my parents have been looking for, I feel bad
+  - I took the last piece of chicken at dinner, I shouldn't of.
+  - I took some of my friends food the other day and felt bad.
+  - I took my bosses car for a drive last night.
+  - I took $5 out of my 5 year old's birthday stash yesterday.
+  - I stole the last of my roommate's pizza when I was drunk, and feel bad about it.
+  - I stole some shrimp from my friend and i feel bad.
+  - i stole some money from my parents when i was a kid
+  - I stole my brothers copy of Purple Rain.
+  - I stole money from my friend.
+  - I stole money from my daughters piggy bank
+  - I stole a bag of chips from church
+  - I snapped and lost my temper at my husband, and I felt really bad about it.
+  - I showed some photos my girlfriend sent me to a friend when they were supposed to be private
+  - I secretly ate the rest of my roommate's chips and feel a bit bad about it.
+  - I sacked a girl for the wrong reasons
+  - I remembered when I stole money from my mum, so I felt so bad
+  - I recall a time when I had to go to my cousin's birthday part, and I overslept! I felt really guilty about that.
+  - I ran into my neighbors mail box and didn't tell anyone.
+  - I ran into my husband's car but lied about it.
+  - I put way too much on my credit card.
+
+- intent: proud
+  examples: |
+  - you know what?I got promoted this time
+  - Yesterday at weekly meeting, my supervisor praised me for my good work on the project
+  - yes ,i am .very few students get  such chances
+  - Winning our sunday league football title when we were underdogs
+  - Why won't I feel good about my son's accomplishments?
+  - While I was sick last week, my kid did all the cooking and cleaning.
+  - when my son took his first steps the feeling was amazing
+  - when my son graduated school
+  - When my husband began fixing on my parents house and now we live in the house and are helping it to look better everyday.
+  - when my daughter walked for the first time
+  - When my brother graduated high school, I was very proud of him, it was a big accomplishment
+  - when i took down some really heavy furniture off the way  
+  - When I lost 20 pounds, I was very happy of my achievement.
+  - when I had my test to get a new certification at work, I felt great about it because I had workd really hard and studied.
+  - when i graduated because no one in my family did
+  - when i got the job i always wanted
+  - When I got the first place in a baking competition
+  - when i found out i passed my final exam
+  - when i benched 225 lb
+  - watching my son walk the stage
+  - watching my little brother walk the stage was an amazing moment.
+  - Was promoted at my place of work barely a month of joining the company
+  - today, i made a big discovery
+  - son graduated
+  - Sometimes I feel like a dad to my best friend.
+  - so proud of my son, he said his first works yesterday
+  - One time in welding school I got 2 of my teachers a gig with a major contractor on FT benning building ADA code railing for th new hospital and centers and stuff,
+  - Proud of myself for fixing my ac! 
+  - Nephew playing football this year!
+  - Nephew playing football this year
+  - Nephew caught a fish this weekend
+  - my wife starts her masters program this month
+  - My wife just got a new job she had really wanted and I am so happy for her.
+  - My son graduated from college
+  - My sons performance at the mathematics quiz competition gives me an assurance that all i spend in his education is not a waste afterall
+  - My son won his baseball game yesterday! He's going to the state championship!
+  - My son won first place at his first spelling bee.
+  - My son won a swim meet
+  - My son took his first steps.
+  - My son started walking the past couple of days.
+  - My son scored a goal in a football match
+  - my son pottyed for the first time
+  - My son pass his exams at school with good grade.
+  - My son just took his first steps and I am feeling this way.
+  - My son just started walking this week.
+  - My son just recently got accepted into college
+  - My son is swimming underwater at 2 years old, amazing!
+  - My son has been cleaning up after himself without being asked!
+  - My son graduated from high school and is starting college for engineering next week.
+  - My son got straight A's in his summer class and it makes me happy.
+  - My son came first in the swimming gala.
+  - My son came first in his English class
+  - My son came first in her class and was placed on the honor roll
+  - My sister finally graduated college and I'm so happy for her! She switched majors several times so it's been a long journey
+  - My oldest son got the A honor roll last year and I was super proud.
+  - My oldest daughter was in her school's running club, and nothing beat the feeling of watching her win her first race.
+  - My oldest daughter has turned out to be a great preschool teacher!
+  - My niece just learned how to ride a bike! I loved watching her finally take off the training wheels!
+
+- intent: anxious
+  examples: |
+  - With President Trump threatening tariffs for importing foreign products, i am concerned that the prices will rise for everyday products
+  - when taking a test
+  - When my kids are too quiet.
+  - When my kid didn't get off of the bus yesterday
+  - when im with my friends and they are texting and driving
+  - when im stuck in high traffic my anxiety goes through the roof
+  - when i was waiting on my baby to be born
+  - When I order something online, I am so impatient to receive it
+  - when i don't know if i have a busy day coming up the next day the unknown drives me crazy
+  - We're refinancing student loans, buying a house, and my wife is getting a new job.
+  - We have to fly across the country this coming weekend and I hate flying so much! I feel dizzy just thinking about it.
+  - waiting for my new car to arrive
+  - waiting for my favorite video game to come out
+  - Uni is starting up soon and im nervous
+  - Tomorrow is the first day I start a new job and career.
+  -  Tomorrow I start my new job.
+  - to start my new job
+  - This bird chased my cat on our walk.
+  - There was a wasp in my room when I woke up
+  - There was a wasp in my room this mornnig
+  - There was a wasp in my room this morning when I got up
+  - There was a wasp in my room this morning
+  - There was a wasp in my rom when I woke up thsi morning
+  - The year was 2016, and I was severely worried that Hilary might win the presidency
+  - The result of my final college exams was to be published the next day,I could hardly sleep due to expectations
+  - the new madden came out today, i was so amped for it
+  - The first day I went to the gym after years of being out , I was so anxious I was going to look stupid.
+  - The first day I started working out I was anxious about looking silly at the gym.
+  - The day before my dissertation was due
+  - that dang storm last week upset me
+  - Tehre was a wasp in my room this morning
+  - taking kid to first day of school
+  - so many emotions i feel distressed
+  - So hard seeing homeless people around
+  - seeing my son grow up so fast isnt easy
+  - School starts back next week, and I think I have everything I need ready.
+  - Rollercoasters next weekend
+  - Roller coasters this weekend
+  - Roller coaster riding tomorrow
+  - Roller coaster riding this weekend
+  - Right now in my life, I feel like I don't have a clear destination, nor do I have a stable position to start from.
+  - Riding rollercoasters this weekend
+  - On my first crazy roller coaster.
+  - my wife is going overseas with our baby, i'm so freaking nervous
+  - My two youngest kids going to school for the first time tomorrow!
+  - My tooth is hurting me today.
+  - My sister left for college.
+  - my rent increased
+  - My mom took away my game system, and would not give it back ever again.
+  - My kids are doing everything but listening!
+  - My girlfriend lost a lot of weight.
+  - My extreme social anxiety tends to make isolate myself, which only fuels my depression.
+  - My dog is sick so i took him to the vet now we are waiting for the results of his bloodwork
+  - My department is being closed.
+  - My brothers wife had our first girl into the family, the wait was intense
+  - my brothers house got broken into
+  - Meeting with my boss 
+  - Long car drive coming up
+  - Literally I had every single supply I needed for this road trip.
