@@ -88,5 +88,3 @@ stories:
   steps:
   - intent: ambitious
   - action: utter_desire
-
- 
