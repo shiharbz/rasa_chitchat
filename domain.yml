@@ -38,6 +38,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+
   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
   
