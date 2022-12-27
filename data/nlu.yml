@@ -90,9 +90,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
-
-- intent: user_hungry
+    - intent: user_hungry
   examples: |
     - I am very hungry
     - I am so hungry
