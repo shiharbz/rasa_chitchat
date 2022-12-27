@@ -12,15 +12,31 @@ nlu:
     - good morning
     - good evening
     - moin
+    - hlo
     - hey there
     - let's go
     - hey dude
-    - goodevening
+    - Hallo
+    - How's your day been?
     - good afternoon
+    - Namaste
+    - yo
+    - Good day
+    - hey there
+    - hiii
+    - heya
+    - hhi
+    - hhi
+    - hiyy
+    - hiiii
+    - hii
+    - hi
+    - hey
+    - heys
+    - hiya
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
     - cee you later
@@ -33,9 +49,32 @@ nlu:
     - see you later
     - nice to meet you
     - see you soon
+    - sure man
+    - will make sure
+    - sure
+    - ok will do
+    - i know
+    - c u bye
+    - bye
+    - ok will follow
+    - see u bye
+    - ok
+    - bye-bye
+    - see ya
+    - ok bye
+    - bye bye good night
+    - good bye
+    - bye bye see you
+    - bye bye see you soon
+    - bye bye take care
+    - I said bye
+    - never mind bye
+    - now bye
+    - that's all goodbye
+    - that's it goodbye
 
 
-- intent: affirm
+- intent: confirm
   examples: |
     - yes
     - y
@@ -54,8 +93,22 @@ nlu:
     - ya
     - sure
     - ya sure
-    - Anyway thanks
     - indeed
+    - Absolutely.
+    - Agreed.
+    - I'm on board.
+    - Sounds good to me.
+    - No problem.
+    - You got it.
+    - I'm in agreement.
+    - That works for me.
+    - I'm okay with that.
+    - I'm in favor.
+    - I concur.
+    - Yes, I understand.
+    - I'm with you on that.
+    - I'm all for it.
+    - I'm on board with that.
     - of course
     - that sounds good
     - correct
@@ -110,6 +163,31 @@ nlu:
     - no way
     - not really
     - no it's not like that
+    - not needed
+    - of course not
+    - never
+    - not at this time
+    - not exactly
+    - absolutely no
+    - no forget
+    - do not
+    - no thanks
+    - no don't want
+    - sorry no
+    - i am not okay with your help
+    - don't want
+    - do not
+    - I don't need anything from you
+    - okay keep it in mind
+    - nope i dont need your help
+    - Don't show off
+    - don't
+    - don't want
+    - need not
+    - don't come
+    - never help
+    - never
+    - nope
 
 - intent: mood_great
   examples: |
@@ -118,6 +196,25 @@ nlu:
     - amazing
     - feeling like a king
     - wonderful
+    - Feeling happy
+    - I am happy
+    - I'm happy to see you
+    - happy
+    - I'm happy for you
+    - I'm happy to help
+    - I'm happy to see you
+    - you made me very happy
+    - I'm glad to see you
+    - I'm happy to talk to you
+    - I was the happiest man on earth
+    - I'm just really happy right now
+    - I'm really happy I ran into you
+    - I feel happiest when I'm chatting with u
+    - Nobody but you can make me happy
+    - Whenever I see you, I feel happy
+    - ur smile always makes me happy
+    - i feel happy
+    - i was so happy
     - I am feeling very good
     - I am great
     - I am amazing
@@ -147,6 +244,28 @@ nlu:
     - so saad
     - so sad
     - not feeling well 
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - extremely sad
+    - so sad
+    - worse than ever
+    - what can i say its all bad
+    - life is heavy hard and stressful
+    - u can say that
+    - life has been so cruel to me
+    - its been a hard 
+    - life goes on and comes back around to bite you
+    - its been a hard time living for me
+    - bad year for me
+    - lifes been haed
+    - seems working out so far
+    - life been bttr nw
+    - its so damn messed up
+    - life keeps going on but having someone by your side really helps a lot
+    - lifes hard livings harder
 
 - intent: bot_challenge
   examples: |
@@ -155,18 +274,33 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     - you're an AI
+    - test
+    - you are chatbot
+    - you are a bot
+    - are you a chatbot
+    - are you just a bot
+    - are you a robot
+    - are you a program
+    - am I talking to a robot?
+    - you're a robot
     - are you artificially intelligent?
     - are you an AI?
+    - am I talking to an AI?
     - you are a program
+    - you are a robot
     - you are just a bot
     - you are a conversational AI
+    - I am testing you
+    - can I test you
+    - I want to test you
+    - just testing you
+    - let me test you
+    - testing chatbot
+    - testing
+    - this is just a test
+    - you are being tested
+    - you're tested
 
-- intent: bot_q
-  examples: |
-    - what is your name ?
-    - tell me your name ?
-    - who are you ?
-    - I can call you as ? 
 
 - intent: can_not_sleep
   examples: |
@@ -178,8 +312,20 @@ nlu:
     - I can't get to sleep
     - I'm insomniac
     - I'm not able to sleep
+    - I can't seem to get enough sleep
     - I'm wide awake
+    - I'm having trouble falling asleep at night
+    - can't seem to get good sleep.
+    - I just can't fall asleep.
+    - I lay awake for hours, staring at the ceiling.
+    - I feel exhausted but I just can't seem to drift off.
+    - can't get back to sleep.
+    - I have trouble falling asleep even when I'm extremely tired.
+    - I have a hard time winding down at night 
+    - I wake up feeling unrested
     - I can't seem to fall asleep
+    - I have a hard time staying awak
+    - I have vivid and disturbing dreams that keep me awake
     - I couldn't sleep
     - I just can't sleep
     - I can't sleep at all
@@ -193,30 +339,99 @@ nlu:
 
 - intent: cause_of_sleeplessness
   examples: |  
+    - causes
+    - causes of sleeplessness
+    - causes of poor sleeping
+    - causes of sleeping difficulties
+    - Exact causes are
     - What causes sleeping difficulties?
+    - What could be causing this?
+    - explain me the causes
     - What prevents people from falling asleep? 
-    - What factors contribute to insomnia? 
+    - causes of insomnia 
+    - What can cause sleeplessness?
+    - explain the causes
+    - What can lead to poor sleeping?
+    - What can cause difficulty sleeping?
+    - What might cause sleeplessness?
+    - tell me the causes
+    - What can lead to sleeplessness?
+    - What might lead to poor sleeping?
+    - What might cause difficulty sleeping?
+    - describe the causes
+    - what are the causes
+    - What might cause sleeping difficulties?
+    - possible causes of sleeplessness?
+    - potential causes of poor sleeping?
+    - potential causes of difficulty sleeping?
+    - What factors contribute to sleeplessness?  
+    - factors causing sleeplessness
+    - what causes poor sleeping quality?
+    - Could you tell me the causes
+    - what exactly the causes?
+    - tell me about the causes of sleeplessness
+    - explain the causes of sleeplessness
+
+    
     
 - intent: sleep_disorders
-  examples: |      
+  examples: |  
+    - sleep disorders  
+    - common sleep disorders
+    - Can you tell me about sleep disorders  
     - What are sleep disorders?
+    - Describe sleeping issues for me. 
+    - sleep disorders are
     - tell me about sleeping disorders
-
-- intent: sleeplessness_diagnosis  
-  examples: | 
-    - How are sleeping disorders diagnosed?
-    - can it be diagnosed ?
-    - How are sleeping problems identified? 
+    - Describe sleeping disorders
+    - Detailing sleep disorders
+    - Could you provide more information? 
+    - Sleep disorders: what are they? 
+    - types of sleep disorders
+    - explain sleep disorders
+    - provide an overview of sleep disorders
+    - common types of sleep disorders?
+    - What is a sleep disorder 
+    - different categories of sleep disorders?
+    - provide a brief explanation of sleeping disorders
+    - give more information on sleeping disorders
+    - I'd like to know more about sleep disorders
+    - Can you provide more detail?
+    
 
 - intent: treatment_options
   examples: |
-    - What are the treatment options for sleeping disorders?
+    - different treatment options?
     - treatment for sleeping disorders
     - how to treat sleeping disorders ?
     - treatment options ?
+    - treatment options for sleep disorders
+    - therapeutic strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are sleeping disorders diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are sleeping problems identified? 
+    - Can it be identified? 
+    - how to identify sleeping issues?
+    - how to recognize sleeping issues?
+    - How are sleeping issues recognised? 
+    - how is depression treated ? 
+    - treatment for sleeping issues.
+    - common treatment options for sleep disorders?
+    - What are the treatment options for sleep disorders?
+    - can sleeping issues be treated ? 
+    - how to treat sleeping issues ?
+    - sleeping disorder treatments.
+    - treatment includes ?
     - is it possible to get over it ?
     - can it be treated ?
     - treatment methods.
+    - different treatment options
     
 - intent: lonely
   examples: |
@@ -248,13 +463,16 @@ nlu:
     - I am still alone
     - i lives in this city all alone
     - I am used to living alone 
+    - alone
+    - loneliness is my current mood
+    - im lonely all the time
 
 - intent: depression
   examples: |
     - I am depressed
     - The financial burden and the stress from my family give me so much pressure.
     - I'm feeling really depressed
-    - No one likes me because I'm so fucked and no one gives a shit if I live or fucking die so why not just end it already.
+    - No one gives a shit if I live or fucking die so why not just end it already.
     - Life sucks.
     - I've been depressed
     - I get depressed by the slightest things
@@ -262,13 +480,26 @@ nlu:
     - The sad story depressed me
     - I feel a bit depressed
     - Life is just so hard.
+    - I don't know how to deal with depression
+    - I feel like I'm depressed
+    - I'm a failure
+    - I don't feel like I fit in anywhere
     - I had a stressful day at work today
     - I often feel depressed
     - I think im suffering from depression
     - Now I'm depressed
+    - I don't enjoy anything anymore
+    - I constantly feel depressed
+    - I don't see a way out of this
+    - I'm feeling really hopeless
     - I suddenly feel depressed
+    - I'm feeling really down.
+    - I'm struggling with depression.
+    - I don't feel like myself lately.
+    - I'm struggling to find joy in things.
     - I get depressed whenever I think about future
     - I am feeling so depressed
+    - I just want to end it al
     
 
 - intent: what_is_depression
@@ -281,21 +512,50 @@ nlu:
     - what exactly is depression ?
     - Describe depression for me
     - What is depression, exactly? 
+    - Could you tell me more about depression?
+    - What are some common characteristics of depression?
+    - definition of depression
+    - provide a definition of depression
+    - Can you depression to me?
+    - tell me more about depression
+    - need a detailed explanation of depression?
+    - common characteristics of depression
+    - brief overview of depression
+    - give me a brief overview of depression
+    - information on depression
+    - provide more information on depression
+    - Could you provide more detail about depression?
+    - explain what depression is
+    - characteristics of depression
 
 - intent: symptoms_of_depression
   examples: |
     - what are symptoms of depression ? 
+    - depression symptoms 
+    - signs of depression. 
+    - depression indications 
+    - early symptoms of depression.
+    - I'm experiencing depression
+    - some symptoms of depression.
+    - list some of the common symptoms 
     - Did you have any of these symptoms ?
     - What signs of depression are there? 
     - how to identify that i am depressed ?
     - preliminary signs of depression 
+    - Could you describe the typical symptoms of depression?
+    - Could you describe the typical symptoms
+    - What are the common indicators of depression?
+    - provide a list of early symptoms of depression?
+    - symptoms that may be present during depression
+    - common indicators of depression
     - what are common symptoms of depression ?
-    - depression symptoms 
-    - signs of depression. 
-    - depression indications 
+    - How can I tell if I'm experiencing depression?
     - What are some typical signs of depression? 
-    - early symptoms of depression.
-    - some symptoms of depression.
+    - What are some early warning signs of depression?
+    - Could you list some of the common symptoms
+    - key signs of depression
+    - early warning signs of depression?
+    - describe the typical symptoms of depression?
 
 - intent: type_of_depression
   examples: |
@@ -309,7 +569,23 @@ nlu:
     - common types of depresion.
     - prevalent depressions 
     - different types
+    - describe the common types of depression?
     - different kinds of depression 
+    - How many types of depression are there?
+    - most prevalent forms of depression
+    - list the different types of depression?
+    - different categories of depression
+    - Are there different kinds of depression?
+    - Could you provide a list of the various types of depression?
+    - various types of depression
+    - Could you list the different types of depression?
+    - different kinds of depression
+    - What are the most prevalent forms of depression?
+    - prevalent forms of depression
+    - What are the different categories of depression?
+    - various forms of depression
+    - Can you describe the common types of depression?
+    - types of depression
 
 - intent: treatment_for_depression
   examples: |
@@ -322,6 +598,27 @@ nlu:
     - treatment includes ?
     - is it possible to get over it ?
     - can it be treated ?
+    - different treatment options?
+    - how to treat depression ?
+    - treatment options ?
+    - treatment options for depression
+    - tdepression strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are depression diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are depression identified? 
+    - Can it be identified? 
+    - how to identify depression?
+    - how to recognize depression?
+    - How are depression recognised? 
+    - how is depression treated ? 
+    - treatment for depression
+    - common treatment options for depression?
     - treatment methods.
 
 
@@ -329,6 +626,7 @@ nlu:
   examples: |
     - depression in women. 
     - are women more likely to get depressed? 
+    - explain depression in women
     - Why do women have a higher risk of depression? 
     - Are females more prone to depression? 
     - Why are women more likely to get depression?
@@ -340,22 +638,32 @@ nlu:
     - Depression is more likely to affect women. 
     - why women are more prone to depression. 
     - Do women have a higher risk of depression? 
-    - depression in men vs women.  
+    - depression in men vs women. 
+    - tell me about depression in women
+    - describe depression in women 
   
 - intent: repetition
   examples: |
-    - Will someone who has had depression get it again?
-    - Will someone who has had depression relapse? 
     - will my depression repeat ? 
     - Will my depressive episode recur? 
     - will i again suffer from depression ? 
     - Will I experience depression once more? 
+    - - Will I get it once more? 
     - can depression come agian ?
+    - Is it common for depression to repeat itself?
+    - risks of my depression returning
+    - is depression will repeat
+    - will i suffer from depression again?
+    - chances of returning depression 
     - Can depression return once more? 
     - can depression be repeated ? 
     - will i have it again ?
-    - Will I get it once more? 
+    - What are the risks of my depression returning?
+    - Will someone who has had depression get it again?
+    - Will someone who has had depression relapse? 
+    - Will I have to deal with depression again
     - chances of reoccuring of depression ?
+    - Could I experience another episode of depression
     - risks of depression returning? 
     - will i suffer from it again ?
 
@@ -363,24 +671,56 @@ nlu:
 - intent: adults
   examples: |
     - depression in adults.
-    - what are chances of depression in adults. 
     - can aged people be depressed ?
     - depression in old age. 
     - depression in later life. 
+    - rates of depression in adults
+    - adult depression
     - depression in senior citizens. 
     - depression in old people.
     - Can seniors experience depression? 
+    - chances of an adult experiencing depression
     - what the likelihood of adult depression is 
+    - What are the rates of depression in adults?
+    - can adults be affected by depression
+    - what are chances of depression in adults. 
+    - prevalence of depression in later life
+    - rates of depression in seniors
+    - What are the chances of an adult experiencing depression?
+    - Can older adults be affected by depression?"
+    - What is the prevalence of depression in later life?"
+    - Can senior citizens experience depression?"
+    - Is depression common among older adults?"
+    - What are the rates of depression in seniors?"
+    - Can older people experience depression?"
+    - What is the likelihood of an adult experiencing depression?"
     
   
 
 - intent: test
   examples: |
     - Am i depressed ?
+    - Is it possible that I'm depressed? 
     - am i suffering from depression ?
+    - Do I have depression now? 
+    - Do you think I'm depressed? 
+    - Do I show signs of depression?
+    - Could I be experiencing depression?
+    - Do I have depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
+    - I might be suffering from depression. What do you think?
+    - Do you think im facing depressed?
+    - Do I exhibit symptoms of depression?
+    - Could I be dealing with depression?
+    - Do I currently have depression?
+    - Do you think I'm experiencing depression?
+    - Could I be experiencing depression?
+    - Do I currently have depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
 
-
-- intent: causes
+- intent: causes_depression
   examples: |
     - what causes depression ?
     - causes of depression ?
@@ -396,3 +736,16 @@ nlu:
     - typical reasons for depression 
     - the causes of depression 
     - common causes of depression.
+    - What are the common causes of depression?
+    - What factors contribute to the development of depression?
+    - Why do some people experience depression?
+    - explain the reasons why people get depressed?
+    - What causes depression in individuals?
+    - typical reasons for depression?
+    - Why do I feel down? Could it be due to depression?
+    - possible causes of my depression?
+    - provide an overview of the causes of depression?
+    - I'm curious about the common causes of depression. Could you provide more information?
+    - reasons why people get depressed?
+    - overview of the causes of depression
+    - factors contribute to the development of depression?

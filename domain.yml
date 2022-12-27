@@ -3,7 +3,7 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - affirm
+  - confirm
   - thank_you
   - deny
   - mood_great
@@ -11,8 +11,7 @@ intents:
   - bot_challenge
   - can_not_sleep
   - cause_of_sleeplessness
-  - sleep_disorders
-  - sleeplessness_diagnosis  
+  - sleep_disorders 
   - treatment_options
   - lonely
   - depression
@@ -25,7 +24,6 @@ intents:
   - adults
   - test
   - causes
-  - bot_q
 
 responses:
   
@@ -88,13 +86,7 @@ responses:
           \nSleeping too much during the day, lack of exposure to sunlight, frequent urination, physical pain, jet lag, and some prescription medications may also lead to difficulty sleeping."
 
   utter_sleeping_disorders:
-  - text: "Obstructive sleep apnea \nis a condition where there’s a blockage in the upper airways. This results in pauses in breathing throughout the night that may cause you to abruptly wake up, often with a choking sound. Snoring commonly occurs in this disorder.
-           Restless legs syndrome \nmay also trigger sleeping difficulty. This condition causes uncomfortable sensations in your legs, such as tingling or aching. These sensations give you the urge to make your legs move frequently, including while resting, which can interrupt your sleep.
-           Delayed sleep phase disorder \nis another condition that can affect sleep. This condition causes a delay in the 24-hour cycle of sleep and wakefulness. You may not feel sleepy or fall asleep until the middle of the night. This sleep cycle makes it harder for you to wake up in the early morning and leads to daytime fatigue."
-  
-  utter_sleeping_disorder_diagnosis:
-  - text: "You should see a doctor if your sleeping difficulties are ongoing and affecting your quality of life. \nThey’ll attempt to find the underlying cause of your sleeplessness by conducting a physical examination and asking questions about your sleep patterns. \nYou can connect to a physician in your area"
-  
+  - text: "Sleep disorders are a common problem that can affect people of all ages, and they can have a significant impact on overall health and quality of life. \nIf you're experiencing symptoms of a sleep disorder, it's important to speak with a healthcare provider for proper diagnosis and treatment."
   utter_sleeping_disorder_treatment:
   - text: "Treatment for your sleeplessness depends on its cause. In some cases, at-home remedies or simple lifestyle changes can improve the quality of your sleep. \nYou may want to avoid caffeine and alcohol for at least a few or more hours before bed."
   - text: "purchase some sleep aids without a prescription. However, sleep aids can cause daytime drowsiness if you don’t get a full seven or eight hours of sleep. \nAlso, don’t use these products on a daily basis, as it may lead to a dependency.\nRemember to always read the directions closely and take the medication as directed. "
