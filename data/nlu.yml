@@ -140,7 +140,7 @@ nlu:
     - underfed
     - i am half starved
     
-- intent: cclever
+- intent: clever
   examples: |
     - clever
     - you are clever
