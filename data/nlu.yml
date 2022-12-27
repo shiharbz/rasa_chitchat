@@ -10,12 +10,43 @@ nlu:
     - good morning
     - good evening
     - moin
-    - hey there
-    - let's go
     - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+    - lovely day isn't it
+    - long time no see
+    - let's go
+    - just going to say hi
+    - I greet you
+    - howdy
+    - hihi
+    - hi there
+    - heya
+    - hey there
+    - hello hi
+    - hello again
+    - greetings
+    - afternoon
+    - a good day
+    - hello everyone
+    - hello and nice morning
+    - nice evening
+    - hello there
+    - Let's get started
+    - Isn't today a beautiful day?
+    - Isn't today a great day?
+    - long time since I've seen you
+    - I'm just dropping over to say hello.
+    - I'm just dropping in to say hello.
+    - I welcome you.
+    - I extend my greetings.
+    - I salute you.
+    - I'm glad to see
+    - great day
+    - excellent day
+    - wonderful day
+    - a pleasant day
 
 - intent: goodbye
   examples: |
@@ -29,6 +60,36 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - you can go now
+    - till next time
+    - that's it goodbye
+    - that's all goodbye
+    - thanks bye bye
+    - talk to you later
+    - see you tomorrow
+    - see you soon
+    - see you
+    - see ya
+    - ok see you soon
+    - ok bye
+    - now bye
+    - never mind bye
+    - I said bye
+    - I must go
+    - hope to see you later
+    - have a nice day
+    - goodbye see you later
+    - goodbye for now
+    - go to bed
+    - bye good night
+    - bye for now
+    - bye bye take care
+    - bye bye see you soon
+    - bye bye see you
+    - bye bye
+    - bye
+    - alright bye
+
 
 - intent: affirm
   examples: |
@@ -38,6 +99,61 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - you are so right
+    - you are right
+    - you are correct
+    - yes you may
+    - yes this is correct
+    - yes thank you
+    - yes sure
+    - yes of course
+    - yes it is correct
+    - yes it is
+    - yes indeed
+    - yes I would like to
+    - yes i need rest
+    - yes I do 
+    - yes I agree
+    - yes for sure
+    - yes definitely
+    - yes correct
+    - yep
+    - yeh
+    - yeah that's right 
+    - yeah right
+    - yeah of course
+    - yeah I'm sure
+    - yeah go ahead
+    - yeah exactly
+    - yeah
+    - yea
+    - ye
+    - ya 
+    - why not
+    - what you say is true
+    - this is correct
+    - that's true
+    - that's so true
+    - that's correct
+    - that s okay
+    - that is very true
+    - that is true
+    - that is right
+    - that is ok 
+    - that is correct
+    - sure why not
+    - sure thing
+    - sure is
+    - sure
+    - sounds nice
+    - right
+    - please do
+    - okie dokie
+    - okey
+    - okay then
+    - okay that's fine
+    - okay sounds good
+
 
 - intent: deny
   examples: |
@@ -48,6 +164,61 @@ nlu:
     - don't like that
     - no way
     - not really
+    - thanks but no thanks
+    - stop it
+    - stop
+    - sorry cancel
+    - no
+    - so cancel
+    - skip skip skip
+    - skip it
+    - skip
+    - of course not
+    - now cancel
+    - nothing cancel
+    - not today
+    - not this time
+    - not this
+    - not that
+    - not right now thanks
+    - not really no
+    - not really
+    - not needed
+    - not interested
+    - not exactly
+    - not at this time
+    - nope sorry
+    - nope
+    - nooo
+    - no.i think i donn't need to
+    - no way
+    - no that's wrong
+    - no that's fine thank you
+    - no thanks not right now
+    - no thanks
+    - no thank you very much
+    - no thank you though
+    - no thank you not right now
+    - no tanks
+    - no stop
+    - no sorry
+    - no never
+    - no need thanks
+    - no need
+    - no leave it
+    - no just no
+    - no just cancel it
+    - no just cancel
+    - no it's not
+    - no it isn't
+    - no I would not
+    - no I don't
+    - no forget
+    - no don't do that
+    - no don't
+    - no do not
+    - no cancel this
+   
 
 - intent: mood_great
   examples: |
@@ -65,6 +236,91 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+     - very well
+    - very then
+    - very nice
+    - very good
+    - this is great
+    - this is good
+    - this is awesome
+    - that's wonderful
+    - that's very nice of you
+    - that's very nice
+    - that's sweet of you
+    - that's really nice
+    - that's really good
+    - that's pretty good
+    - that's perfect
+    - that's not bad
+    - that's nice of you
+    - that's nice
+    - that's much better
+    - that's great
+    - that's fine
+    - that's fantastic
+    - that's cute
+    - that's better
+    - that's awesome thank you
+    - that's awesome
+    - that's amazing
+    - that's a good thing
+    - that's a good idea
+    - that was very good
+    - that was pretty good
+    - that was good
+    - that was cute
+    - that was awesome
+    - that was amazing
+    - that is wonderful
+    - that is nice
+    - that is good
+    - that is awesome
+    - terrific
+    - sweet
+    - super stoked
+    - super fantastic
+    - super
+    - straight
+    - splendid
+    - so sweet of you
+   
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - you're a robot
+    - you are so real
+    - you are real
+    - well,i don't think I can control my happiness
+    - you are not fake
+    - you are chatbot
+    - you are a real person
+    - you are a bot
+    - who do you think you are?
+    - who are you?
+    - who are you
+    - what the hell are you?
+    - what the fuck are you?
+    - what are you?
+    - what are you really?
+    - I think you are real
+    - I suppose you're real
+    - I don't think you're fake
+    - I don't even know who you are?
+    - glad you're real
+    - could you sing a song?
+    - are you real
+    - are you just a bot
+    - are you a robot?
+    - are you a robot
+    - are you a real person
+    - are you a real human
+    - are you a program
+    - are you a chatbot
+    - are you a bot
 
 - intent: mood_unhappy
   examples: |
@@ -82,7 +338,61 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - when my friends went out without me, and didnt invite me.
+    - Reading about the World Wars makes me feel so many emotions.
+    - Once I dreamed my own death
+    - now i can't buy the same car
+    - My wife just told me today that my vasectomy failed, if you know what I mean.
+    - My wife got sick about two weeks ago and it was something serious.
+    - My son just left for college.
+    - My little boy is starting Kindergarten and I'm sad he's growing up so fast.
+    - my left thigh is hurting since morning
+    - My dog passed away a few days ago, we had him since he was a baby.
+    - my day was horrible
+    - My daughter fell on the sidewalk yesterday and skinned her knee pretty bad.
+    - My cat ignores me until she wants food from me
+    - my brother is in the hospital really sick
+    - my brother is in rehab after 2 months in the hospital
+    - My brother got hurt badly and i felt so heartfelt for him.
+    - My best friend moved away when I was 10.
+    - My 13 year old dog had to be put down.
+    - It was mothers day and I was feeling bummed because she won't speak to me.
+    - I'm turning 40 Saturday and I'm feeling old.
+    - I'm sad, tomorrow I have to go back to school and I'm going to miss the summer with my old friends.
+    - I'm not happy
+    - I'm a bit upset that summer is almost over.
+    - I'm a bit down that Fall isn't here yet.
+    - I wish my grandma was still alive.
+    - I was very depressed and upset when my partner left, we've been together for years and I feel like my time has been wasted.
+    - i was serious about her ,but she was not
+    - i was disappointed when i couldnt go home
+    - I was a dog on the side of the road that got hit by a car, and I was so sad
+    - I want to cry
+    - I try to do things that distract myself so I don't think about him but it never works because I always end up thinking about him because the littlest things remind me of him.",
+    - i think i am not as good as him at work
+    - I stayed home from work today because my son was sick
+    - i sometimes feel badly for the way our clothes and home look
+    - I saw some children begging for food, I felt so pity on them
+    - I saw a kitten get run over by a car.
+    - I saw a cat get hit by a car this morning
+    - I recently lost my job adn i feel horrible.
+    - I moved a great distance away from my family, and even though I enjoy my new location, I miss them.
+    - I miss being in a relationship sometimes.
+    - I just lost my job, and I've got too many bills.
+    - I just found out my brother had to get checked into rehab! I had no idea he had a problem and am quite upset over it!
+    - I just earth about and earthquake in indonesia,it seem that many people died there.
+    - I feel sad when I left home
+    - I don't feel very well
+    - I can see envy in the eyes of my colleague after I was promoted
+    - I am sad they met me.
+    - I am sad
+    - I am really not liking Mondays.
+    - I am disappointed
+    - I am a unhappy that there is nothing I could do to help
+    - Had to attend a funeral
+    - extremly sad
 
+<<<<<<< HEAD
 
 - intent: bot_challenge
   examples: |
@@ -449,3 +759,530 @@ nlu:
     - ambitions should become aspirations
     - it has clear and ambitious objectives
     - celebities life are very ambitious
+=======
+- intent: happy_emotion
+  examples: |
+    
+    - are you happy
+    - you are happy
+    - you're very happy
+    - you're really happy
+    - you're so happy
+    - you're extremely happy
+    - you're full of happiness
+    - are you happy now
+    - are you happy today
+    - are you happy with me
+    - are you happy too?
+    - are you content?
+    - You are content.
+    - You're overjoyed.
+    - You're ecstatic.
+    - You seem ecstatic.
+    - You're quite content.
+    - You radiate pleasure.
+    - Do you feel pleased now?
+    - Are you content today?
+    - Are you pleased with me?
+    - Are you content as well?
+    - i am happy
+    - I am overjoyed.
+    - i am really happy
+    - i am so happy
+    - i am happy today
+    - i am overjoyed
+    - all are full of happiness
+    - lets be happy
+    - crazy happy now
+
+- intent: smalltalk_user_excited
+  examples: |
+  
+    - I am excited
+    - I'm really excited
+    - how excited I am
+    - I'm thrilled
+    - I'm excited about working with you
+    - I'm excited to start our friendship
+    - When the Falcons won the game I was excited.
+    - When I was little and I found out that we were going to the amusement park .
+    - when i had everything ready to go for the first day at work
+    - when i found out good news in 1 day
+    - when i ever i work with the fastest co workers im happy
+    - When a new exciting game comes out!
+    - Were leaving on vacation tomorrow, I think we have everything ready@
+    - Went fishing this weekend
+    - We went out shopping for school supplies and backpacks and my two kiddos are get to go!
+    - We are planning our first cruise.
+    - We are going to disney world this year!
+    - We are going to disney world for christmas!
+    - waiting to hear if i got a job or not.
+    - Vacation is soon!
+    - Two more days and the kids are gone.
+    - Two more days and my baby starts pre k G
+    - Took my daughter to the Animal Kingdom for the first time, I think I was more excited than she was.
+    - Tomorrow is my birthday! I am so stoked!
+    - today i am planning to visit my parents
+    - to go to disney land
+    - to go to a concert.
+    - This Friday a video game comes out that i get EVERY year.
+    - They're buying everyone shakes today at work.
+    - These days nothing gives me more unexpected joy than find free money or new financial opportunities
+    - There is a concert coming to town and I can hardly wait to see it.
+    - The weekend is finally here, woohoo!
+    - The new wow expansion just launched.
+    - The new WoW expansion comes out today.
+    - The first time I met my long distance girlfriend i was very excited
+    - the chargers are going to be great this year!
+    - The chargers are finally getting some national love
+    - the birth of my twins
+    - So stoked to go to the beach in a couple weeks!!
+    - School starts back up next month and I am looking forward to it.
+    - saw the new doom trailer
+    - red dead redemption 2 is coming out which looks awesome
+    - really pumped for the broly movie
+    - Planning to go travelling around the world
+    - Packing for a trip
+    - Packing bags for florida in a couple weeks
+    - ordering something onliine
+    - One more month and I get to go on a vacation to the beach! Its been 5 years so I'm chomping at the bit! Yay!
+    - next week !
+    - My wife just told me she won tickets on the radio!
+    - My wife and I took a 3 week trip to New Zealand last year.
+    - My son will be born in December.
+    - my son is coming to visit
+    - My second year of college starts in a few days and I can't wait to begin!
+    - My mom is taking me on a cruise!
+    - My mom is coming to visit and i can't wait!
+    - My high school reunion is this weekend so I am stoked.
+    - my heart cannot contain my joy to know that I can carry my grand child
+    - My grand mum bought me a gold watch as a birthday gift, that really made me happy
+    - My grades are coming back this week and I can't wait.
+    - My girlfriend and I are going to San Diego this weekend! I am so hyped!
+
+
+- intent: smalltalk_user_angry
+  examples: |
+  
+    - I'm being mad
+    - I'm enraged
+    - I'm angry
+    - I'm furious
+    - I am angry with you
+    - I am mad
+    - I am mad at you
+    - Yesterday I paid at the bakery in cash and the gave me the wrong change, went I told the cashier so she told me I had given her $10 when I was sure it was $20, I had to speak to the manager.
+    - Why won't I get my stuff after all the effort I put in, It's so unfair
+    - why shouldn't I kill myself?
+    - Why should I talk to you?
+    - When strange men come on my property, swearing and smoking and leaving their butts.
+    - when someone treated me badly and talked down to me
+    - My neighbour keeps parking my spot and its really gets on my nerves.
+    - My neighbors were so loud last night
+    - My neighbors were having a party today and one of the people parking infront of my driveway and blocked me in when I needed to leave
+    - my neighbor's cat keeps pooping on my balcony
+    - My neighbors cat keeps pissing in my grill
+    - My neighbors are still shooting off fireworks a month after the 4th of July
+    - My neighbor revs his engine sometimes early in the morning and it gets on my nerves
+    - My neighbor lets his dog wonder the neighborhood freely and he keeps pooping in my yard.
+    - my neighbor keeps being really loud late at night
+    - My neighbor is out again having a party...I find it strange because he yelled at me on a night beforebut he has decided when HE isn't workingit's fine to be loud later at night
+    - My new printer gets on my nerves so bad
+    - My pizza didn't arrive on time last night it was an hour late!
+    - when someone dosnt stop talking
+    - when someone does not stop talking
+    - when my nieces play with my devices
+    - when my neighbor kept parking in my spot
+    - when my neighbor hit my car
+    - When my brother lied to me.
+    - When my brother got suspended from high school for something he did not do by a vindictive teach, it really made me angry
+    - when my brother got jumped
+    - when my boss lied to me
+    - when mosquitos are eating me alive
+    - when lightening hit my house
+    - when i was next in line and someone cut me to jump ahead
+    - when i see young people asking for help on fb or donations instead of working
+    - when i ordered food and it was bad
+    - when a car almost hit me
+    - We just hired an exterminator for silverfish, and they are back worse than before.
+    - was irked when i saw my dog had gotten out
+    - Uber Eats did not even bring my order today! Customer sevice was being weird about a refund
+    - Today my boss really got on my nerves
+    - today my boss made me angry by giving me too much work to possibly do
+    - Today I came home to find that my dog ripped all our pillows into shreds! I was so angry that I had to punish my dog.
+    - Today at work there was a coworker who was not doing nearly as much work as the rest of us and it was annoying
+    - This weekend, a guy totally drunk has hit very badly my car.
+    - This restaurant keeps leaving flyers on my door every week, and it is just piling up all over the neighborhood.
+    - This really rude customer yelled at me at my workplace.
+    - This new printer at work is SO AWFUL, I HATE IT
+    - they would not do my lawn properly even with the hefty fees they charge monthy
+    - they through thinner on my car
+    - They are doing construction next door and they woke me up early on my day off, so annoying
+    - These people at work are so disrespectful and racist!!
+    - There's nothing that ticks me off more than someone who tries too hard to make an impression.
+    - There was an important meeting today at work and on the way there my tire popped
+    - There was a lot of poop on my yard.
+    - There is a fly in my house and I can't catch it! I really hate flies
+    - The waiter spilled coffee on my $1000 suit.
+    - The time my boyfriend got food without me.
+
+
+- intent: funny
+  examples: |
+
+    - you're the funniest bot I've talked to
+    - you're the funniest
+    - you're so funny
+    - you're really funny
+    - you're incredibly funny
+    - you're a very funny bot
+    - you make me laugh a lot
+    - you make me laugh
+    - you are very funny
+    - you are so funny
+    - you are really funny
+    - you are hilarious
+    - you are funny
+    - that's funnythat was funny
+    - how funny you are
+    - You're the most amusing bot I've ever spoken to.
+    - You are the funniest
+    - You frequently make me chuckle
+    - You're hilarious.
+    - You're very comical.
+    - You're a hilarious person.
+    - You're a really entertaining bot.
+    - You're hilarious, man.
+    - You are hilarious.
+    - You are very humorous.
+    - You are hysterical
+    - Laughable are you
+    - that's amusing That was amusing.
+    - you are so hilarious
+
+
+- intent: clever
+  examples: |
+    - you're very smart
+    - you're really smart
+    - you're really brainy
+    - you're qualified
+    - you're pretty smart
+    - you're intelligent
+    - you're clever
+    - you're a smart cookie
+    - you're a genius
+    - you should study better
+    - you must learn
+    - you know so much
+    - you know a lot
+    - you have a lot of knowledge
+    - you are very smart
+    - you are very intelligent
+    - you are very clever
+    - you are too smart
+    - you are so smart
+    - you are so intelligent
+    - you are so clever
+    - you are so brainy
+    - you are really smart
+    - you are qualified
+    - you are intelligent
+    - you are clever
+    - you are a genius
+    - why are you so smart
+    - study
+    - smart
+    - how smart you are
+    - how clever you are
+    - how brilliant you are
+    - how brainy you are
+    - get qualified
+    - clever
+    - can you get smarter
+    - brilliant
+    - be smarter
+    - be smart
+    - be more clever
+    - be clever
+  
+
+- intent: boring
+  examples: |
+   - you're so boring
+   - you're really boring
+   - you're incredibly boring
+   - you are very boring
+   - you are boring me
+   - you are boring
+   - very boring
+   - this is boring
+   - how boring you are
+   - boring
+   - bored
+   - that was boring
+   - it bores me
+   - I'm bored
+   - I am getting bored
+   - You're so dull.
+   - You're so monotonous.
+   - You're so uninteresting.
+   - You're really dull.
+   - You are so monotonous.
+   - You're just unbelievably dull.
+   - You're so unbearably boring.
+   - You're very dull.
+   - You are quite dull
+   - You are monotonous
+   - You are tedious
+   - very dull
+   - This is tedious.
+   - how dull you are
+   - how uninteresting you are
+   - how monotonous you are
+   - That was tedious.
+   - I'm becoming bored.
+   - I'm getting bored.
+   - I'm getting tired of it.
+
+- intent: forget  
+  examples: |
+   - Sometimes I even forget that I'm alive because all I do just sleep.
+   - nothing just forget it
+   - nevermind forget about it
+   - just forget it
+   - just forget about it
+   - just forget
+   - i said forget it
+   - forget this
+   - forget that
+   - forget it nevermind
+   - forget about that
+   - forget about it
+   - forget
+   - I sometimes forget I'm alive since all I do is sleep.
+   - I sometimes forget that I'm alive since all I do is sleep.
+   - I often forget I'm alive since all I do is sleep.
+   - Nothing, just forget about it.
+   - Never mind, disregard it.
+   - forget it
+   - Simply disregard it.
+   - Just disregard it
+   - simply forget
+   - merely forget
+   - forget about
+   - I advised you to disregard it.
+   - I advised putting it out of your mind.
+   - I advised forgetting about it.
+   - Skip over this
+   - Nevermind that
+   - Forget it, forget it
+   - Nevermind, set it aside
+
+
+- intent: bot_bad
+  examples: |
+   - you're worthless
+   - you're very bad
+   - you're the worst ever
+   - you're the worst
+   - you're terrible
+   - you're so out of your mind
+   - you're so crazy
+   - you're really bad
+   - you're out of your mind
+   - you're not wrong
+   - you're not very good
+   - you're not helping me
+   - you're not a good
+   - you're bad
+   - you're awful
+   - you're a bad
+   - you went crazy
+   - you are waste
+   - you are very bad
+   - you are useless
+   - you are totally useless
+   - you are terrible
+   - you are so useless
+   - you are so bad
+   - you are not good
+   - you are not cool
+   - you are no good
+   - you are mad
+   - you are lame
+   - you are insane
+   - you are horrible
+   - you are disgusting
+   - you are crazy
+   - you are bad
+   - you are a weirdo
+   - you are a waste of time
+   - I think you're crazy
+   - how crazy you are
+   - are you nuts
+   - are you mad or what
+   - are you mad
+   - are you just a bot
+   - are you insane
+   - are you crazy
+
+- intent: bot_busy
+  examples: |
+   - you're very busy
+   - you're a busy person
+   - you seem to be very busy
+   - you seem to be busy
+   - you are busy
+   - have you got much to do
+   - have you been busy
+   - do you have a lot of things to do
+   - are you working today
+   - are you working now
+   - are you working
+   - are you very busy right now
+   - are you very busy
+   - are you still working on it
+   - are you still working
+   - are you so busy
+   - are you busy
+   - You're highly occupied.
+   - You're incredibly busy.
+   - You're quite busy.
+   - You lead a hectic life.
+   - You're always busy.
+   - Your schedule is hectic.
+   - You appear to be quite active.
+   - I notice you're really busy
+   - You appear preoccupied.
+   - You appear to be busy
+   - You're occupied.
+   - Are you currently really busy?
+   - Are you still employed?
+   - Do you have a lot on your plate?
+
+
+- intent: bot_appreciation
+  examples: |
+  - you're very special to me
+  - you're very special
+  - you're special
+  - you're so special to me
+  - you're so special
+  - you're so kind
+  - you're pretty
+  - you're perfect
+  - you're looking good today
+  - you're just super
+  - you're great
+  - you're funny I like you
+  - you're cute
+  - you're awesome I like you
+  - you're attractive
+  - you're a true professional
+  - you work well
+  - you work very well
+  - you rock
+  - you make my day
+  - you made my day
+  - you made me feel good
+  - you made me feel better
+  - you look wonderful today
+  - you look so well
+  - you look so beautiful today
+  - you look so beautiful
+  - you look pretty good
+  - you look great
+  - you look gorgeous
+  - you look fantastic
+  - you look awesome
+  - you look amazing today
+  - you know I love you
+  - you know I like you
+  - you are wonderful
+  - you are very special to me
+  - you are very special
+  - you are very pretty
+  - you are very lovely
+  - you are very kind
+  - you are very helpful
+  - you are very good at it
+  - you are very cute
+  - you are very cool
+  - you are very attractive
+
+
+- intent: my_friend
+  examples: |
+  - you're my dear friend
+  - you're my childhood friend
+  - you are my only friend
+  - you are my good friend
+  - you are my friend
+  - you are my bestie
+  - you are my best wellwisher
+  - you are my best friend
+  - you are a good friend
+  - you and me are friends
+  - would you be my friend
+  - will you be my friend
+  - will you be my best friend
+  - we are the best friends ever
+  - we are friends
+  - we are best friends
+  - want to be my friend
+  - you are my best friend
+  - let's be friends
+  - I want you to be my friend
+  - I want to have a friend like you
+  - I want to be your friend
+  - I am your friend
+  - do you want to be my friend
+  - do you want to be my best friend
+  - can you be my friend
+  - can you be my best friend
+  - can we be friends
+  - can we be best friends
+  - be my friend
+  - be my best friend
+  - are you my friend
+  - are you my best friend
+  - are we still friends
+  - are we friends
+  - are we best friends
+
+  
+- intent: empty
+  examples: |
+  - where is the love
+  - Whenever it's late at night and I'm on the couch watching T.V., I feel alone and empty inside.
+  - Sometimes I even forget that I'm alive because all I do just sleep.
+  - Nothing really gives me joy
+  - My life just doesn't seem to get any better, anytime something good happens something terrible happens.
+  - I feel completely empty inside.
+  - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.
+  - I'm just so tired and I don't know what to do.
+  - I just feel emotionless a lot of the time.
+  - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.
+  - I have a good job, family but yet fill feel empty inside.
+  - I get numbness and it won't let me work or have fun, just constantly staring into nothing.
+  - I feel like a fucking alien without and heart and soul because everyone was so different to me.
+  - I feel like a broken person and all the therapist, and all the psychologist were no help.
+  - I don't get joy by doing anything.
+  - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.
+  - I am moving out of my parent's home for the first time, and I feel completely empty.
+  - I am crying constantly and nothing motivates me to do anything, I have no energy.
+  - I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?
+  - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.
+  - Everyday I just feel super lonely and empty, and I have slept well in such a long time.
+  - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.
+  - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.
+  - Where has the love gone?
+  - When it's late at night and I'm sitting on the couch watching TV, I feel alone and empty on the inside.
+  - Nothing truly brings me joy.
+  - I'm entirely empty on the inside.
+  - A lot of the time, I simply feel emotionless.
+  - I don't find delight in anything.
+  - Nothing makes me happy.
+  - I'm becoming numb and careless.
+>>>>>>> f4877b2387a134a126fd8255922fe502e8826f5f

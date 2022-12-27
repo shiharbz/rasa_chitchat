@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+<<<<<<< HEAD
   - user_hungry
   - clever
   - unexpected
@@ -17,6 +18,12 @@ intents:
   - I_am_relaxed
   - be_positive
   - ambitious
+=======
+  - happy_emotion
+  - smalltalk_user_angry
+  - smalltalk_user_excited
+  - funny
+>>>>>>> f4877b2387a134a126fd8255922fe502e8826f5f
 
 responses:
   utter_greet:
@@ -38,6 +45,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+<<<<<<< HEAD
 
   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
@@ -70,3 +78,26 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+=======
+    action_happy_emotion:
+  - text: " am very happy"
+  
+  utter_smalltalk_user_angry:
+  - text: "I'm sorry. A quick walk may make you feel better."
+  - text: "Take a deep breath. "
+
+  utter_smalltalk_user_excited:
+  - text: "I'm glad things are going your way."
+  - text: "That's great. I'm happy for you."
+  - text: "Good for you. Enjoy yourself."
+  
+  utter_funny:
+  - text: "you are so funny"
+  - text: " this is so funny"  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+>>>>>>> f4877b2387a134a126fd8255922fe502e8826f5f
