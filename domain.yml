@@ -12,6 +12,43 @@ intents:
   - smalltalk_user_angry
   - smalltalk_user_excited
   - funny
+  - boring
+  - forget
+  - bot_bad
+  - bot_busy
+  - bot_appreciation
+  - my_friend
+  - empty
+  - nostalgic
+  - apprehensive
+  - guilty
+  - proud
+  - anxious
+  - user_hungry
+  - clever
+  - unexpected
+  - trustworthy
+  - modesty
+  - careful
+  - I_am_relaxed
+  - be_positive
+  - ambitious
+  - can_not_sleep
+  - cause_of_sleeplessness
+  - sleep_disorders 
+  - treatment_options
+  - lonely
+  - depression
+  - what_is_depression
+  - symptoms_of_depression
+  - type_of_depression
+  - treatment_for_depression
+  - women_are_more_prone
+  - repetition
+  - adults
+  - test
+  - causes_depression
+
 
 responses:
   utter_greet:
@@ -33,7 +70,7 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-    action_happy_emotion:
+  action_happy_emotion:
   - text: " am very happy"
   
   utter_smalltalk_user_angry:
@@ -48,6 +85,230 @@ responses:
   utter_funny:
   - text: "you are so funny"
   - text: " this is so funny"  
+
+
+ utter_food:
+  - text: "we will help you getting good and healthy food of your choice!"
+  
+  utter_smart:
+  - text: "Thank you for the appreciation"
+
+  utter_sudden:
+  - text: "How can I help you to give the surprise?"
+
+  utter_hope:
+  - text: "Best wishes for your action"
+
+  utter_pure:
+  - text: "Great!!..that is a good quality"
+
+  utter_alert:
+  - text: "be cautious in you actions!"
+
+  utter_nostress:
+  - text: "hope you have a great time !!"
+
+  utter_forward:
+  - text: "be proud that you are able to manage in a nice way"
+
+  utter_desire:
+  - text: "hope you achieve your goals soon!!"
+
+
+  utter_reason:
+  - text: "And tell me what's got you feeling like this?"
+
+  utter_do_you_want_some_ideas:
+  - text: "You are not alone \nDo you want some ideas for activities that might cheer you up?"
+
+  utter_activities:
+  - text: "May be it's time to journel, try meditation or even some yoga! \nDid that help you?"
+
+  utter_lonely_response:
+  - text: "I am sorry to hear that I've got some exercises for you. Wanna give it a go?"
+
+  utter_try_breathing_exercise:
+  - text: "OK lets try some breathing exercise. \n1.Close your eyes ! \n2.Breathe in slowly and deeply to the count of 4 \n3.Hold breath 2 counts \n4.Exhale to the count of 4 \n5.Hold 2 counts \n6.Wiggle your fingers and toes then slowly open your eyes"
+  
+  utter_call_911:
+  - text: "If you are not feeling well at all all you can always call 911 for help."
+  - text: "These might help suicide prevention Lifelines 8002738255 or 18002738255"
+  - text: "This is a 24x7 crisis Hotline 1800273-TALK (8255)"
+
+  utter_watch_tv:
+  - text: "Maybe you should try watching Tom and Jerry, it always helps!"
+  
+  utter_what_is_depression:
+  - text: "Depression is a medical condition that affects your mood and ability to function.Depressive symptoms include feeling sad,stress,anxious or hopeless. The condition can also cause difficulty with thinking, memory, eating and sleeping. A diagnosis of major depressive disorder (clinical depression) means you have felt sad, low or worthless most days for at least two weeks while also having other symptoms such as sleep problems, loss of interest in activities, or change in appetite.Without treatment, depression can get worse and last longer. In severe cases, it can lead to self-harm or death."
+  - text: "Depression is a serious condition that negatively affects how a person thinks, feels, and behaves. In contrast to normal sadness, clinical depression is persistent, often interferes with a person’s ability to experience or anticipate pleasure, and significantly interferes with functioning in daily life. Untreated, symptoms can last for weeks, months, or years; and if inadequately treated, depression can lead to significant impairment, other health-related issues, and in rare cases, suicide."
+
+  utter_cause_of_sleeplessness:
+  - text: "In adults There are many possible reasons for sleeplessness, including your sleeping habits, lifestyle choices, and medical conditions. Some causes are minor and may improve with self-care, while others may require you to seek medical attention.
+          \nCauses of sleeplessness may include aging, too much stimulation before bedtime (such as watching television, playing video games, or exercising), consuming too much caffeine, noise disturbances, an uncomfortable bedroom, or a feeling of excitement.
+          \nSleeping too much during the day, lack of exposure to sunlight, frequent urination, physical pain, jet lag, and some prescription medications may also lead to difficulty sleeping."
+
+  utter_sleeping_disorders:
+  - text: "Sleep disorders are a common problem that can affect people of all ages, and they can have a significant impact on overall health and quality of life. \nIf you're experiencing symptoms of a sleep disorder, it's important to speak with a healthcare provider for proper diagnosis and treatment."
+  utter_sleeping_disorder_treatment:
+  - text: "Treatment for your sleeplessness depends on its cause. In some cases, at-home remedies or simple lifestyle changes can improve the quality of your sleep. \nYou may want to avoid caffeine and alcohol for at least a few or more hours before bed."
+  - text: "purchase some sleep aids without a prescription. However, sleep aids can cause daytime drowsiness if you don’t get a full seven or eight hours of sleep. \nAlso, don’t use these products on a daily basis, as it may lead to a dependency.\nRemember to always read the directions closely and take the medication as directed. "
+  - text: "If a medical condition or sleep disorder is causing your problems, you’ll need treatment for the underlying condition. \nFor example, if your sleep is affected by anxiety disorder or depression, your doctor may prescribe an anti-anxiety or antidepressant medication to help you cope with worry, stress, and feelings of hopelessness."
+  
+  utter_symptoms_of_depression:
+  - text: "A person is diagnosed with a major depression when he or she experiences at least five of the symptoms listed below for two consecutive weeks. At least one of the five symptoms must be either (1) depressed mood or (2) loss of interest or pleasure.
+
+          Symptoms include: \n
+
+          Depressed mood most of the day, nearly every day \n
+          Markedly diminished interest or pleasure in activities most of the day, nearly every day \n
+          Changes in appetite that result in weight losses or gains unrelated to dieting \n
+          Changes in sleeping patterns \n
+          Loss of energy or increased fatigue \n
+          Feelings of anxiety \n 
+          Feelings of worthlessness, helplessness, or hopelessness \n
+          Inappropriate guilt
+          Difficulty thinking, concentrating, or making decisions
+          Thoughts of death or attempts at suicide"
+
+   utter_symptoms_of_depression2:
+  - text: "Not everyone who is diagnosed with depression has the same symptoms. Some experience only a few symptoms, others have most of them. How severe the symptoms are and how long they last also varies from person to person. To be diagnosed with major depression, a person must have at least five of the following symptoms nearly every day for at least two weeks:
+
+          Feeling sad or empty \n
+          Decreased interest or pleasure in activities \n
+          Appetite change with weight loss or weight gain \n
+          Decreased or increased sleeping \n
+          Fatigue or loss of energy \n
+          Feeling worthless or guilty \n
+          Being either agitated or slowed down \n
+          Difficulty thinking or concentrating \n
+          Recurrent thoughts of death or suicide \n
+          Low self-esteem is common with depression.\n" 
+
+  utter_symptoms_of_depression3:
+  - text: "Depression can affect your emotions, mind and body. Depression symptoms include
+
+          Feeling very sad, hopeless or worried. \n
+          Not enjoying things that used to give you joy. \n
+          Being easily irritated or frustrated. \n
+          Eating too much or too little. \n
+          Changes in how much you sleep. \n
+          Having a difficult time concentrating or remembering things. \n
+          Experiencing physical problems like headache, stomachache or sexual dysfunction. \n
+          Thinking about hurting or killing yourself. \n" 
+
+  utter_did_u_have_any_symptoms:
+  - text: "Did you have any of these symptoms :
+
+          1. Feeling very sad, hopeless or worried. \n
+          2. Not enjoying things that used to give you joy. \n
+          3. Being easily irritated or frustrated. \n
+          4. Eating too much or too little. \n
+          5. Changes in how much you sleep. \n
+          6. Having a difficult time concentrating or remembering things. \n
+          7. Experiencing physical problems like headache, stomachache or sexual dysfunction. \n
+          8. Thinking about hurting or killing yourself. \n"  
+
+  utter_did_u_have_symptoms:
+  - text: "Did you have any symptoms of Depression?"         
+
+  utter_affected_depression:
+  - text: "These are the symptoms of depression"
+
+  utter_type_of_depression:
+  - text: "As with other types of illness, depression takes different forms. Some of the most common depressive disorders are: \n
+
+          Major depression is characterized by symptoms that affect a person's work, sleep, eating habits, and interest in activities he or she once enjoyed. Episodes of major depression can last for six months or more. To be diagnosed with major depression, a person must have several of the symptoms noted in question 3 LINK on most days for at least two weeks. People with major depression may have just one episode of the illness, but more often the symptoms return several times during their lifetime. \n
+          Dysthymia is a low-intensity mood disorder characterized by similar but less severe symptoms than major depression, but the condition is longer-lasting (the symptoms must be present for two years to receive the diagnosis). While not totally disabling, dysthymia makes it difficult for a person to feel good or function normally. Many people who have dysthymia also have periods of major depression. \n
+          Bipolar disorder, which is sometimes called manic-depressive illness, is much less common than other types of depressive disorders. It is marked by cycles of intense highs, called manias, followed by intense lows, or depressions. \n
+          Other common forms of depression include: \n
+
+          Postpartum depression is depression after the birth of a baby. Between 10 and 15 percent of women who give birth are clinically diagnosed with this form of depression. (Postpartum psychosis, which is sometimes confused with postpartum depression in the media, is a rarer and much more serious mood disorder that requires immediate medical care.) \n
+          Premenstrual dysphoric disorder (PMDD) refers to depressive symptoms that occur about one week prior to menstruation and disappear after you menstruate. \n
+          Seasonal affective disorder (SAD) occurs during the fall-winter season and disappears during the spring-summer season. It's likely due to lack of sunlight. \n" 
+  
+  - text: "Psychotherapist, relationship coach, and divorce mediator Toni Coleman told INSIDER that, although clinical depression is the type of depression most talked about, that is not the only type of depression that people fall victim to. \n
+          Too often, people have a fixed idea of depression as the clinical type, which is long-standing and where people have trouble getting out of bed, neglect their self-care, cannot manage daily responsibilities, and/or develop suicidal thoughts/actions, she said.While this is one severe form of depression, it is only one. \n
+          There is also situational depression. This is the kind that is experienced by someone with no history of depression who suffers a loss, a traumatic event, or is diagnosed with a chronic disease. In this situation, the depression can be more severe at first, but the person is better able to function, utilize supports and often responds more quickly to counseling and other interventions. \n"
+  
+  - text: "Healthcare providers name depression types according to symptoms and causes. These episodes often have no obvious cause. In some people, they can linger much longer than in others for no clear reason.
+
+          Types of depression include:
+
+          Major depressive disorder (MDD): Major depression (clinical depression) has intense or overwhelming symptoms that last longer than two weeks. These symptoms interfere with everyday life. \n
+          Bipolar depression: People with bipolar disorder have alternating periods of low mood and extremely high-energy (manic) periods. During the low period, they may have depression symptoms such as feeling sad or hopeless or lacking energy. \n
+          Perinatal and postpartum depression: “Perinatal” means around birth. Many people refer to this type as postpartum depression. Perinatal depression can occur during pregnancy and up to one year after having a baby. Symptoms go beyond “the baby blues,” which causes minor sadness, worry or stress. \n
+          Persistent depressive disorder (PDD): PDD is also known as dysthymia. Symptoms of PDD are less severe than major depression. But people experience PDD symptoms for two years or longer. \n
+          Premenstrual dysphoric disorder (PMDD): Premenstrual dysphoric disorder is a severe form of premenstrual disorder (PMS). It affects women in the days or weeks leading up to their menstrual period. \n
+          Psychotic depression: People with psychotic depression have severe depressive symptoms and delusions or hallucinations. Delusions are beliefs in things that are not based in reality, while hallucinations involve seeing, hearing, or feeling touched by things that aren’t actually there. \n
+          Seasonal affective disorder (SAD): Seasonal depression, or seasonal affective disorder, usually starts in late fall and early winter. It often goes away during the spring and summer. \n " 
+
+  utter_treatment:
+  - text: "The first step to being diagnosed is to visit a doctor for a medical evaluation. Certain medications, and some medical conditions such as thyroid disorder, can cause similar symptoms as depression. A doctor can rule out these possibilities by conducting a physical examination, interview and lab tests. If the doctor eliminates a medical condition as a cause, he or she can implement treatment or refer the patient to a mental health professional. \n
+          Once diagnosed, a person with depression can be treated by various methods. The mainstays of treatment for depression are any of a number of antidepressant medications and psychotherapy, which can also be used in combination."
+
+  - text: " Doctors can choose from several different types of anti-depressants (sometimes combined with psychotherapy) based on a person's symptoms and tolerance for the medication. Because they are unable to tell how well a person will respond to an anti-depressant in advance, a person may need to try several different medications or combinations of medications to alleviate symptoms.
+
+          It takes six to eight weeks for most people to feel the full effect of anti-depressant medication, and most are prescribed for six months to a year, and sometimes longer. People with chronic major depression may need to take anti-depressants indefinitely. A person with depression should never stop taking anti-depressants without first talking to a doctor.
+          The major types of anti-depressant medications are: \nSelective serotonin and norepinephrine reuptake inhibitors (SSNRIs)"
+  - text: "Depression is treated in a variety of ways.
+
+          Psychotherapy
+
+          People with mild depression may only need psychotherapy (talk) to improve their symptoms, though doctors often advise therapy in conjunction with medication. Psychotherapy attempts to help people work through their problems by talking regularly with a therapist. Depending on the situation, a person may undergo psychotherapy one-on-one with a therapist, take part with a spouse or family or try group therapy with people who have similar problems.
+
+          Research has shown that some one-on-one short-term therapies, lasting 10 to 20 weeks, can help with depression. They are:
+
+          Interpersonal therapy, which focuses on improving personal relationships that help cause depression or make it worse.
+          Cognitive or behavioral therapy, which focuses on changing negative thinking and behavior that may be linked to depression.
+          Hospitalization
+
+          For people who are so severely depressed as to be unable to function, or who are suicidal and cannot be safely cared for in the community, psychiatric hospitalization may be necessary.
+
+          Electroconvulsive therapy (ECT)
+
+          Doctors may suggest ECT for people with severe depression, and for those who either cannot take anti-depressants or for whom anti-depressants do not work. ECT is performed under sedation and muscular paralysis to eliminate discomfort, and uses a brief electrical shock to cause a short seizure – about 30 seconds – in the brain. Doctors think it works for depression because the seizure releases chemical messengers in the brain, such as norepinephrine and serotonin. Usually, a person needs 12 or fewer treatments."
+  - text: "Depression can be serious, but it’s also treatable. Treatment for depression includes:
+
+          Self-help: Regular exercise, getting enough sleep, and spending time with people you care about can improve depression symptoms. \n
+          Counseling: Counseling or psychotherapy is talking with a mental health professional. Your counselor helps you address your problems and develop coping skills. Sometimes brief therapy is all you need. Other people continue therapy longer. \n
+          Alternative medicine: People with mild depression or ongoing symptoms can improve their well-being with complementary therapy. Therapy may include massage, acupuncture, hypnosis and biofeedback. \n
+          Medication: Prescription medicine called antidepressants can help change brain chemistry that causes depression. Antidepressants can take a few weeks to have an effect. Some antidepressants have side effects, which often improve with time. If they don’t, talk to your provider. A different medications may work better for you. \n
+          Brain stimulation therapy: Brain stimulation therapy can help people who have severe depression or depression with psychosis. Types of brain stimulation therapy include electroconvulsive therapy (ECT), transcranial magnetic stimulation (TMS) and vagus nerve stimulation (VNS). \n"
+
+
+  utter_women_are_more_prone:
+  - text: "Depression is twice as common among women as among men. About 20 percent of women will experience at least one episode of depression across their lifetime. Scientists are examining many potential causes for and contributing factors to women’s increased risk for depression. Biological, life cycle, hormonal and psychosocial factors unique to women may be linked to women’s higher depression rates. Researchers have shown, for example, that hormones affect brain chemistry, impacting emotions and mood.
+
+          Before adolescence, girls and boys experience depression at about the same frequency. By adolescence, however, girls become more likely to experience depression than boys. Research points to several possible reasons for this imbalance. The biological and hormonal changes that occur during puberty likely contribute to the sharp increase in rates of depression among adolescent girls. In addition, research has suggested that girls are more likely than boys to continue feeling bad after experiencing difficult situations or events, suggesting they are more prone to depression." 
+
+  - text: "Women develop depression twice as often as men. One reason may be the various changes in hormone levels that women experience. For example, depression is common during pregnancy and menopause, as well as after giving birth, suffering a miscarriage, or having a hysterectomy -- these are all times when women experience huge fluctuations in hormones. Premenstrual syndrome (PMS) and premenstrual dysphoric disorder (PMDD), an extreme form of PMS, may also cause depression."
+
+
+  utter_repetition:
+  - text: "Having experienced an episode of major depression does put a person at greater risk for future episodes, but not everyone who has recovered from depression will experience it again. Sometimes depression is triggered by a major life event, illness, or a combination of factors particular to a certain place and time. Depression can also occur for no obvious reason.Getting the proper treatment for the correct amount of time is crucial to recovery and in helping prevent or identify any future depression."
+
+  utter_adult:
+  - text: "For older adults who experience depression for the first time later in life, other factors, such as changes in the brain or body, may be at play. For example, older adults may suffer from restricted blood flow, a condition called ischemia. Over time, blood vessels become less flexible. They may harden and prevent blood from flowing normally to the body’s organs, including the brain. If this occurs, an older adult with no family or personal history of depression may develop what some doctors call vascular depression. Those with vascular depression also may be at risk for a coexisting cardiovascular illness, such as heart disease or a stroke."
+
+
+  utter_test:
+  - text: "I hope, you are not. Why don't you take a quick test, let's do it"
+
+
+  utter_causes:
+  - text: "Various factors can cause depression:
+
+          Brain chemistry: Abnormalities in brain chemical levels may lead to depression. \n
+          
+          Genetics: If you have a relative with depression, you may be more likely to become depressed. \n
+          
+          Life events: Stress, the death of a loved one, upsetting events (trauma), isolation and lack of support can cause depression. \n
+          
+          Medical conditions: Ongoing physical pain and illnesses can cause depression. People often have depression along with conditions like diabetes, cancer and Parkinson’s disease. \n
+          
+          Medication: Some medications have depression as a side effect. Recreational drugs and alcohol can also cause depression or make it worse. \n
+          
+          Personality: People who are easily overwhelmed or have trouble coping may be prone to depression. \n"
 
 session_config:
   session_expiration_time: 60

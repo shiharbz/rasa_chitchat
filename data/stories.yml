@@ -29,6 +29,15 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_watch_tv
 
 - story: happy path 2
   steps:
@@ -58,4 +67,162 @@ stories:
   - action: utter_funny
 
 
+
+- story: food path 1
+  steps:
+  - intent: user_hungry
+  - action: utter_food
+
+- story: clever path
+  steps:
+  - intent: clever
+  - action: utter_smart
+
+- story: surprise path
+  steps:
+  - intent: unexpected
+  - action: utter_sudden
+
+- story: faith path
+  steps:
+  - intent: trustworthy
+  - action: utter_hope
+
+- story: simple path
+  steps:
+  - intent: modesty
+  - action: utter_pure
+
+- story: careful path
+  steps:
+  - intent: careful
+  - action: utter_alert
+
+- story: relax path
+  steps:
+  - intent: I_am_relaxed
+  - action: utter_nostress
+
+- story: positive path
+  steps:
+  - intent: be_positive
+  - action: utter_forward
+
+- story: ambitious path
+  steps:
+  - intent: ambitious
+  - action: utter_desire
+
+
+- story: bot_intro
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: know_yr_bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: thanku
+  steps:
+  - intent: thank_you
+  - action: utter_welcome
+
+- story: lonely
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lonely
+  - action: utter_do_you_want_some_ideas
+  - intent: confirm
+  - action: utter_activities
+  - intent: deny
+  - action: utter_call_911
+  - intent: depression
+  - action: utter_did_u_have_symptoms
+
+- story: cannot sleep
+  steps:
+  - intent: can_not_sleep
+  - action: utter_cause_of_sleeplessness
   
+- story: sleeping disorder
+  steps:
+  - intent: cause_of_sleeplessness
+  - action: utter_cause_of_sleeplessness
+  - intent: sleep_disorders
+  - action: utter_sleeping_disorders
+  - intent: treatment_options
+  - action: utter_sleeping_disorder_treatment
+  
+
+- story: depression
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: depression
+  - action: utter_reason
+  - intent: depression
+  - action: utter_lonely_response
+  - intent: confirm
+  - action: utter_try_breathing_exercise
+  - intent: confirm
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_did_u_have_symptoms
+  - intent: confirm
+  - action: utter_affected_depression
+  
+
+- story: intro
+  steps:
+  - intent: what_is_depression
+  - action: utter_what_is_depression
+
+- story: Symptoms of depression
+  steps:
+  - intent: symptoms_of_depression
+  - action: utter_symptoms_of_depression
+
+
+- story: type of depression
+  steps: 
+  - intent: type_of_depression
+  - action: utter_type_of_depression
+
+
+- story: treatments
+  steps:
+  - intent: treatment_for_depression
+  - action: utter_treatment
+
+- story: women chances
+  steps:
+  - intent: women_are_more_prone
+  - action: utter_women_are_more_prone
+
+- story: repetition
+  steps:
+  - intent: repetition
+  - action: utter_repetition
+
+- story: adults
+  steps:
+  - intent: adults
+  - action: utter_adult
+
+- story: test
+  steps:
+  - intent: test
+  - action: utter_test
+
+- story: causes
+  steps:
+  - intent: causes
+  - action: utter_causes
+
+- story: tata
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

@@ -1203,3 +1203,853 @@ nlu:
   - Meeting with my boss 
   - Long car drive coming up
   - Literally I had every single supply I needed for this road trip.
+
+
+- intent: user_hungry
+  examples: |
+    - I am very hungry
+    - I am so hungry
+    - I am super hungry
+    - I am extremely hungry
+    - I Would like to eat something
+    - I want to eat
+    - I want something to eat
+    - feeling hungry
+    - need something to munch
+    - needs to bite something
+    - I am starving
+    - I am really hungry now
+    - I am ready for a meal
+    - I am interested in eating new food varieties
+    - I am excited to order food now
+    - I am expecting a healthy meal
+    - really hungry
+    - am hungry
+    - ready for a meal
+    - craving for fast food
+    - choosing for healthy food
+    - need to eat now
+    - excited for chicken
+    - I want some food
+    - I need food
+    - I am craving
+    - I am starving
+    - starving
+    - craving for food
+    - i am empty stomach
+    - i am unenthusiastic due to lack of food
+    - i am hungry and thirsty
+    - desirous of food
+    - i have strong appetite
+    - i want to munch something
+    - i have a strong desire for food
+    - i am peckish
+    - i want tasty food
+    - delicious meal
+    - the dinner is uperb
+    - the supper is awesome
+    - i want a healthy breakfast
+    - i am somewhat hungry
+    - underfed
+    - i am half starved
+    
+
+- intent: unexpected
+  examples: |
+    - i am surprised to meet you
+    - surprise meeting of my friends
+    - I was surprised by my colleages
+    - i love giving surprise to my dear ones
+    - i am surprised by my spouse cooking
+    - i got birthday surprise from my kids
+    - we went for a surprise visit for our friends home
+    - that moment of surprise was awesome
+    - i trust strangers quickly
+    - i love giving surprise to my friends
+    - are you clever enough to surprise others?
+    - i want to give surprise gift to my children
+    - I had a surprise party at my home as well as my office
+    - I got a birthday card in my mail unexpectedly from my friends
+    - I got a salary hike which is quite unexpected
+    - being faithful to others is really hard to accomplish
+    - i got a surprise invitation for the five star party
+    - i was really shocked to see my school friend near my seay in my last flight
+    - i am good at giving surprises to my daer ones
+    - i actually ordered one pizza, but i got one more as a complimentory
+    - it was a surprise to see my dear teacher at the confeerence
+    - this is an astonishing event
+    - the unexpected gift you gave me was a jaw dropper
+    - i was shocked
+    - i was startled by the dance party
+    - i was amazed by the theme of the show
+    - the revelation of truth was surpirsing
+    - amazing way of studying
+    - i was very surprised by my moms reaction
+    - i want to surprise my parents
+    - my sister gave me a surprise
+    - my brother gave me a surprise
+    - my cousins thrown a huge surprise party
+    - i was stunned by the surprises
+    - my husband gave me a surprise dinner 
+    - i have arranged a surprise anniversary party
+
+
+- intent: trustworthy
+  examples: |
+    - I believe in hardwork
+    - if we do our work with passion, we will definitely win
+    - true friend does not deceive
+    - i have confidence in my exam results
+    - i love being surrounded by dear ones
+    - I have many problems with my friend and we convince each other in faithfulness
+    - completely believe in one day when all my dreams comes true
+    - i have been with my boyfriend for 8 years and still be faithful
+    - positive attitude will direct you to success
+    - i do my prayers every single day
+    - we have our breakfast from same restaurant for the past couple of years
+    - i hope my exams will be fine
+    - Hope you recover soon
+    - i believe in miracles 
+    - I will not lie to the cops
+    - i hope he is the best doctor you have ever met
+    - hopes to score really good in my semestere exams
+    - hopefully you will get a good career
+    - ater attending my interview very well, hopes to get my desired job offer
+    - looking forward a good reason to lay off
+    - hopes to get a reply for my mail
+    - hope my interview will be fine 
+    - you will recover soon
+    - i am hoping for a good position in this company
+    - I dont know why i trust others easily
+    - faith is the key to success
+    - leave a spare key with a trustworthy person
+    - he or she is a cerdible person
+    - credible
+    - he or she is believable
+    - he or she is reliable
+    - the book is authentic
+    - the authentic taste is assured by the restaurant
+    - nothing that is authentiic is known to him
+    - keep it authentic 
+    - keep it trustworthy
+    - i believe in truth
+    - they are able to win the trust of others
+    - dont trust strangers blindly
+    - he or she is trustworthy
+    - i entrust you
+    - he is a man of trust
+    - matter of truth
+
+- intent: modesty
+  examples: |
+    - I believe in simplicity
+    - simple look
+    - simple walk
+    - pray in a modest style
+    - always obey modest principles in our life
+    - Great leaders are always modest
+    - you are not boastful
+    - i like modest persons in my life
+    - you are simple person
+    - you are a modest person
+    - you are so simple
+    - i am modest
+    - i want a modest friend
+    - i am simple
+    - i am a simple person
+    - i like to do my things in a modest way
+    - the modesty of his political aspirations
+    - modest way of teaching
+    - modestly writing humours
+    - simple as well as modest
+    - unpretencious way 
+    - the place is unpretentious
+    - his characrter is unpretentious
+    - he or she is simple 
+    - my unpretentious cousin wear simple clothing 
+    - the food is delicious and unpretentious
+    - simple way of dealing things
+    - very pleasant and unpretentious place
+    - the place is so serene and unpretentious
+    - simple and elegant
+    - she had a simple and modest hairstyle
+    - my friend is honest and modest
+    - she is very down to earth person
+    - her humble character makes her beloved for everyone
+
+- intent: careful
+  examples: |
+    - be careful
+    - care your loved ones
+    - cautious
+    - walk carefully
+    - drive slowly
+    - take care
+    - you are not caring
+    - i admire caring persons in my life
+    - you are very caring person
+    - careful while diving
+    - care for your mind
+    - i am caring
+    - i want a caring friend
+    - i want a caring partner
+    - careful
+    - be caring
+    - be alert when doing adventures
+    - caring is a good quality
+    - i am careful while driving
+    - be cautious
+    - be alert
+    - be more careful
+    - vigilnt
+    - be minful of new diseases
+    - be alert on new variants of corona
+    - watchful
+    - he is heedful
+    - be alert on strangers
+    - careful in your studies
+    - be alert on board exam
+    - be vigilant of semester exams
+    - careful nature
+    - be mindful while talking to strangers
+    - be careful of the pandemic
+    - travelling while pandemic needs extra care
+    - care for your health
+
+- intent: I_am_relaxed
+  examples: |
+    - relax
+    - relaxed
+    - i am stress free now
+    - i want to relax
+    - i am feeling relaxed
+    - stress free
+    - relaxing mood
+    - my jobs needs a relaxation now
+    - i feel relaxed
+    - sense of stress free
+    - i relax by doing my hobbies
+    - motivational talks are relaxing to our mind
+    - needs a break for free mind
+    - love to be in stress free mode
+    - i feel breezy
+    - i am comfortable with informal way of talking
+    - now i feel cool as a cucumber
+    - the place makes me very relaxed
+    - because of the relaxation time i feel lively now
+    - the place is soothing
+    - i feel tranquilized
+    - taking my mind off something
+    - i want to chill out
+    - chillax
+    - chill
+    - i zonk out for an hour
+    - this holiday is well deserved for me
+    - i am on holiday, i am just going to take it easy
+    - i just want to sit back for a long time
+    - i am in a calming mode now
+    - i am an easy going type
+
+- intent: be_positive
+  examples: |
+    - be positive
+    - positive
+    - you are positive
+    - spread positivity
+    - you have a positive influence
+    - this video has a beneficial impact on our course
+    - positive environment
+    - i admire positive persons in my life
+    - you are very positive person
+    - the product has a positive report
+    - the film has a positive ending
+    - i want to be positive
+    - you are very positive
+    - positive thinking always makes us happy
+    - positivity to your mind
+    - he is very positive
+    - she is very positive
+    - we are a positive community
+    - dont be negative
+    - dont be a negating person
+    - dont allow yourself surrounded by negative people
+    - negativity kills positive vibes
+    - mental health is related to positive thoughts
+    - a person with positive attitude always wins heart
+    - a boss always needs to be positive to his workers
+    - his sense of humour is positive
+    - i like to be in a positive environment
+    - positive culture builds a strong community
+    - positive affirmation
+    - her attitude is positive
+    - my friends are positively motivating
+    - saying greetings is a positive start
+    - my husband has a positive vision
+    - ambiguity is less in a positive talk
+    - he has a positiveness around him
+    - positive reaction
+    - he has a can-do attitude
+
+
+- intent: ambitious
+  examples: |
+    - be ambitious
+    - he is an aspiring candidate
+    - i am ambitious
+    - he is an ambitious man
+    - i am a go-getter
+    - you are very ambitious
+    - that is an ambitious project
+    - goal-oriented
+    - you are emulous of fame
+    - dont be overambitious
+    - i am high flying
+    - he is ambitious
+    - she is ambitious
+    - greatly desirous
+    - inordinately desirous
+    - he is over desirous
+    - she is over desirous
+    - we are an ambitious community
+    - dont be over ambitious
+    - he is motivated by his ambition
+    - over motivated
+    - ambitiousness
+    - he has set an ambitious target
+    - be ambitious and we will support you
+    - i am tough and ambitious
+    - it is an ambitious idea
+    - she is an ambitious young woman
+    - the company is very ambitious
+    - an ambitious long term agenda
+    - the goals defined are ambitious but achievable
+    - but it is not ambitious enough
+    - i was very ambitious at your age
+    - ambitions should become aspirations
+    - it has clear and ambitious objectives
+    - celebities life are very ambitious
+
+
+- intent: can_not_sleep
+  examples: |
+    - I'm insomnia's
+    - I'm sleepless
+    - I can't get any sleep
+    - I can't sleep
+    - I can't fall asleep
+    - I can't get to sleep
+    - I'm insomniac
+    - I'm not able to sleep
+    - I can't seem to get enough sleep
+    - I'm wide awake
+    - I'm having trouble falling asleep at night
+    - can't seem to get good sleep.
+    - I just can't fall asleep.
+    - I lay awake for hours, staring at the ceiling.
+    - I feel exhausted but I just can't seem to drift off.
+    - can't get back to sleep.
+    - I have trouble falling asleep even when I'm extremely tired.
+    - I have a hard time winding down at night 
+    - I wake up feeling unrested
+    - I can't seem to fall asleep
+    - I have a hard time staying awak
+    - I have vivid and disturbing dreams that keep me awake
+    - I couldn't sleep
+    - I just can't sleep
+    - I can't sleep at all
+    - I didn't go to sleep
+    - I just couldn't sleep
+    - I'm not sleeping well
+    - Trying to get some sleep
+    - I can't sleep at night
+    - I couldn't get to sleep
+    - I didn't get much sleep
+
+- intent: cause_of_sleeplessness
+  examples: |  
+    - causes
+    - causes of sleeplessness
+    - causes of poor sleeping
+    - causes of sleeping difficulties
+    - Exact causes are
+    - What causes sleeping difficulties?
+    - What could be causing this?
+    - explain me the causes
+    - What prevents people from falling asleep? 
+    - causes of insomnia 
+    - What can cause sleeplessness?
+    - explain the causes
+    - What can lead to poor sleeping?
+    - What can cause difficulty sleeping?
+    - What might cause sleeplessness?
+    - tell me the causes
+    - What can lead to sleeplessness?
+    - What might lead to poor sleeping?
+    - What might cause difficulty sleeping?
+    - describe the causes
+    - what are the causes
+    - What might cause sleeping difficulties?
+    - possible causes of sleeplessness?
+    - potential causes of poor sleeping?
+    - potential causes of difficulty sleeping?
+    - What factors contribute to sleeplessness?  
+    - factors causing sleeplessness
+    - what causes poor sleeping quality?
+    - Could you tell me the causes
+    - what exactly the causes?
+    - tell me about the causes of sleeplessness
+    - explain the causes of sleeplessness
+
+    
+    
+- intent: sleep_disorders
+  examples: |  
+    - sleep disorders  
+    - common sleep disorders
+    - Can you tell me about sleep disorders  
+    - What are sleep disorders?
+    - Describe sleeping issues for me. 
+    - sleep disorders are
+    - details about sleep disorders
+    - tell me about sleeping disorders
+    - Describe sleeping disorders
+    - Explain sleeping issues for me. 
+    - overview of sleep disorders
+    - Sleep disorders explanation
+    - can you explain about sleep disorders
+    - Detailing sleep disorders
+    - explain me sleep disorders
+    - briefly explain sleep disorders
+    - provide information on sleeping disorders
+    - like to know about sleep disorders
+    - Could you provide more information? 
+    - Sleep disorders: what are they? 
+    - types of sleep disorders
+    - explain sleep disorders
+    - provide an overview of sleep disorders
+    - common types of sleep disorders?
+    - What is a sleep disorder 
+    - different categories of sleep disorders?
+    - provide a brief explanation of sleeping disorders
+    - give more information on sleeping disorders
+    - I'd like to know more about sleep disorders
+    - Can you provide more detail?
+    
+
+- intent: treatment_options
+  examples: |
+    - different treatment options?
+    - treatment for sleeping disorders
+    - how to treat sleeping disorders ?
+    - treatment options ?
+    - treatment options for sleep disorders
+    - therapeutic strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are sleeping disorders diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are sleeping problems identified? 
+    - Can it be identified? 
+    - how to identify sleeping issues?
+    - how to recognize sleeping issues?
+    - How are sleeping issues recognised? 
+    - how is depression treated ? 
+    - treatment for sleeping issues.
+    - common treatment options for sleep disorders?
+    - What are the treatment options for sleep disorders?
+    - can sleeping issues be treated ? 
+    - how to treat sleeping issues ?
+    - sleeping disorder treatments.
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods.
+    - different treatment options
+    
+- intent: lonely
+  examples: |
+    - feeling sad and alone
+    - Im alone
+    - feeling lonely
+    - I feel very lonely these days
+    - I felt lonely
+    - I feel very lonely
+    - A lonely feeling stole over me
+    - sometimes i feel i have no one to turn to
+    - so glad my kids are back from summer break
+    - Sitting at a computer at 3am with the lights off alone
+    - she was m only true friend
+    - it gets lonely out there all by myself.
+    - It gets lonely out here
+    - Sat in my house yesterday by myself
+    - Sat home all day by myself
+    - No one wants to eat lunch with me.
+    - No one even cares about me.
+    - No one came to my marriage.
+    - No one came to my birthday. 
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - One of the disadvantages of living alone is that you have no one to talk to
+    - I am still alone
+    - i lives in this city all alone
+    - I am used to living alone 
+    - alone
+    - loneliness is my current mood
+    - im lonely all the time
+
+- intent: depression
+  examples: |
+    - I am depressed
+    - The financial burden and the stress from my family give me so much pressure.
+    - I'm feeling really depressed
+    - No one gives a shit if I live or fucking die so why not just end it already.
+    - Life sucks.
+    - I've been depressed
+    - I get depressed by the slightest things
+    - feeling depressed
+    - The sad story depressed me
+    - I feel a bit depressed
+    - Life is just so hard.
+    - I don't know how to deal with depression
+    - I feel like I'm depressed
+    - I'm a failure
+    - I don't feel like I fit in anywhere
+    - I had a stressful day at work today
+    - I often feel depressed
+    - I think im suffering from depression
+    - Now I'm depressed
+    - I don't enjoy anything anymore
+    - I constantly feel depressed
+    - I don't see a way out of this
+    - I'm feeling really hopeless
+    - I suddenly feel depressed
+    - I'm feeling really down.
+    - I'm struggling with depression.
+    - I don't feel like myself lately.
+    - I'm struggling to find joy in things.
+    - I get depressed whenever I think about future
+    - I am feeling so depressed
+    - I just want to end it al
+    
+
+- intent: what_is_depression
+  examples: |
+    - what is depression ? 
+    - define depression
+    - Describe depression 
+    - tell me about depression
+    - Can you please describe depression
+    - what exactly is depression ?
+    - Describe depression for me
+    - What is depression, exactly? 
+    - Could you tell me more about depression?
+    - What are some common characteristics of depression?
+    - definition of depression
+    - i want an explanation on depression
+    - provide a definition of depression
+    - Can you explain depression to me?
+    - tell me more about depression
+    - want to know about depression
+    - need a detailed explanation of depression?
+    - common characteristics of depression
+    - brief overview of depression
+    - explain deppression
+    - brief explanation of depression
+    - give me a brief overview of depression
+    - information on depression
+    - provide more information on depression
+    - provide a brief explanation on depression
+    - give more information on depression
+    - I'd like to know more about depression
+    - Can you provide more detail?    
+    - Could you provide more detail about depression?
+    - explain what depression is
+    - characteristics of depression
+
+- intent: symptoms_of_depression
+  examples: |
+    - what are symptoms of depression ? 
+    - depression symptoms 
+    - signs of depression. 
+    - depression indications 
+    - early symptoms of depression.
+    - I'm experiencing depression
+    - some symptoms of depression.
+    - list some of the common symptoms 
+    - Did you have any of these symptoms ?
+    - What signs of depression are there? 
+    - how to identify that i am depressed ?
+    - preliminary signs of depression 
+    - Could you describe the typical symptoms of depression?
+    - What are the common indicators of depression?
+    - provide a list of early symptoms of depression?
+    - symptoms that may be present during depression
+    - Could you describe the typical symptoms
+    - common indicators of depression
+    - what are common symptoms of depression ?
+    - How can I tell if I'm experiencing depression?
+    - What are some typical signs of depression? 
+    - What are some early warning signs of depression?
+    - Could you list some of the common symptoms
+    - key signs of depression
+    - give more information on symptoms of depression
+    - I'd like to know more about symptoms of depression  
+    - Could you provide more detail about symptoms of depression?
+    - explain what the symptoms of depression are 
+    - early warning signs of depression?
+    - describe the typical symptoms of depression?
+
+- intent: type_of_depression
+  examples: |
+    - what are types of depression ? 
+    - types of depression
+    - different types of depression.
+    - depression types 
+    - various forms of depression. 
+    - How many types of depression is there?
+    - do we have type in depression ?
+    - common types of depresion.
+    - prevalent depressions 
+    - different types
+    - Explain different types of depression.
+    - describe the common types of depression?
+    - different kinds of depression 
+    - Describe different types of depression.
+    - How many types of depression are there?
+    - most prevalent forms of depression
+    - list the different types of depression?
+    - different categories of depression
+    - Explain various forms of depression
+    - Are there different kinds of depression?
+    - Could you provide a list of the various types of depression?
+    - various types of depression
+    - Could you list the different types of depression?
+    - different kinds of depression
+    - What are the most prevalent forms of depression?
+    - prevalent forms of depression
+    - What are the different categories of depression?
+    - various forms of depression
+    - Can you describe the common types of depression?
+    - types of depression
+
+- intent: treatment_for_depression
+  examples: |
+    - how is depression treated ? 
+    - treatment for depression.
+    - can depression be treated ? 
+    - how to treat depression ?
+    - depresion treatments.
+    - depression therapy. 
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - different treatment options?
+    - how to treat depression ?
+    - treatment options ?
+    - treatment options for depression
+    - tdepression strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are depression diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are depression identified? 
+    - Can it be identified? 
+    - how to identify depression?
+    - how to recognize depression?
+    - How are depression recognised? 
+    - how is depression treated ? 
+    - treatment for depression
+    - common treatment options for depression?
+    - treatment methods.
+
+
+- intent: women_are_more_prone
+  examples: |
+    - depression in women. 
+    - are women more likely to get depressed? 
+    - explain depression in women
+    - Why do women have a higher risk of depression? 
+    - Are females more prone to depression? 
+    - Why are women more likely to get depression?
+    - why depression is more common in women 
+    - risk of depression in women
+    - Why do women experience depression more frequently? 
+    - is depression more common in women than in men ?
+    - provide some insights on depression in women
+    - discuss the risk of developing depression in women
+    - Are women more likely than males to experience depression? 
+    - why women are more prone to depression than man ?
+    - Depression is more likely to affect women. 
+    - impact of depression in females
+    - depression in females.
+    - why women are more prone to depression. 
+    - Do women have a higher risk of depression? 
+    - depression in men vs women. 
+    - tell me about depression in women
+    - describe depression in women 
+    - prevalence of depression among women compared to men?
+    - provide some information on the increased risk of depression in women?
+    - Could you explain the reasons why women may be more prone to depression
+    - factors that contribute to the incidence of depression in women?
+    - gender-based difference in the prevalence of depression
+    - Can you discuss the risk of developing depression in women?
+    - How does the females impact the incidence of depression?
+    - provide some insights on why women may be more prone to depression 
+  
+- intent: repetition
+  examples: |
+    - will my depression repeat ? 
+    - Will my depressive episode recur? 
+    - will i again suffer from depression ? 
+    - Will I experience depression once more? 
+    - - Will I get it once more? 
+    - can depression come agian ?
+    - Is it common for depression to repeat itself?
+    - risks of my depression returning
+    - is depression will repeat
+    - will i suffer from depression again?
+    - chances of returning depression 
+    - Can depression return once more? 
+    - can depression be repeated ? 
+    - will i have it again ?
+    - What are the risks of my depression returning?
+    - Will someone who has had depression get it again?
+    - Will someone who has had depression relapse? 
+    - Will I have to deal with depression again
+    - chances of reoccuring of depression ?
+    - Could I experience another episode of depression
+    - risks of depression returning? 
+    - Is there a chance that my depression will come back?
+    - Is it possible for me to experience another episode of depression?
+    - Could I face the risk of my depression returning?
+    - Is there a likelihood that I may suffer from depression again?
+    - How common is it for people who have had depression to experience a recurrence?
+    - Is there a possibility that I could have to deal with depression once more?
+    - What are the chances of my depression returning?
+    - Could I be at risk for experiencing another episode of depression?
+    - Is it possible for me to suffer from depression again?
+    - How likely is it that my depression will come back?
+    - will i suffer from it again ?
+
+
+- intent: adults
+  examples: |
+    - depression in adults.
+    - can aged people be depressed ?
+    - depression in old age. 
+    - depression in later life. 
+    - rates of depression in adults
+    - adult depression
+    - depression in senior citizens. 
+    - depression in old people.
+    - Can seniors experience depression? 
+    - chances of an adult experiencing depression
+    - what the likelihood of adult depression is 
+    - What are the rates of depression in adults?
+    - can adults be affected by depression
+    - what are chances of depression in adults. 
+    - prevalence of depression in later life
+    - rates of depression in seniors
+    - What are the chances of an adult experiencing depression?
+    - Can older adults be affected by depression?"
+    - What is the prevalence of depression in later life?"
+    - Can senior citizens experience depression?"
+    - Is depression common among older adults?"
+    - What are the rates of depression in seniors?"
+    - Are adults at risk for developing depression?
+    - Is depression a common issue for adults?
+    - Do older adults often struggle with depression?
+    - Is it possible for adults to experience depression?
+    - Is depression prevalent in the adult population?
+    - Do seniors face a higher risk of depression?
+    - Is it common for older adults to experience depression?
+    - How frequently do adults experience depression?
+    - Can older people experience depression?"
+    - What is the likelihood of an adult experiencing depression?"
+    
+  
+
+- intent: test
+  examples: |
+    - Am i depressed ?
+    - Is it possible that I'm depressed? 
+    - am i suffering from depression ?
+    - Do I have depression now? 
+    - Do you think I'm depressed? 
+    - Do I show signs of depression?
+    - Could I be experiencing depression?
+    - Do I have depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
+    - I might be suffering from depression. What do you think?
+    - Do you think im facing depressed?
+    - Do I exhibit symptoms of depression?
+    - Could I be dealing with depression?
+    - Do I currently have depression?
+    - Do you think I'm experiencing depression?
+    - Could I be experiencing depression?
+    - Do I currently have depression?
+    - Is it possible that I am currently experiencing depression?
+    - Could I be suffering from depression?
+    - Do my symptoms indicate that I may have depression?
+    - Do you think I am showing signs of depression?
+    - Is it possible that I am struggling with depression?
+    - Do you think I may be experiencing depression?
+    - Could I be experiencing the symptoms of depression?
+    - Do you think I may be dealing with depression?
+    - Is it possible that I am currently experiencing depression?
+    - Do my symptoms suggest that I may be suffering from depression?
+    - Do you think I may be showing signs of depression?
+    - Is it possible that I am currently struggling with depression?
+    - Do you think I may be experiencing the symptoms of depression?
+    - Could I be dealing with depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
+
+- intent: causes_depression
+  examples: |
+    - what causes depression ?
+    - causes of depression ?
+    - Why does depression occur? 
+    - why depression happens ?
+    - Why do people get depressed? 
+    - What causes depression? 
+    - reasons for depression
+    - Why does depression occur? 
+    - why am i depressed ? 
+    - Why am I feeling down? 
+    - What causes depression in people? 
+    - typical reasons for depression 
+    - the causes of depression 
+    - common causes of depression.
+    - What are the common causes of depression?
+    - What factors contribute to the development of depression?
+    - Why do some people experience depression?
+    - explain the reasons why people get depressed?
+    - What causes depression in individuals?
+    - factors contribute to the occurence of depression?
+    - typical reasons for depression?
+    - Why do I feel down? Could it be due to depression?
+    - possible causes of my depression?
+    - What are the potential causes of depression?
+    - What might be the underlying causes of depression?
+    - What are some of the common reasons that people experience depression?
+    - provide an overview of the causes of depression?
+    - I'm curious about the common causes of depression. Could you provide more information?
+    - reasons why people get depressed?
+    - overview of the causes of depression
+    - factors contribute to the development of depression?
+
+
+
