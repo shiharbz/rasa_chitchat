@@ -236,7 +236,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-     - very well
+    - very well
     - very then
     - very nice
     - very good
@@ -393,8 +393,7 @@ nlu:
     - extremly sad
 
 - intent: happy_emotion
-  examples: |
-    
+  examples: | 
     - are you happy
     - you are happy
     - you're very happy
@@ -429,7 +428,6 @@ nlu:
 
 - intent: smalltalk_user_excited
   examples: |
-  
     - I am excited
     - I'm really excited
     - how excited I am
@@ -495,7 +493,6 @@ nlu:
 
 - intent: smalltalk_user_angry
   examples: |
-  
     - I'm being mad
     - I'm enraged
     - I'm angry
@@ -561,7 +558,6 @@ nlu:
 
 - intent: funny
   examples: |
-
     - you're the funniest bot I've talked to
     - you're the funniest
     - you're so funny
@@ -679,7 +675,6 @@ nlu:
 
 - intent: forget  
   examples: |
-    - Sometimes I even forget that I'm alive because all I do just sleep.
     - nothing just forget it
     - nevermind forget about it
     - just forget it
@@ -755,7 +750,6 @@ nlu:
     - are you nuts
     - are you mad or what
     - are you mad
-    - are you just a bot
     - are you insane
     - are you crazy
 
@@ -1632,7 +1626,7 @@ nlu:
     - provide a brief explanation of sleeping disorders
     - give more information on sleeping disorders
     - I'd like to know more about sleep disorders
-    - Can you provide more detail?
+    - Can you provide more detail causing ?
     
 
 - intent: treatment_options
@@ -1646,9 +1640,7 @@ nlu:
     - is it possible to get over it ?
     - can it be treated ?
     - treatment methods ?
-    - explain the treatment options
     - How are sleeping disorders diagnosed?
-    - tell me about the treatment options
     - can it be diagnosed ?
     - suggest treatment options
     - How are sleeping problems identified? 
@@ -1656,17 +1648,14 @@ nlu:
     - how to identify sleeping issues?
     - how to recognize sleeping issues?
     - How are sleeping issues recognised? 
-    - how is depression treated ? 
     - treatment for sleeping issues.
     - common treatment options for sleep disorders?
     - What are the treatment options for sleep disorders?
     - can sleeping issues be treated ? 
     - how to treat sleeping issues ?
     - sleeping disorder treatments.
-    - treatment includes ?
     - is it possible to get over it ?
     - can it be treated ?
-    - treatment methods.
     - different treatment options
     
 - intent: lonely
@@ -1847,27 +1836,17 @@ nlu:
     - depresion treatments.
     - depression therapy. 
     - treatment includes ?
-    - is it possible to get over it ?
-    - can it be treated ?
-    - different treatment options?
+    - different treatment for depression?
     - how to treat depression ?
-    - treatment options ?
     - treatment options for depression
     - tdepression strategies. 
-    - is it possible to get over it ?
-    - can it be treated ?
-    - treatment methods ?
     - explain the treatment options
     - How are depression diagnosed?
     - tell me about the treatment options
-    - can it be diagnosed ?
-    - suggest treatment options
     - How are depression identified? 
-    - Can it be identified? 
     - how to identify depression?
     - how to recognize depression?
     - How are depression recognised? 
-    - how is depression treated ? 
     - treatment for depression
     - common treatment options for depression?
     - treatment methods.
