@@ -641,279 +641,1414 @@ nlu:
 
 - intent: boring
   examples: |
-   - you're so boring
-   - you're really boring
-   - you're incredibly boring
-   - you are very boring
-   - you are boring me
-   - you are boring
-   - very boring
-   - this is boring
-   - how boring you are
-   - boring
-   - bored
-   - that was boring
-   - it bores me
-   - I'm bored
-   - I am getting bored
-   - You're so dull.
-   - You're so monotonous.
-   - You're so uninteresting.
-   - You're really dull.
-   - You are so monotonous.
-   - You're just unbelievably dull.
-   - You're so unbearably boring.
-   - You're very dull.
-   - You are quite dull
-   - You are monotonous
-   - You are tedious
-   - very dull
-   - This is tedious.
-   - how dull you are
-   - how uninteresting you are
-   - how monotonous you are
-   - That was tedious.
-   - I'm becoming bored.
-   - I'm getting bored.
-   - I'm getting tired of it.
+    - you're so boring
+    - you're really boring
+    - you're incredibly boring
+    - you are very boring
+    - you are boring me
+    - you are boring
+    - very boring
+    - this is boring
+    - how boring you are
+    - boring
+    - bored
+    - that was boring
+    - it bores me
+    - I'm bored
+    - I am getting bored
+    - You're so dull.
+    - You're so monotonous.
+    - You're so uninteresting.
+    - You're really dull.
+    - You are so monotonous.
+    - You're just unbelievably dull.
+    - You're so unbearably boring.
+    - You're very dull.
+    - You are quite dull
+    - You are monotonous
+    - You are tedious
+    - very dull
+    - This is tedious.
+    - how dull you are
+    - how uninteresting you are
+    - how monotonous you are
+    - That was tedious.
+    - I'm becoming bored.
+    - I'm getting bored.
+    - I'm getting tired of it.
 
 - intent: forget  
   examples: |
-   - Sometimes I even forget that I'm alive because all I do just sleep.
-   - nothing just forget it
-   - nevermind forget about it
-   - just forget it
-   - just forget about it
-   - just forget
-   - i said forget it
-   - forget this
-   - forget that
-   - forget it nevermind
-   - forget about that
-   - forget about it
-   - forget
-   - I sometimes forget I'm alive since all I do is sleep.
-   - I sometimes forget that I'm alive since all I do is sleep.
-   - I often forget I'm alive since all I do is sleep.
-   - Nothing, just forget about it.
-   - Never mind, disregard it.
-   - forget it
-   - Simply disregard it.
-   - Just disregard it
-   - simply forget
-   - merely forget
-   - forget about
-   - I advised you to disregard it.
-   - I advised putting it out of your mind.
-   - I advised forgetting about it.
-   - Skip over this
-   - Nevermind that
-   - Forget it, forget it
-   - Nevermind, set it aside
+    - Sometimes I even forget that I'm alive because all I do just sleep.
+    - nothing just forget it
+    - nevermind forget about it
+    - just forget it
+    - just forget about it
+    - just forget
+    - i said forget it
+    - forget this
+    - forget that
+    - forget it nevermind
+    - forget about that
+    - forget about it
+    - forget
+    - I sometimes forget I'm alive since all I do is sleep.
+    - I sometimes forget that I'm alive since all I do is sleep.
+    - I often forget I'm alive since all I do is sleep.
+    - Nothing, just forget about it.
+    - Never mind, disregard it.
+    - forget it
+    - Simply disregard it.
+    - Just disregard it
+    - simply forget
+    - merely forget
+    - forget about
+    - I advised you to disregard it.
+    - I advised putting it out of your mind.
+    - I advised forgetting about it.
+    - Skip over this
+    - Nevermind that
+    - Forget it, forget it
+    - Nevermind, set it aside
 
 
 - intent: bot_bad
   examples: |
-   - you're worthless
-   - you're very bad
-   - you're the worst ever
-   - you're the worst
-   - you're terrible
-   - you're so out of your mind
-   - you're so crazy
-   - you're really bad
-   - you're out of your mind
-   - you're not wrong
-   - you're not very good
-   - you're not helping me
-   - you're not a good
-   - you're bad
-   - you're awful
-   - you're a bad
-   - you went crazy
-   - you are waste
-   - you are very bad
-   - you are useless
-   - you are totally useless
-   - you are terrible
-   - you are so useless
-   - you are so bad
-   - you are not good
-   - you are not cool
-   - you are no good
-   - you are mad
-   - you are lame
-   - you are insane
-   - you are horrible
-   - you are disgusting
-   - you are crazy
-   - you are bad
-   - you are a weirdo
-   - you are a waste of time
-   - I think you're crazy
-   - how crazy you are
-   - are you nuts
-   - are you mad or what
-   - are you mad
-   - are you just a bot
-   - are you insane
-   - are you crazy
+    - you're worthless
+    - you're very bad
+    - you're the worst ever
+    - you're the worst
+    - you're terrible
+    - you're so out of your mind
+    - you're so crazy
+    - you're really bad
+    - you're out of your mind
+    - you're not wrong
+    - you're not very good
+    - you're not helping me
+    - you're not a good
+    - you're bad
+    - you're awful
+    - you're a bad
+    - you went crazy
+    - you are waste
+    - you are very bad
+    - you are useless
+    - you are totally useless
+    - you are terrible
+    - you are so useless
+    - you are so bad
+    - you are not good
+    - you are not cool
+    - you are no good
+    - you are mad
+    - you are lame
+    - you are insane
+    - you are horrible
+    - you are disgusting
+    - you are crazy
+    - you are bad
+    - you are a weirdo
+    - you are a waste of time
+    - I think you're crazy
+    - how crazy you are
+    - are you nuts
+    - are you mad or what
+    - are you mad
+    - are you just a bot
+    - are you insane
+    - are you crazy
 
 - intent: bot_busy
   examples: |
-   - you're very busy
-   - you're a busy person
-   - you seem to be very busy
-   - you seem to be busy
-   - you are busy
-   - have you got much to do
-   - have you been busy
-   - do you have a lot of things to do
-   - are you working today
-   - are you working now
-   - are you working
-   - are you very busy right now
-   - are you very busy
-   - are you still working on it
-   - are you still working
-   - are you so busy
-   - are you busy
-   - You're highly occupied.
-   - You're incredibly busy.
-   - You're quite busy.
-   - You lead a hectic life.
-   - You're always busy.
-   - Your schedule is hectic.
-   - You appear to be quite active.
-   - I notice you're really busy
-   - You appear preoccupied.
-   - You appear to be busy
-   - You're occupied.
-   - Are you currently really busy?
-   - Are you still employed?
-   - Do you have a lot on your plate?
-
+    - you're very busy
+    - you're a busy person
+    - you seem to be very busy
+    - you seem to be busy
+    - you are busy
+    - have you got much to do
+    - have you been busy
+    - do you have a lot of things to do
+    - are you working today
+    - are you working now
+    - are you working
+    - are you very busy right now
+    - are you very busy
+    - are you still working on it
+    - are you still working
+    - are you so busy
+    - are you busy
+    - You're highly occupied.
+    - You're incredibly busy.
+    - You're quite busy.
+    - You lead a hectic life.
+    - You're always busy.
+    - Your schedule is hectic.
+    - You appear to be quite active.
+    - I notice you're really busy
+    - You appear preoccupied.
+    - You appear to be busy
+    - You're occupied.
+    - Are you currently really busy?
+    - Are you still employed?
+    - Do you have a lot on your plate?
 
 - intent: bot_appreciation
   examples: |
-  - you're very special to me
-  - you're very special
-  - you're special
-  - you're so special to me
-  - you're so special
-  - you're so kind
-  - you're pretty
-  - you're perfect
-  - you're looking good today
-  - you're just super
-  - you're great
-  - you're funny I like you
-  - you're cute
-  - you're awesome I like you
-  - you're attractive
-  - you're a true professional
-  - you work well
-  - you work very well
-  - you rock
-  - you make my day
-  - you made my day
-  - you made me feel good
-  - you made me feel better
-  - you look wonderful today
-  - you look so well
-  - you look so beautiful today
-  - you look so beautiful
-  - you look pretty good
-  - you look great
-  - you look gorgeous
-  - you look fantastic
-  - you look awesome
-  - you look amazing today
-  - you know I love you
-  - you know I like you
-  - you are wonderful
-  - you are very special to me
-  - you are very special
-  - you are very pretty
-  - you are very lovely
-  - you are very kind
-  - you are very helpful
-  - you are very good at it
-  - you are very cute
-  - you are very cool
-  - you are very attractive
+   - you're very special to me
+   - you're very special
+   - you're special
+   - you're so special to me
+   - you're so special
+   - you're so kind
+   - you're pretty
+   - you're perfect
+   - you're looking good today
+   - you're just super
+   - you're great
+   - you're funny I like you
+   - you're cute
+   - you're awesome I like you
+   - you're attractive
+   - you're a true professional
+   - you work well
+   - you work very well
+   - you rock
+   - you make my day
+   - you made my day
+   - you made me feel good
+   - you made me feel better
+   - you look wonderful today
+   - you look so well
+   - you look so beautiful today
+   - you look so beautiful
+   - you look pretty good
+   - you look great
+   - you look gorgeous
+   - you look fantastic
+   - you look awesome
+   - you look amazing today
+   - you know I love you
+   - you know I like you
+   - you are wonderful
+   - you are very special to me
+   - you are very special
+   - you are very pretty
+   - you are very lovely
+   - you are very kind
+   - you are very helpful
+   - you are very good at it
+   - you are very cute
+   - you are very cool
+   - you are very attractive
 
 
 - intent: my_friend
   examples: |
-  - you're my dear friend
-  - you're my childhood friend
-  - you are my only friend
-  - you are my good friend
-  - you are my friend
-  - you are my bestie
-  - you are my best wellwisher
-  - you are my best friend
-  - you are a good friend
-  - you and me are friends
-  - would you be my friend
-  - will you be my friend
-  - will you be my best friend
-  - we are the best friends ever
-  - we are friends
-  - we are best friends
-  - want to be my friend
-  - you are my best friend
-  - let's be friends
-  - I want you to be my friend
-  - I want to have a friend like you
-  - I want to be your friend
-  - I am your friend
-  - do you want to be my friend
-  - do you want to be my best friend
-  - can you be my friend
-  - can you be my best friend
-  - can we be friends
-  - can we be best friends
-  - be my friend
-  - be my best friend
-  - are you my friend
-  - are you my best friend
-  - are we still friends
-  - are we friends
-  - are we best friends
+    - you're my dear friend
+    - you're my childhood friend
+    - you are my only friend
+    - you are my good friend
+    - you are my friend
+    - you are my bestie
+    - you are my best wellwisher
+    - you are my best friend
+    - you are a good friend
+    - you and me are friends
+    - would you be my friend
+    - will you be my friend
+    - will you be my best friend
+    - we are the best friends ever
+    - we are friends
+    - we are best friends
+    - want to be my friend
+    - you are my best friend
+    - let's be friends
+    - I want you to be my friend
+    - I want to have a friend like you
+    - I want to be your friend
+    - I am your friend
+    - do you want to be my friend
+    - do you want to be my best friend
+    - can you be my friend
+    - can you be my best friend
+    - can we be friends
+    - can we be best friends
+    - be my friend
+    - be my best friend
+    - are you my friend
+    - are you my best friend
+    - are we still friends
+    - are we friends
+    - are we best friends
 
   
 - intent: empty
   examples: |
-  - where is the love
-  - Whenever it's late at night and I'm on the couch watching T.V., I feel alone and empty inside.
-  - Sometimes I even forget that I'm alive because all I do just sleep.
-  - Nothing really gives me joy
-  - My life just doesn't seem to get any better, anytime something good happens something terrible happens.
-  - I feel completely empty inside.
-  - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.
-  - I'm just so tired and I don't know what to do.
-  - I just feel emotionless a lot of the time.
-  - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.
-  - I have a good job, family but yet fill feel empty inside.
-  - I get numbness and it won't let me work or have fun, just constantly staring into nothing.
-  - I feel like a fucking alien without and heart and soul because everyone was so different to me.
-  - I feel like a broken person and all the therapist, and all the psychologist were no help.
-  - I don't get joy by doing anything.
-  - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.
-  - I am moving out of my parent's home for the first time, and I feel completely empty.
-  - I am crying constantly and nothing motivates me to do anything, I have no energy.
-  - I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?
-  - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.
-  - Everyday I just feel super lonely and empty, and I have slept well in such a long time.
-  - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.
-  - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.
-  - Where has the love gone?
-  - When it's late at night and I'm sitting on the couch watching TV, I feel alone and empty on the inside.
-  - Nothing truly brings me joy.
-  - I'm entirely empty on the inside.
-  - A lot of the time, I simply feel emotionless.
-  - I don't find delight in anything.
-  - Nothing makes me happy.
-  - I'm becoming numb and careless.
+    - where is the love
+    - Whenever it's late at night and I'm on the couch watching T.V., I feel alone and empty inside.
+    - Sometimes I even forget that I'm alive because all I do just sleep.
+    - Nothing really gives me joy
+    - My life just doesn't seem to get any better, anytime something good happens something terrible happens.
+    - I feel completely empty inside.
+    - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.
+    - I'm just so tired and I don't know what to do.
+    - I just feel emotionless a lot of the time.
+    - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.
+    - I have a good job, family but yet fill feel empty inside.
+    - I get numbness and it won't let me work or have fun, just constantly staring into nothing.
+    - I feel like a fucking alien without and heart and soul because everyone was so different to me.
+    - I feel like a broken person and all the therapist, and all the psychologist were no help.
+    - I don't get joy by doing anything.
+    - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.
+    - I am moving out of my parent's home for the first time, and I feel completely empty.
+    - I am crying constantly and nothing motivates me to do anything, I have no energy.
+    - I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?
+    - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.
+    - Everyday I just feel super lonely and empty, and I have slept well in such a long time.
+    - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.
+    - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.
+    - Where has the love gone?
+    - When it's late at night and I'm sitting on the couch watching TV, I feel alone and empty on the inside.
+    - Nothing truly brings me joy.
+    - I'm entirely empty on the inside.
+    - A lot of the time, I simply feel emotionless.
+    - I don't find delight in anything.
+    - Nothing makes me happy.
+    - I'm becoming numb and careless.
+
+
+- intent: nostalgic
+  examples: |
+    - You know how FB will show you memories from years ago? It's showed me a few that made me think of my pets who have passed and how much I miss times with them.
+    - when I was a teenager my mother always tried to get me to be ready for being sexually active, and I knew what to do and where to go to get birth control.
+    - When I came across my parents old wedding rings.
+    - when i came across my parents old wedding rings
+    - when i came across an old letter from high school
+    - Went to the beach the other day and remember how much my friend liked going together.
+    - watching an old tv show
+    - This time of year always makes me reminiscence.
+    - The last time we went on vacation, I brought more than enough stuff for everyone.
+    - The first time someone gave me flowers made me feel so special.
+    - sometimes i miss the old days when there was no social media
+    - Romance movies bring me back to my youthful days.
+    - Our dining room table is beat up but it belonged to my grandma.
+    - Orlando trip
+    - Old pokemon games make me nostalgic and emotional for some odd reason, they were a big part of my childhood
+    - nothing like visiting a place you used to live
+    - My son is getting ready to start college this fall and it's really bringing back a lot of memories of my college days.
+    - My niece is getting old enough to read the books I read as a kid.
+    - My mom used to make me fried rice all the time, when I was little.
+    - My mom gave me a box of old toys I used when I was a kid.
+    - My keep my dads necklace close to me as much as possible.
+    - My grandfather gave me a pocket watch he has had for years
+    - My first day of work begins on Monday and I feel like I am ready.
+    - Looking through my picture albums really makes me relive so many memories.
+    - Looking in my yearbook and seen a lot of people that passed away
+    - Looking back to the useless deadbeat I was back then...I'm really glad I've decided to man up and make something of myself
+    - looking at old baby items
+    - It makes me feel great to drive my old truck.
+    - In the winter months its hard to stay ready for emergency needs in storms.
+    - in my school days
+    - I'be been thinking a lot about my childhood lately, sort or reminiscing.
+
+
+- intent: apprehensive
+  examples: |
+    - with all the crime that has increased in my area, i decided to get myself a new shotgun
+    - Who knows what the future hold? All is in Gods hands! Take no thought about the morrow
+    - When waiting for my final grades before college graduation.
+    - When selling my house and the buyer wanted to move in prior to closing date.
+    - when my girlfriend got sick
+    - When my friend got into a car accident
+    - when my daughter wanted to get dropped off at the movies
+    - When I was at the pool and some guy came in wearing all dark clothing and a bookbag.
+    - When I was at college, some tenagers were extorting money from me.
+    - When I used to be prescribed on Adderall and the dosage was too high I would get jumpy and paranoid.
+    - when i forgot my wallet!
+    - When I first started working out, I was very nervous and apprehensive while lifting weights.
+    - We're going roller coaster riding this weekend
+    - We keep getting these flood warnings, but they never happen when we're told it will.
+    - We just bought a used car and we've already had to take it to the shop
+    - was late to an appointment recently because I got stuck in a traffic jam
+    - This guy on the phone kept asking for info and i was worried it was a scam 
+    - This guy called from the phone company asking for very personal info
+    - this car nearly hit me head on while driving down the freeway at a medium speed
+    - There's this guy that keeps wondering around my home the same time each day.
+    - There was a traffic jam because people were slowing to look at a wreck on the other side of the highway.
+    - There was a time when my family got lost in the middle of nowhere at night.
+    - The person taking my information at the Registry was very slow and they misspelled my name twice
+    - The other week my one year old daughter almost fell in the pool
+    - The first thing that popped into my head was fear and worry 'I'll be all alone, I won't have fun, I will be an outcast' etc.
+    - The feeling I had the day before my final exam
+    - the amount of deaths in mexico is shocking
+    - taking a new cbd oil
+    - son preparing to leave for college
+    - son applying to colleges
+    - Sometimes I'm afraid to ride the city bus because you never know what kind of drama will unfold.
+    - someone tried to take my phone today
+    - Someone ran over my dog and then ran away
+    - Someone offered me a job online to make a lot of money.
+    - Someone keyed my car at work today! Injust got the car last week!
+    - Someone keyed my brand new car.
+    - Someone cut me off on the road and almost caused me to wreck.
+    - Someone cut me off in trafic a few days ago.
+    - someone cut me off in traffic today
+    - Someone cut me off in traffic this morning.
+    - Someone cut me off in traffic the other day.
+    - someone almost hit me with their car today
+    - Someone almost crashed into me
+    - Some people egged my house.
+    - Some guy cut me off in traffic and caused me to swerve to the ramp.
+    - seeing a little kid crying at the store i decided to ask what was wrong
+    - seeing a kid cry in a store
+    - One time my girlfriend hid around the corner and jumped out at me.
+    - my wife keeps giving our son a stick and he keeps hurting himslef.
+    - My son crashed my car.
+    - my sister gave me $400 once but she's always broke
+    - My pet bird is always making noise.
+    - My new job promised a raise at the end of 90 days, but I still haven't heard anything.
+    - my neighbor dog keeps barking for no reason
+    - My moms full coverage insurance won't pay for ANY dental workSo she has had to save $500 per tooth to get them pulled and it's over $800 for each NEW tooth.
+    - MY kids never go to bed at a decent time.
+    - My kids are driving me nuts! I can't wait for back to school time!
+    - My husband says he stopped drinking but I'm reluctant to believe him
+    - My friends tried to convince me to jump into the lake.
+
+- intent: guilty
+  examples: |
+    - Yesterday was my sister's birthday and I totally forgot to call her until today.
+    - When i was a kid i threw a rock at a glass door and it broke but i blamed it on my brother.
+    - When I used to have a six pack I felt like I betrayed myself everytime I would eat anything with a milligram of sugar....now I just don't care
+    - when i mistakenly hit someone into the gutter with a car that caused him to miss his interview
+    - when i lost my temper with my dad
+    - when i lost my temper due to just having stress in my life.
+    - when i lied to a friend
+    - when I got upset with my daughter for something silly
+    - when i go past 2 cheat days
+    - When I broke my mothers favorite glass while playing.
+    - when i bought myself a new phone and not my wife
+    - Went to the bar and forgot to tip the waitress
+    - Went to the bar and forgot tip
+    - We had some birthday cake from my husband's party this past weekend in the fridge, and I ate the last piece because I was craving chocolate like crazy! I feel so bad now.
+    - There's no reason for loving me, I'm ruining their lives.
+    - stepfather in hospital and I didn't call
+    - Sometimes in college I used to drink too much and made bad choices which led to regret.
+    - Sometimes I feel bad for other students as they cannot afford college while my parents are paying my tuition in full.
+    - Someone gave my husband and I tickets to a concert and we can't wait to go, but my sister really loves the band we're seeing so I feel bad going too.
+    - once I drank alcohol even though I promised my wife I wouldnt.
+    - My wife was sleeping and i ate her leftovers
+    - My wife asked me to clean the house while she was away for a few days and I ended up wasting my time playing video games instead.
+    - My kids were being bad and I yelled at them.
+    - My husband was asleep and i ate his leftovers
+    - My daughter got a birthday card full of money this week and I took the cash before she could see it.
+    - My cat room needs to be painted so bad! I feel bad that I haven't done it in months
+    - Last week I stole a donut from my boyfriend's desk
+    - It was christmas time and i did not give anythign to those salvation army bell ringers
+    - I yelled at my toddler.
+    - I wish I never lied to my dad.
+    - I wish I didn't cheat on my girlfriend.
+    - I went into my cousins kitchen and drank all his beer.
+    - I was really hungry today and ate my roomates' leftovers.
+    - I was in the break room and took two donuts when i was only allowed one
+    - I was given something for free that I didn't pay for
+    - I was at work and when I went to the bathroom, it got really busy and my coworker go overloaded! I feel really bad
+    - i was accused and sentenced for a crime ,though it was a set up
+    - I wanted to be alone today so I lied to my friend about being too busy to hang out.
+    - I walked out of a store without paying for an item and couldn't be bothered to go back in to return it.
+    - I used the last of the milk and didn't replace it.
+    - i use to steal my moms money when i was younger
+    - I took the money that my parents have been looking for, I feel bad
+    - I took the last piece of chicken at dinner, I shouldn't of.
+    - I took some of my friends food the other day and felt bad.
+    - I took my bosses car for a drive last night.
+    - I took $5 out of my 5 year old's birthday stash yesterday.
+    - I stole the last of my roommate's pizza when I was drunk, and feel bad about it.
+    - I stole some shrimp from my friend and i feel bad.
+    - i stole some money from my parents when i was a kid
+    - I stole my brothers copy of Purple Rain.
+    - I stole money from my friend.
+    - I stole money from my daughters piggy bank
+    - I stole a bag of chips from church
+    - I snapped and lost my temper at my husband, and I felt really bad about it.
+    - I showed some photos my girlfriend sent me to a friend when they were supposed to be private
+    - I secretly ate the rest of my roommate's chips and feel a bit bad about it.
+    - I sacked a girl for the wrong reasons
+    - I remembered when I stole money from my mum, so I felt so bad
+    - I recall a time when I had to go to my cousin's birthday part, and I overslept! I felt really guilty about that.
+    - I ran into my neighbors mail box and didn't tell anyone.
+    - I ran into my husband's car but lied about it.
+    - I put way too much on my credit card.
+
+- intent: proud
+  examples: |
+    - you know what?I got promoted this time
+    - Yesterday at weekly meeting, my supervisor praised me for my good work on the project
+    - yes ,i am .very few students get  such chances
+    - Winning our sunday league football title when we were underdogs
+    - Why won't I feel good about my son's accomplishments?
+    - While I was sick last week, my kid did all the cooking and cleaning.
+    - when my son took his first steps the feeling was amazing
+    - when my son graduated school
+    - When my husband began fixing on my parents house and now we live in the house and are helping it to look better everyday.
+    - when my daughter walked for the first time
+    - When my brother graduated high school, I was very proud of him, it was a big accomplishment
+    - when i took down some really heavy furniture off the way  
+    - When I lost 20 pounds, I was very happy of my achievement.
+    - when I had my test to get a new certification at work, I felt great about it because I had workd really hard and studied.
+    - when i graduated because no one in my family did
+    - when i got the job i always wanted
+    - When I got the first place in a baking competition
+    - when i found out i passed my final exam
+    - when i benched 225 lb
+    - watching my son walk the stage
+    - watching my little brother walk the stage was an amazing moment.
+    - Was promoted at my place of work barely a month of joining the company
+    - today, i made a big discovery
+    - son graduated
+    - Sometimes I feel like a dad to my best friend.
+    - so proud of my son, he said his first works yesterday
+    - One time in welding school I got 2 of my teachers a gig with a major contractor on FT benning building ADA code railing for th new hospital and centers and stuff,
+    - Proud of myself for fixing my ac! 
+    - Nephew playing football this year!
+    - Nephew playing football this year
+    - Nephew caught a fish this weekend
+    - my wife starts her masters program this month
+    - My wife just got a new job she had really wanted and I am so happy for her.
+    - My son graduated from college
+    - My sons performance at the mathematics quiz competition gives me an assurance that all i spend in his education is not a waste afterall
+    - My son won his baseball game yesterday! He's going to the state championship!
+    - My son won first place at his first spelling bee.
+    - My son won a swim meet
+    - My son took his first steps.
+    - My son started walking the past couple of days.
+    - My son scored a goal in a football match
+    - my son pottyed for the first time
+    - My son pass his exams at school with good grade.
+    - My son just took his first steps and I am feeling this way.
+    - My son just started walking this week.
+    - My son just recently got accepted into college
+    - My son is swimming underwater at 2 years old, amazing!
+    - My son has been cleaning up after himself without being asked!
+    - My son graduated from high school and is starting college for engineering next week.
+    - My son got straight A's in his summer class and it makes me happy.
+    - My son came first in the swimming gala.
+    - My son came first in his English class
+    - My son came first in her class and was placed on the honor roll
+    - My sister finally graduated college and I'm so happy for her! She switched majors several times so it's been a long journey
+    - My oldest son got the A honor roll last year and I was super proud.
+    - My oldest daughter was in her school's running club, and nothing beat the feeling of watching her win her first race.
+    - My oldest daughter has turned out to be a great preschool teacher!
+    - My niece just learned how to ride a bike! I loved watching her finally take off the training wheels!
+
+- intent: anxious
+  examples: |
+    - With President Trump threatening tariffs for importing foreign products, i am concerned that the prices will rise for everyday products
+    - when taking a test
+    - When my kids are too quiet.
+    - When my kid didn't get off of the bus yesterday
+    - when im with my friends and they are texting and driving
+    - when im stuck in high traffic my anxiety goes through the roof
+    - when i was waiting on my baby to be born
+    - When I order something online, I am so impatient to receive it
+    - when i don't know if i have a busy day coming up the next day the unknown drives me crazy
+    - We're refinancing student loans, buying a house, and my wife is getting a new job.
+    - We have to fly across the country this coming weekend and I hate flying so much! I feel dizzy just thinking about it.
+    - waiting for my new car to arrive
+    - waiting for my favorite video game to come out
+    - Uni is starting up soon and im nervous
+    - Tomorrow is the first day I start a new job and career.
+    -  Tomorrow I start my new job.
+    - to start my new job
+    - This bird chased my cat on our walk.
+    - There was a wasp in my room when I woke up
+    - There was a wasp in my room this mornnig
+    - There was a wasp in my room this morning when I got up
+    - There was a wasp in my room this morning
+    - There was a wasp in my rom when I woke up thsi morning
+    - The year was 2016, and I was severely worried that Hilary might win the presidency
+    - The result of my final college exams was to be published the next day,I could hardly sleep due to expectations
+    - the new madden came out today, i was so amped for it
+    - The first day I went to the gym after years of being out , I was so anxious I was going to look stupid.
+    - The first day I started working out I was anxious about looking silly at the gym.
+    - The day before my dissertation was due
+    - that dang storm last week upset me
+    - Tehre was a wasp in my room this morning
+    - taking kid to first day of school
+    - so many emotions i feel distressed
+    - So hard seeing homeless people around
+    - seeing my son grow up so fast isnt easy
+    - School starts back next week, and I think I have everything I need ready.
+    - Rollercoasters next weekend
+    - Roller coasters this weekend
+    - Roller coaster riding tomorrow
+    - Roller coaster riding this weekend
+    - Right now in my life, I feel like I don't have a clear destination, nor do I have a stable position to start from.
+    - Riding rollercoasters this weekend
+    - On my first crazy roller coaster.
+    - my wife is going overseas with our baby, i'm so freaking nervous
+    - My two youngest kids going to school for the first time tomorrow!
+    - My tooth is hurting me today.
+    - My sister left for college.
+    - my rent increased
+    - My mom took away my game system, and would not give it back ever again.
+    - My kids are doing everything but listening! 
+    - My girlfriend lost a lot of weight.
+    - My extreme social anxiety tends to make isolate myself, which only fuels my depression.
+    - My dog is sick so i took him to the vet now we are waiting for the results of his bloodwork
+    - My department is being closed.
+    - My brothers wife had our first girl into the family, the wait was intense
+    - my brothers house got broken into
+    - Meeting with my boss 
+    - Long car drive coming up
+    - Literally I had every single supply I needed for this road trip.
+
+
+- intent: user_hungry
+  examples: |
+    - I am very hungry
+    - I am so hungry
+    - I am super hungry
+    - I am extremely hungry
+    - I Would like to eat something
+    - I want to eat
+    - I want something to eat
+    - feeling hungry
+    - need something to munch
+    - needs to bite something
+    - I am starving
+    - I am really hungry now
+    - I am ready for a meal
+    - I am interested in eating new food varieties
+    - I am excited to order food now
+    - I am expecting a healthy meal
+    - really hungry
+    - am hungry
+    - ready for a meal
+    - craving for fast food
+    - choosing for healthy food
+    - need to eat now
+    - excited for chicken
+    - I want some food
+    - I need food
+    - I am craving
+    - I am starving
+    - starving
+    - craving for food
+    - i am empty stomach
+    - i am unenthusiastic due to lack of food
+    - i am hungry and thirsty
+    - desirous of food
+    - i have strong appetite
+    - i want to munch something
+    - i have a strong desire for food
+    - i am peckish
+    - i want tasty food
+    - delicious meal
+    - the dinner is uperb
+    - the supper is awesome
+    - i want a healthy breakfast
+    - i am somewhat hungry
+    - underfed
+    - i am half starved
+    
+
+- intent: unexpected
+  examples: |
+    - i am surprised to meet you
+    - surprise meeting of my friends
+    - I was surprised by my colleages
+    - i love giving surprise to my dear ones
+    - i am surprised by my spouse cooking
+    - i got birthday surprise from my kids
+    - we went for a surprise visit for our friends home
+    - that moment of surprise was awesome
+    - i trust strangers quickly
+    - i love giving surprise to my friends
+    - are you clever enough to surprise others?
+    - i want to give surprise gift to my children
+    - I had a surprise party at my home as well as my office
+    - I got a birthday card in my mail unexpectedly from my friends
+    - I got a salary hike which is quite unexpected
+    - being faithful to others is really hard to accomplish
+    - i got a surprise invitation for the five star party
+    - i was really shocked to see my school friend near my seay in my last flight
+    - i am good at giving surprises to my daer ones
+    - i actually ordered one pizza, but i got one more as a complimentory
+    - it was a surprise to see my dear teacher at the confeerence
+    - this is an astonishing event
+    - the unexpected gift you gave me was a jaw dropper
+    - i was shocked
+    - i was startled by the dance party
+    - i was amazed by the theme of the show
+    - the revelation of truth was surpirsing
+    - amazing way of studying
+    - i was very surprised by my moms reaction
+    - i want to surprise my parents
+    - my sister gave me a surprise
+    - my brother gave me a surprise
+    - my cousins thrown a huge surprise party
+    - i was stunned by the surprises
+    - my husband gave me a surprise dinner 
+    - i have arranged a surprise anniversary party
+
+
+- intent: trustworthy
+  examples: |
+    - I believe in hardwork
+    - if we do our work with passion, we will definitely win
+    - true friend does not deceive
+    - i have confidence in my exam results
+    - i love being surrounded by dear ones
+    - I have many problems with my friend and we convince each other in faithfulness
+    - completely believe in one day when all my dreams comes true
+    - i have been with my boyfriend for 8 years and still be faithful
+    - positive attitude will direct you to success
+    - i do my prayers every single day
+    - we have our breakfast from same restaurant for the past couple of years
+    - i hope my exams will be fine
+    - Hope you recover soon
+    - i believe in miracles 
+    - I will not lie to the cops
+    - i hope he is the best doctor you have ever met
+    - hopes to score really good in my semestere exams
+    - hopefully you will get a good career
+    - ater attending my interview very well, hopes to get my desired job offer
+    - looking forward a good reason to lay off
+    - hopes to get a reply for my mail
+    - hope my interview will be fine 
+    - you will recover soon
+    - i am hoping for a good position in this company
+    - I dont know why i trust others easily
+    - faith is the key to success
+    - leave a spare key with a trustworthy person
+    - he or she is a cerdible person
+    - credible
+    - he or she is believable
+    - he or she is reliable
+    - the book is authentic
+    - the authentic taste is assured by the restaurant
+    - nothing that is authentiic is known to him
+    - keep it authentic 
+    - keep it trustworthy
+    - i believe in truth
+    - they are able to win the trust of others
+    - dont trust strangers blindly
+    - he or she is trustworthy
+    - i entrust you
+    - he is a man of trust
+    - matter of truth
+
+- intent: modesty
+  examples: |
+    - I believe in simplicity
+    - simple look
+    - simple walk
+    - pray in a modest style
+    - always obey modest principles in our life
+    - Great leaders are always modest
+    - you are not boastful
+    - i like modest persons in my life
+    - you are simple person
+    - you are a modest person
+    - you are so simple
+    - i am modest
+    - i want a modest friend
+    - i am simple
+    - i am a simple person
+    - i like to do my things in a modest way
+    - the modesty of his political aspirations
+    - modest way of teaching
+    - modestly writing humours
+    - simple as well as modest
+    - unpretencious way 
+    - the place is unpretentious
+    - his characrter is unpretentious
+    - he or she is simple 
+    - my unpretentious cousin wear simple clothing 
+    - the food is delicious and unpretentious
+    - simple way of dealing things
+    - very pleasant and unpretentious place
+    - the place is so serene and unpretentious
+    - simple and elegant
+    - she had a simple and modest hairstyle
+    - my friend is honest and modest
+    - she is very down to earth person
+    - her humble character makes her beloved for everyone
+
+- intent: careful
+  examples: |
+    - be careful
+    - care your loved ones
+    - cautious
+    - walk carefully
+    - drive slowly
+    - take care
+    - you are not caring
+    - i admire caring persons in my life
+    - you are very caring person
+    - careful while diving
+    - care for your mind
+    - i am caring
+    - i want a caring friend
+    - i want a caring partner
+    - careful
+    - be caring
+    - be alert when doing adventures
+    - caring is a good quality
+    - i am careful while driving
+    - be cautious
+    - be alert
+    - be more careful
+    - vigilnt
+    - be minful of new diseases
+    - be alert on new variants of corona
+    - watchful
+    - he is heedful
+    - be alert on strangers
+    - careful in your studies
+    - be alert on board exam
+    - be vigilant of semester exams
+    - careful nature
+    - be mindful while talking to strangers
+    - be careful of the pandemic
+    - travelling while pandemic needs extra care
+    - care for your health
+
+- intent: I_am_relaxed
+  examples: |
+    - relax
+    - relaxed
+    - i am stress free now
+    - i want to relax
+    - i am feeling relaxed
+    - stress free
+    - relaxing mood
+    - my jobs needs a relaxation now
+    - i feel relaxed
+    - sense of stress free
+    - i relax by doing my hobbies
+    - motivational talks are relaxing to our mind
+    - needs a break for free mind
+    - love to be in stress free mode
+    - i feel breezy
+    - i am comfortable with informal way of talking
+    - now i feel cool as a cucumber
+    - the place makes me very relaxed
+    - because of the relaxation time i feel lively now
+    - the place is soothing
+    - i feel tranquilized
+    - taking my mind off something
+    - i want to chill out
+    - chillax
+    - chill
+    - i zonk out for an hour
+    - this holiday is well deserved for me
+    - i am on holiday, i am just going to take it easy
+    - i just want to sit back for a long time
+    - i am in a calming mode now
+    - i am an easy going type
+
+- intent: be_positive
+  examples: |
+    - be positive
+    - positive
+    - you are positive
+    - spread positivity
+    - you have a positive influence
+    - this video has a beneficial impact on our course
+    - positive environment
+    - i admire positive persons in my life
+    - you are very positive person
+    - the product has a positive report
+    - the film has a positive ending
+    - i want to be positive
+    - you are very positive
+    - positive thinking always makes us happy
+    - positivity to your mind
+    - he is very positive
+    - she is very positive
+    - we are a positive community
+    - dont be negative
+    - dont be a negating person
+    - dont allow yourself surrounded by negative people
+    - negativity kills positive vibes
+    - mental health is related to positive thoughts
+    - a person with positive attitude always wins heart
+    - a boss always needs to be positive to his workers
+    - his sense of humour is positive
+    - i like to be in a positive environment
+    - positive culture builds a strong community
+    - positive affirmation
+    - her attitude is positive
+    - my friends are positively motivating
+    - saying greetings is a positive start
+    - my husband has a positive vision
+    - ambiguity is less in a positive talk
+    - he has a positiveness around him
+    - positive reaction
+    - he has a can-do attitude
+
+
+- intent: ambitious
+  examples: |
+    - be ambitious
+    - he is an aspiring candidate
+    - i am ambitious
+    - he is an ambitious man
+    - i am a go-getter
+    - you are very ambitious
+    - that is an ambitious project
+    - goal-oriented
+    - you are emulous of fame
+    - dont be overambitious
+    - i am high flying
+    - he is ambitious
+    - she is ambitious
+    - greatly desirous
+    - inordinately desirous
+    - he is over desirous
+    - she is over desirous
+    - we are an ambitious community
+    - dont be over ambitious
+    - he is motivated by his ambition
+    - over motivated
+    - ambitiousness
+    - he has set an ambitious target
+    - be ambitious and we will support you
+    - i am tough and ambitious
+    - it is an ambitious idea
+    - she is an ambitious young woman
+    - the company is very ambitious
+    - an ambitious long term agenda
+    - the goals defined are ambitious but achievable
+    - but it is not ambitious enough
+    - i was very ambitious at your age
+    - ambitions should become aspirations
+    - it has clear and ambitious objectives
+    - celebities life are very ambitious
+
+
+- intent: can_not_sleep
+  examples: |
+    - I'm insomnia's
+    - I'm sleepless
+    - I can't get any sleep
+    - I can't sleep
+    - I can't fall asleep
+    - I can't get to sleep
+    - I'm insomniac
+    - I'm not able to sleep
+    - I can't seem to get enough sleep
+    - I'm wide awake
+    - I'm having trouble falling asleep at night
+    - can't seem to get good sleep.
+    - I just can't fall asleep.
+    - I lay awake for hours, staring at the ceiling.
+    - I feel exhausted but I just can't seem to drift off.
+    - can't get back to sleep.
+    - I have trouble falling asleep even when I'm extremely tired.
+    - I have a hard time winding down at night 
+    - I wake up feeling unrested
+    - I can't seem to fall asleep
+    - I have a hard time staying awak
+    - I have vivid and disturbing dreams that keep me awake
+    - I couldn't sleep
+    - I just can't sleep
+    - I can't sleep at all
+    - I didn't go to sleep
+    - I just couldn't sleep
+    - I'm not sleeping well
+    - Trying to get some sleep
+    - I can't sleep at night
+    - I couldn't get to sleep
+    - I didn't get much sleep
+
+- intent: cause_of_sleeplessness
+  examples: |  
+    - causes
+    - causes of sleeplessness
+    - causes of poor sleeping
+    - causes of sleeping difficulties
+    - Exact causes are
+    - What causes sleeping difficulties?
+    - What could be causing this?
+    - explain me the causes
+    - What prevents people from falling asleep? 
+    - causes of insomnia 
+    - What can cause sleeplessness?
+    - explain the causes
+    - What can lead to poor sleeping?
+    - What can cause difficulty sleeping?
+    - What might cause sleeplessness?
+    - tell me the causes
+    - What can lead to sleeplessness?
+    - What might lead to poor sleeping?
+    - What might cause difficulty sleeping?
+    - describe the causes
+    - what are the causes
+    - What might cause sleeping difficulties?
+    - possible causes of sleeplessness?
+    - potential causes of poor sleeping?
+    - potential causes of difficulty sleeping?
+    - What factors contribute to sleeplessness?  
+    - factors causing sleeplessness
+    - what causes poor sleeping quality?
+    - Could you tell me the causes
+    - what exactly the causes?
+    - tell me about the causes of sleeplessness
+    - explain the causes of sleeplessness
+
+    
+    
+- intent: sleep_disorders
+  examples: |  
+    - sleep disorders  
+    - common sleep disorders
+    - Can you tell me about sleep disorders  
+    - What are sleep disorders?
+    - Describe sleeping issues for me. 
+    - sleep disorders are
+    - details about sleep disorders
+    - tell me about sleeping disorders
+    - Describe sleeping disorders
+    - Explain sleeping issues for me. 
+    - overview of sleep disorders
+    - Sleep disorders explanation
+    - can you explain about sleep disorders
+    - Detailing sleep disorders
+    - explain me sleep disorders
+    - briefly explain sleep disorders
+    - provide information on sleeping disorders
+    - like to know about sleep disorders
+    - Could you provide more information? 
+    - Sleep disorders: what are they? 
+    - types of sleep disorders
+    - explain sleep disorders
+    - provide an overview of sleep disorders
+    - common types of sleep disorders?
+    - What is a sleep disorder 
+    - different categories of sleep disorders?
+    - provide a brief explanation of sleeping disorders
+    - give more information on sleeping disorders
+    - I'd like to know more about sleep disorders
+    - Can you provide more detail?
+    
+
+- intent: treatment_options
+  examples: |
+    - different treatment options?
+    - treatment for sleeping disorders
+    - how to treat sleeping disorders ?
+    - treatment options ?
+    - treatment options for sleep disorders
+    - therapeutic strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are sleeping disorders diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are sleeping problems identified? 
+    - Can it be identified? 
+    - how to identify sleeping issues?
+    - how to recognize sleeping issues?
+    - How are sleeping issues recognised? 
+    - how is depression treated ? 
+    - treatment for sleeping issues.
+    - common treatment options for sleep disorders?
+    - What are the treatment options for sleep disorders?
+    - can sleeping issues be treated ? 
+    - how to treat sleeping issues ?
+    - sleeping disorder treatments.
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods.
+    - different treatment options
+    
+- intent: lonely
+  examples: |
+    - feeling sad and alone
+    - Im alone
+    - feeling lonely
+    - I feel very lonely these days
+    - I felt lonely
+    - I feel very lonely
+    - A lonely feeling stole over me
+    - sometimes i feel i have no one to turn to
+    - so glad my kids are back from summer break
+    - Sitting at a computer at 3am with the lights off alone
+    - she was m only true friend
+    - it gets lonely out there all by myself.
+    - It gets lonely out here
+    - Sat in my house yesterday by myself
+    - Sat home all day by myself
+    - No one wants to eat lunch with me.
+    - No one even cares about me.
+    - No one came to my marriage.
+    - No one came to my birthday. 
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - One of the disadvantages of living alone is that you have no one to talk to
+    - I am still alone
+    - i lives in this city all alone
+    - I am used to living alone 
+    - alone
+    - loneliness is my current mood
+    - im lonely all the time
+
+- intent: depression
+  examples: |
+    - I am depressed
+    - The financial burden and the stress from my family give me so much pressure.
+    - I'm feeling really depressed
+    - No one gives a shit if I live or fucking die so why not just end it already.
+    - Life sucks.
+    - I've been depressed
+    - I get depressed by the slightest things
+    - feeling depressed
+    - The sad story depressed me
+    - I feel a bit depressed
+    - Life is just so hard.
+    - I don't know how to deal with depression
+    - I feel like I'm depressed
+    - I'm a failure
+    - I don't feel like I fit in anywhere
+    - I had a stressful day at work today
+    - I often feel depressed
+    - I think im suffering from depression
+    - Now I'm depressed
+    - I don't enjoy anything anymore
+    - I constantly feel depressed
+    - I don't see a way out of this
+    - I'm feeling really hopeless
+    - I suddenly feel depressed
+    - I'm feeling really down.
+    - I'm struggling with depression.
+    - I don't feel like myself lately.
+    - I'm struggling to find joy in things.
+    - I get depressed whenever I think about future
+    - I am feeling so depressed
+    - I just want to end it al
+    
+
+- intent: what_is_depression
+  examples: |
+    - what is depression ? 
+    - define depression
+    - Describe depression 
+    - tell me about depression
+    - Can you please describe depression
+    - what exactly is depression ?
+    - Describe depression for me
+    - What is depression, exactly? 
+    - Could you tell me more about depression?
+    - What are some common characteristics of depression?
+    - definition of depression
+    - i want an explanation on depression
+    - provide a definition of depression
+    - Can you explain depression to me?
+    - tell me more about depression
+    - want to know about depression
+    - need a detailed explanation of depression?
+    - common characteristics of depression
+    - brief overview of depression
+    - explain deppression
+    - brief explanation of depression
+    - give me a brief overview of depression
+    - information on depression
+    - provide more information on depression
+    - provide a brief explanation on depression
+    - give more information on depression
+    - I'd like to know more about depression
+    - Can you provide more detail?    
+    - Could you provide more detail about depression?
+    - explain what depression is
+    - characteristics of depression
+
+- intent: symptoms_of_depression
+  examples: |
+    - what are symptoms of depression ? 
+    - depression symptoms 
+    - signs of depression. 
+    - depression indications 
+    - early symptoms of depression.
+    - I'm experiencing depression
+    - some symptoms of depression.
+    - list some of the common symptoms 
+    - Did you have any of these symptoms ?
+    - What signs of depression are there? 
+    - how to identify that i am depressed ?
+    - preliminary signs of depression 
+    - Could you describe the typical symptoms of depression?
+    - What are the common indicators of depression?
+    - provide a list of early symptoms of depression?
+    - symptoms that may be present during depression
+    - Could you describe the typical symptoms
+    - common indicators of depression
+    - what are common symptoms of depression ?
+    - How can I tell if I'm experiencing depression?
+    - What are some typical signs of depression? 
+    - What are some early warning signs of depression?
+    - Could you list some of the common symptoms
+    - key signs of depression
+    - give more information on symptoms of depression
+    - I'd like to know more about symptoms of depression  
+    - Could you provide more detail about symptoms of depression?
+    - explain what the symptoms of depression are 
+    - early warning signs of depression?
+    - describe the typical symptoms of depression?
+
+- intent: type_of_depression
+  examples: |
+    - what are types of depression ? 
+    - types of depression
+    - different types of depression.
+    - depression types 
+    - various forms of depression. 
+    - How many types of depression is there?
+    - do we have type in depression ?
+    - common types of depresion.
+    - prevalent depressions 
+    - different types
+    - Explain different types of depression.
+    - describe the common types of depression?
+    - different kinds of depression 
+    - Describe different types of depression.
+    - How many types of depression are there?
+    - most prevalent forms of depression
+    - list the different types of depression?
+    - different categories of depression
+    - Explain various forms of depression
+    - Are there different kinds of depression?
+    - Could you provide a list of the various types of depression?
+    - various types of depression
+    - Could you list the different types of depression?
+    - different kinds of depression
+    - What are the most prevalent forms of depression?
+    - prevalent forms of depression
+    - What are the different categories of depression?
+    - various forms of depression
+    - Can you describe the common types of depression?
+    - types of depression
+
+- intent: treatment_for_depression
+  examples: |
+    - how is depression treated ? 
+    - treatment for depression.
+    - can depression be treated ? 
+    - how to treat depression ?
+    - depresion treatments.
+    - depression therapy. 
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - different treatment options?
+    - how to treat depression ?
+    - treatment options ?
+    - treatment options for depression
+    - tdepression strategies. 
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment methods ?
+    - explain the treatment options
+    - How are depression diagnosed?
+    - tell me about the treatment options
+    - can it be diagnosed ?
+    - suggest treatment options
+    - How are depression identified? 
+    - Can it be identified? 
+    - how to identify depression?
+    - how to recognize depression?
+    - How are depression recognised? 
+    - how is depression treated ? 
+    - treatment for depression
+    - common treatment options for depression?
+    - treatment methods.
+
+
+- intent: women_are_more_prone
+  examples: |
+    - depression in women. 
+    - are women more likely to get depressed? 
+    - explain depression in women
+    - Why do women have a higher risk of depression? 
+    - Are females more prone to depression? 
+    - Why are women more likely to get depression?
+    - why depression is more common in women 
+    - risk of depression in women
+    - Why do women experience depression more frequently? 
+    - is depression more common in women than in men ?
+    - provide some insights on depression in women
+    - discuss the risk of developing depression in women
+    - Are women more likely than males to experience depression? 
+    - why women are more prone to depression than man ?
+    - Depression is more likely to affect women. 
+    - impact of depression in females
+    - depression in females.
+    - why women are more prone to depression. 
+    - Do women have a higher risk of depression? 
+    - depression in men vs women. 
+    - tell me about depression in women
+    - describe depression in women 
+    - prevalence of depression among women compared to men?
+    - provide some information on the increased risk of depression in women?
+    - Could you explain the reasons why women may be more prone to depression
+    - factors that contribute to the incidence of depression in women?
+    - gender-based difference in the prevalence of depression
+    - Can you discuss the risk of developing depression in women?
+    - How does the females impact the incidence of depression?
+    - provide some insights on why women may be more prone to depression 
+  
+- intent: repetition
+  examples: |
+    - will my depression repeat ? 
+    - Will my depressive episode recur? 
+    - will i again suffer from depression ? 
+    - Will I experience depression once more? 
+    - - Will I get it once more? 
+    - can depression come agian ?
+    - Is it common for depression to repeat itself?
+    - risks of my depression returning
+    - is depression will repeat
+    - will i suffer from depression again?
+    - chances of returning depression 
+    - Can depression return once more? 
+    - can depression be repeated ? 
+    - will i have it again ?
+    - What are the risks of my depression returning?
+    - Will someone who has had depression get it again?
+    - Will someone who has had depression relapse? 
+    - Will I have to deal with depression again
+    - chances of reoccuring of depression ?
+    - Could I experience another episode of depression
+    - risks of depression returning? 
+    - Is there a chance that my depression will come back?
+    - Is it possible for me to experience another episode of depression?
+    - Could I face the risk of my depression returning?
+    - Is there a likelihood that I may suffer from depression again?
+    - How common is it for people who have had depression to experience a recurrence?
+    - Is there a possibility that I could have to deal with depression once more?
+    - What are the chances of my depression returning?
+    - Could I be at risk for experiencing another episode of depression?
+    - Is it possible for me to suffer from depression again?
+    - How likely is it that my depression will come back?
+    - will i suffer from it again ?
+
+
+- intent: adults
+  examples: |
+    - depression in adults.
+    - can aged people be depressed ?
+    - depression in old age. 
+    - depression in later life. 
+    - rates of depression in adults
+    - adult depression
+    - depression in senior citizens. 
+    - depression in old people.
+    - Can seniors experience depression? 
+    - chances of an adult experiencing depression
+    - what the likelihood of adult depression is 
+    - What are the rates of depression in adults?
+    - can adults be affected by depression
+    - what are chances of depression in adults. 
+    - prevalence of depression in later life
+    - rates of depression in seniors
+    - What are the chances of an adult experiencing depression?
+    - Can older adults be affected by depression?"
+    - What is the prevalence of depression in later life?"
+    - Can senior citizens experience depression?"
+    - Is depression common among older adults?"
+    - What are the rates of depression in seniors?"
+    - Are adults at risk for developing depression?
+    - Is depression a common issue for adults?
+    - Do older adults often struggle with depression?
+    - Is it possible for adults to experience depression?
+    - Is depression prevalent in the adult population?
+    - Do seniors face a higher risk of depression?
+    - Is it common for older adults to experience depression?
+    - How frequently do adults experience depression?
+    - Can older people experience depression?"
+    - What is the likelihood of an adult experiencing depression?"
+    
+  
+
+- intent: test
+  examples: |
+    - Am i depressed ?
+    - Is it possible that I'm depressed? 
+    - am i suffering from depression ?
+    - Do I have depression now? 
+    - Do you think I'm depressed? 
+    - Do I show signs of depression?
+    - Could I be experiencing depression?
+    - Do I have depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
+    - I might be suffering from depression. What do you think?
+    - Do you think im facing depressed?
+    - Do I exhibit symptoms of depression?
+    - Could I be dealing with depression?
+    - Do I currently have depression?
+    - Do you think I'm experiencing depression?
+    - Could I be experiencing depression?
+    - Do I currently have depression?
+    - Is it possible that I am currently experiencing depression?
+    - Could I be suffering from depression?
+    - Do my symptoms indicate that I may have depression?
+    - Do you think I am showing signs of depression?
+    - Is it possible that I am struggling with depression?
+    - Do you think I may be experiencing depression?
+    - Could I be experiencing the symptoms of depression?
+    - Do you think I may be dealing with depression?
+    - Is it possible that I am currently experiencing depression?
+    - Do my symptoms suggest that I may be suffering from depression?
+    - Do you think I may be showing signs of depression?
+    - Is it possible that I am currently struggling with depression?
+    - Do you think I may be experiencing the symptoms of depression?
+    - Could I be dealing with depression?
+    - Am I experiencing the symptoms of depression?
+    - Do you think I may be struggling with depression?
+
+- intent: causes_depression
+  examples: |
+    - what causes depression ?
+    - causes of depression ?
+    - Why does depression occur? 
+    - why depression happens ?
+    - Why do people get depressed? 
+    - What causes depression? 
+    - reasons for depression
+    - Why does depression occur? 
+    - why am i depressed ? 
+    - Why am I feeling down? 
+    - What causes depression in people? 
+    - typical reasons for depression 
+    - the causes of depression 
+    - common causes of depression.
+    - What are the common causes of depression?
+    - What factors contribute to the development of depression?
+    - Why do some people experience depression?
+    - explain the reasons why people get depressed?
+    - What causes depression in individuals?
+    - factors contribute to the occurence of depression?
+    - typical reasons for depression?
+    - Why do I feel down? Could it be due to depression?
+    - possible causes of my depression?
+    - What are the potential causes of depression?
+    - What might be the underlying causes of depression?
+    - What are some of the common reasons that people experience depression?
+    - provide an overview of the causes of depression?
+    - I'm curious about the common causes of depression. Could you provide more information?
+    - reasons why people get depressed?
+    - overview of the causes of depression
+    - factors contribute to the development of depression?
+
+
+
