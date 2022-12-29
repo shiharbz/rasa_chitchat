@@ -54,6 +54,18 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
 
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_deny:
+  - text: "no dont have to"
+
+  utter_mood_great:
+  - text: " wow great"
+   
+  utter_mood_unhappy:
+  - text : "you try to be happy"
+
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -61,33 +73,69 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:d
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_happy:
+  - text: "Great, carry on!"
+
   action_happy_emotion:
   - text: " am very happy"
-  
-  utter_smalltalk_user_angry:
-  - text: "I'm sorry. A quick walk may make you feel better."
-  - text: "Take a deep breath. "
 
   utter_smalltalk_user_excited:
   - text: "I'm glad things are going your way."
   - text: "That's great. I'm happy for you."
   - text: "Good for you. Enjoy yourself."
   
+  utter_smalltalk_user_angry:
+  - text: "I'm sorry. A quick walk may make you feel better."
+  - text: "Take a deep breath. "
+ 
   utter_funny:
   - text: "you are so funny"
   - text: " this is so funny"  
 
+  utter_clever:
+  - text: " you clever"
 
- utter_food:
+  utter_boring:
+  - text: " is it boring"
+
+  utter_forget :
+  - text: " i hope you forget"
+
+  utter_bot_bad:
+  - text: " this feel bad"
+
+  utter_bot_busy:
+  - text: " are u busy"
+   
+  utter_bot_appreciation:
+  - text : " wow very good"
+
+  utter_my_friend:
+  - text : "yes my friend"
+
+  utter_empty:
+  - text: "you will feel better"
+
+  utter_nostalgic:
+  - text: "this reminds you nostalgic"
+
+  utter_apprehensive:
+  - text: "apprehensive"
+
+  utter_guilty:
+  - text: "you feeling guilty"
+
+  utter_proud:
+  - text: 'am proud of you'
+
+  utter_anxious:
+  - text: "dont get anxious"
+
+
+  utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
   
   utter_smart:
@@ -170,7 +218,7 @@ responses:
           Difficulty thinking, concentrating, or making decisions
           Thoughts of death or attempts at suicide"
 
-   utter_symptoms_of_depression2:
+  utter_symptoms_of_depression2:
   - text: "Not everyone who is diagnosed with depression has the same symptoms. Some experience only a few symptoms, others have most of them. How severe the symptoms are and how long they last also varies from person to person. To be diagnosed with major depression, a person must have at least five of the following symptoms nearly every day for at least two weeks:
 
           Feeling sad or empty \n

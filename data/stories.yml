@@ -66,6 +66,71 @@ stories:
   - intent: funny
   - action: utter_funny
 
+- story: clever path
+  steps:
+  - intent: clever
+  - action: utter_clever
+
+- story: boring path
+  steps:
+  - intent: boring
+  - action: utter_boring
+
+- story: forget path
+  steps:
+  - intent: forget 
+  - action: utter_forget 
+
+- story: bot_bad path
+  steps:
+  - intent: bot_bad
+  - action: utter_bot_bad
+
+- story: bot_busy path
+  steps:
+  - intent: bot_busy
+  - action: utter_bot_busy
+
+- story: bot_appreciation path
+  steps:
+  - intent: bot_appreciation
+  - action: utter_bot_appreciation
+
+- story: my_friend path
+  steps:
+  - intent: my_friend
+  - action: utter_my_friend
+
+- story: empty path
+  steps:
+  - intent: empty
+  - action: utter_empty
+
+- story: nostalgic path
+  steps:
+  - intent: nostalgic
+  - action: utter_nostalgic
+
+- story: apprehensive path
+  steps:
+  - intent: apprehensive
+  - action: utter_apprehensive
+
+- story: guilty path
+  steps:
+  - intent: guilty
+  - action: utter_guilty
+
+- story: proud path
+  steps:
+  - intent: proud
+  - action: utter_proud
+
+
+- story: anxious path
+  steps:
+  - intent: anxious
+  - action: utter_anxious
 
 
 - story: food path 1
