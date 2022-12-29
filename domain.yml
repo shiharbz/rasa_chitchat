@@ -61,7 +61,7 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
+  utter_happy:d
   - text: "Great, carry on!"
 
   utter_goodbye:
