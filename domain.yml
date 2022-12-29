@@ -73,6 +73,9 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
+  utter_goodbye:
+  - text: "Bye"
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
@@ -134,8 +137,7 @@ responses:
   utter_anxious:
   - text: "dont get anxious"
 
-
-  utter_food:
+   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
 
   utter_welcome:
