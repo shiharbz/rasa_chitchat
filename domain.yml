@@ -61,7 +61,7 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:d
+  utter_happy:
   - text: "Great, carry on!"
 
   utter_goodbye:
@@ -86,8 +86,7 @@ responses:
   - text: "you are so funny"
   - text: " this is so funny"  
 
-
- utter_food:
+  utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
   
   utter_smart:
@@ -170,7 +169,7 @@ responses:
           Difficulty thinking, concentrating, or making decisions
           Thoughts of death or attempts at suicide"
 
-   utter_symptoms_of_depression2:
+  utter_symptoms_of_depression2:
   - text: "Not everyone who is diagnosed with depression has the same symptoms. Some experience only a few symptoms, others have most of them. How severe the symptoms are and how long they last also varies from person to person. To be diagnosed with major depression, a person must have at least five of the following symptoms nearly every day for at least two weeks:
 
           Feeling sad or empty \n
