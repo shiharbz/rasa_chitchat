@@ -35,9 +35,11 @@ stories:
   - action: utter_greet
   - intent: mood_unhappy
   - action: utter_cheer_up
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
   - action: utter_did_that_help
   - intent: deny
-  - action: utter_watch_tv
+  - action: utter_deny
 
 - story: happy path 2
   steps:
@@ -47,7 +49,7 @@ stories:
 - story: angry path 
   steps:
   - intent: smalltalk_user_angry
-  - action: utter_smalltalk_user_angryrasa
+  - action: utter_smalltalk_user_angry
   - intent: affirm
   - action: utter_happy
 
@@ -66,17 +68,82 @@ stories:
   - intent: funny
   - action: utter_funny
 
+- story: clever path 2
+  steps:
+  - intent: clever
+  - action: utter_clever
+
+- story: boring path
+  steps:
+  - intent: boring
+  - action: utter_boring
+
+- story: forget path
+  steps:
+  - intent: forget 
+  - action: utter_forget 
+
+- story: bot_bad path
+  steps:
+  - intent: bot_bad
+  - action: utter_bot_bad
+
+- story: bot_busy path
+  steps:
+  - intent: bot_busy
+  - action: utter_bot_busy
+
+- story: bot_appreciation path
+  steps:
+  - intent: bot_appreciation
+  - action: utter_bot_appreciation
+
+- story: my_friend path
+  steps:
+  - intent: my_friend
+  - action: utter_my_friend
+
+- story: empty path
+  steps:
+  - intent: empty
+  - action: utter_empty
+
+- story: mood_great path
+  steps:
+  - intent: mood_great
+  - action: utter_mood_great
+
+- story: nostalgic path
+  steps:
+  - intent: nostalgic
+  - action: utter_nostalgic
+
+- story: apprehensive path
+  steps:
+  - intent: apprehensive
+  - action: utter_apprehensive
+
+- story: guilty path
+  steps:
+  - intent: guilty
+  - action: utter_guilty
+
+- story: proud path
+  steps:
+  - intent: proud
+  - action: utter_proud
+
+
+- story: anxious path
+  steps:
+  - intent: anxious
+  - action: utter_anxious
 
 
 - story: food path 1
   steps:
   - intent: user_hungry
   - action: utter_food
-
-- story: clever path
-  steps:
-  - intent: clever
-  - action: utter_smart
 
 - story: surprise path
   steps:
@@ -126,7 +193,7 @@ stories:
 
 - story: thanku
   steps:
-  - intent: thank_you
+  - intent: utter_greet
   - action: utter_welcome
 
 - story: lonely
@@ -135,7 +202,7 @@ stories:
   - action: utter_greet
   - intent: lonely
   - action: utter_do_you_want_some_ideas
-  - intent: confirm
+  - intent: boring
   - action: utter_activities
   - intent: deny
   - action: utter_call_911
@@ -165,13 +232,13 @@ stories:
   - action: utter_reason
   - intent: depression
   - action: utter_lonely_response
-  - intent: confirm
+  - intent: affirm
   - action: utter_try_breathing_exercise
-  - intent: confirm
+  - intent: affirm
   - action: utter_did_that_help
   - intent: deny
   - action: utter_did_u_have_symptoms
-  - intent: confirm
+  - intent: causes_depression
   - action: utter_affected_depression
   
 
@@ -184,6 +251,8 @@ stories:
   steps:
   - intent: symptoms_of_depression
   - action: utter_symptoms_of_depression
+  - intent: symptoms_of_depression
+  - action: utter_symptoms_of_depression2
 
 
 - story: type of depression
@@ -219,7 +288,7 @@ stories:
 
 - story: causes
   steps:
-  - intent: causes
+  - intent: cause_of_sleeplessness
   - action: utter_causes
 
 - story: tata

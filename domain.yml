@@ -51,8 +51,20 @@ intents:
 
 
 responses:
+  utter_goodbye:
+  - text: "Bye"
+
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_deny:
+  - text: "no dont have to"
+
+  utter_mood_great:
+  - text: " wow great"
+   
+  utter_mood_unhappy:
+  - text : "you try to be happy"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -61,36 +73,76 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
-
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_happy:
+  - text: "Great, carry on!"
+
   action_happy_emotion:
   - text: " am very happy"
-  
-  utter_smalltalk_user_angry:
-  - text: "I'm sorry. A quick walk may make you feel better."
-  - text: "Take a deep breath. "
 
   utter_smalltalk_user_excited:
   - text: "I'm glad things are going your way."
   - text: "That's great. I'm happy for you."
   - text: "Good for you. Enjoy yourself."
   
+  utter_smalltalk_user_angry:
+  - text: "I'm sorry. A quick walk may make you feel better."
+  - text: "Take a deep breath. "
+ 
   utter_funny:
   - text: "you are so funny"
   - text: " this is so funny"  
 
-  utter_food:
+  utter_clever:
+  - text: " you clever"
+
+  utter_boring:
+  - text: " is it boring"
+
+  utter_forget :
+  - text: " i hope you forget"
+
+  utter_bot_bad:
+  - text: " this feel bad"
+
+  utter_bot_busy:
+  - text: " are u busy"
+   
+  utter_bot_appreciation:
+  - text : " wow very good"
+
+  utter_my_friend:
+  - text : "yes my friend"
+
+  utter_empty:
+  - text: "you will feel better"
+
+  utter_nostalgic:
+  - text: "this reminds you nostalgic"
+
+  utter_apprehensive:
+  - text: "apprehensive"
+
+  utter_guilty:
+  - text: "you feeling guilty"
+
+  utter_proud:
+  - text: 'am proud of you'
+
+  utter_anxious:
+  - text: "dont get anxious"
+
+   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
+
+  utter_welcome:
+  - text: "you are welcome"
   
-  utter_smart:
-  - text: "Thank you for the appreciation"
 
   utter_sudden:
   - text: "How can I help you to give the surprise?"
@@ -134,8 +186,6 @@ responses:
   - text: "These might help suicide prevention Lifelines 8002738255 or 18002738255"
   - text: "This is a 24x7 crisis Hotline 1800273-TALK (8255)"
 
-  utter_watch_tv:
-  - text: "Maybe you should try watching Tom and Jerry, it always helps!"
   
   utter_what_is_depression:
   - text: "Depression is a medical condition that affects your mood and ability to function.Depressive symptoms include feeling sad,stress,anxious or hopeless. The condition can also cause difficulty with thinking, memory, eating and sleeping. A diagnosis of major depressive disorder (clinical depression) means you have felt sad, low or worthless most days for at least two weeks while also having other symptoms such as sleep problems, loss of interest in activities, or change in appetite.Without treatment, depression can get worse and last longer. In severe cases, it can lead to self-harm or death."
@@ -183,30 +233,7 @@ responses:
           Recurrent thoughts of death or suicide \n
           Low self-esteem is common with depression.\n" 
 
-  utter_symptoms_of_depression3:
-  - text: "Depression can affect your emotions, mind and body. Depression symptoms include
-
-          Feeling very sad, hopeless or worried. \n
-          Not enjoying things that used to give you joy. \n
-          Being easily irritated or frustrated. \n
-          Eating too much or too little. \n
-          Changes in how much you sleep. \n
-          Having a difficult time concentrating or remembering things. \n
-          Experiencing physical problems like headache, stomachache or sexual dysfunction. \n
-          Thinking about hurting or killing yourself. \n" 
-
-  utter_did_u_have_any_symptoms:
-  - text: "Did you have any of these symptoms :
-
-          1. Feeling very sad, hopeless or worried. \n
-          2. Not enjoying things that used to give you joy. \n
-          3. Being easily irritated or frustrated. \n
-          4. Eating too much or too little. \n
-          5. Changes in how much you sleep. \n
-          6. Having a difficult time concentrating or remembering things. \n
-          7. Experiencing physical problems like headache, stomachache or sexual dysfunction. \n
-          8. Thinking about hurting or killing yourself. \n"  
-
+ 
   utter_did_u_have_symptoms:
   - text: "Did you have any symptoms of Depression?"         
 
