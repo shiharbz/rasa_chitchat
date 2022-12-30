@@ -44,7 +44,7 @@ stories:
 - story: happy path 2
   steps:
   - intent: happy_emotion
-  - action: action_happy_emotion
+  - action: utter_happy_emotion
   
 - story: angry path 
   steps:
@@ -191,10 +191,10 @@ stories:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- story: thanku
-  steps:
-  - intent: utter_greet
-  - action: utter_welcome
+# - story: thanku
+#   steps:
+#   - intent: utter_greet
+#   - action: utter_welcome
 
 - story: lonely
   steps:
