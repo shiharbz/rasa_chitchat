@@ -77,7 +77,7 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot"
 
   utter_happy:
   - text: "Great, carry on!"
