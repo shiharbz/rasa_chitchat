@@ -62,9 +62,11 @@ responses:
 
   utter_mood_great:
   - text: " wow great"
+  - text: " looks like you feeling great"
    
   utter_mood_unhappy:
   - text : "you try to be happy"
+  - text : " lets not be sad"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -73,14 +75,16 @@ responses:
   utter_did_that_help:
   - text: "Did that help you?"
 
+
   utter_iamabot:
   - text: "I am a Chatbot"
 
   utter_happy:
   - text: "Great, carry on!"
+  - text: "good to know ,that you are happy"
 
   utter_happy_emotion:
-  - text: " am very happy"
+  - text: " you must be very happy"
 
   utter_smalltalk_user_excited:
   - text: "I'm glad things are going your way."
@@ -97,9 +101,11 @@ responses:
 
   utter_clever:
   - text: " you clever"
+  - text: "thats so clever of you"
 
   utter_boring:
   - text: " is it boring"
+  - text: "do someting to get rid of boredom"
 
   utter_forget :
   - text: " i hope you forget"
@@ -109,6 +115,7 @@ responses:
 
   utter_bot_busy:
   - text: " are u busy"
+  - text: "to reduce rush orginise things"
    
   utter_bot_appreciation:
   - text : " wow very good"
@@ -123,16 +130,20 @@ responses:
   - text: "this reminds you nostalgic"
 
   utter_apprehensive:
-  - text: "apprehensive"
+  - text: "that sounds apprehensive"
 
   utter_guilty:
-  - text: "you feeling guilty"
+  - text: "you feeling guilty ?"
+  - text: "its all right"
+  - text: " you may apologize"
 
   utter_proud:
   - text: 'am proud of you'
+  - text: " you must be proud"
 
   utter_anxious:
   - text: "dont get anxious"
+  - text: " calm down"
 
   utter_food:
   - text: "we will help you getting good and healthy food of your choice!"
