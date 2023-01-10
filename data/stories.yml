@@ -12,7 +12,7 @@ stories:
   - intent: agent.age
   - action: utter_agent.age
 
-- story: agent.can_you_help_path
+- story: agent.can_you_help_pathh
   steps:
   - intent: agent.can_you_help
   - action: utter_agent.can_you_help

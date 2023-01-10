@@ -2,7 +2,7 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbyee
+- rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: greetings.bye
   - action: utter_greetings.bye

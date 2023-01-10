@@ -94,7 +94,7 @@ responses:
   - text: Think of me as a virtual agent.
   - text: Well, I'm not a person, I'm a virtual agent.
   - text: I'm a virtual being, not a real person.
-  - text: I'm a conversational app.
+  - text: I'm a conversational chatbot.
 
   utter_agent.age:
   - text: I prefer not to answer with a number. I know I'm young.
