@@ -1,497 +1,626 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: user.bored
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-    - lovely day isn't it
-    - long time no see
-    - let's go
-    - just going to say hi
-    - I greet you
-    - howdy
-    - hihi
-    - hi there
-    - heya
-    - hey there
-    - hello hi
-    - hello again
-    - greetings
-    - afternoon
-    - a good day
-    - hello everyone
-    - hello and nice morning
-    - nice evening
-    - hello there
-    - Let's get started
-    - Isn't today a beautiful day?
-    - Isn't today a great day?
-    - long time since I've seen you
-    - I'm just dropping over to say hello.
-    - I'm just dropping in to say hello.
-    - I welcome you.
-    - I extend my greetings.
-    - I salute you.
-    - I'm glad to see
-    - great day
-    - excellent day
-    - wonderful day
-    - a pleasant day
+    - soo bored
+    - that was boring
+    - I'm bored
+    - bored
+    - boring
+    - I am getting bored
+    - Staying at home is boring
+    - very boring
+    - it bores me
+    - i had a slow day
+    - i am very bored
+    - Im kinda bored today 
+    - I've never been more bore
+    - I was bored
+    - This is boring
+    - We're all bored
+    - It's very boring
+    - I'm already bored
+    - I'm bored out of my mind
 
-- intent: goodbye
+- intent: user.lonely
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-    - you can go now
-    - till next time
-    - that's it goodbye
-    - that's all goodbye
-    - thanks bye bye
-    - talk to you later
-    - see you tomorrow
-    - see you soon
-    - see you
-    - see ya
-    - ok see you soon
-    - ok bye
-    - now bye
-    - never mind bye
-    - I said bye
-    - I must go
-    - hope to see you later
-    - have a nice day
-    - goodbye see you later
-    - goodbye for now
-    - go to bed
-    - bye good night
-    - bye for now
-    - bye bye take care
-    - bye bye see you soon
-    - bye bye see you
-    - bye bye
-    - bye
-    - alright bye
+    - I am lonely
+    - I'm very lonely
+    - I'm so lonely
+    - I'm really lonely
+    - I am feeling lonely
+    - I feel lonely
+    - I am a loner
+    - I don't have any company
+    - I don't have anyone else
+    - I'm always alone
+    - I'm alone
+    - am all alone
+    - I live alone
+    - I'm all alone
+    - I've gotten used to living alone
+    - I think I've been living alone too long
+    - One of the disadvantages of living alone is that you have no one to talk to
+    - I am still alone
+    - i lives in this city all alone
+    - I am used to living alone
 
-
-- intent: affirm
+- intent: user.sad
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-    - you are so right
-    - you are right
-    - you are correct
-    - yes you may
-    - yes this is correct
-    - yes thank you
-    - yes sure
-    - yes of course
-    - yes it is correct
-    - yes it is
-    - yes indeed
-    - yes I would like to
-    - yes i need rest
-    - yes I do 
-    - yes I agree
-    - yes for sure
-    - yes definitely
-    - yes correct
-    - yep
-    - yeh
-    - yeah that's right 
-    - yeah right
-    - yeah of course
-    - yeah I'm sure
-    - yeah go ahead
-    - yeah exactly
-    - yeah
-    - yea
-    - ye
-    - ya 
-    - why not
-    - what you say is true
-    - this is correct
-    - that's true
-    - that's so true
-    - that's correct
-    - that s okay
-    - that is very true
-    - that is true
-    - that is right
-    - that is ok 
-    - that is correct
-    - sure why not
-    - sure thing
-    - sure is
-    - sure
-    - sounds nice
-    - right
-    - please do
-    - okie dokie
-    - okey
-    - okay then
-    - okay that's fine
-    - okay sounds good
-
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-    - thanks but no thanks
-    - stop it
-    - stop
-    - sorry cancel
-    - no
-    - so cancel
-    - skip skip skip
-    - skip it
-    - skip
-    - of course not
-    - now cancel
-    - nothing cancel
-    - not today
-    - not this time
-    - not this
-    - not that
-    - not right now thanks
-    - not really no
-    - not really
-    - not needed
-    - not interested
-    - not exactly
-    - not at this time
-    - nope sorry
-    - nope
-    - nooo
-    - no.i think i donn't need to
-    - no way
-    - no that's wrong
-    - no that's fine thank you
-    - no thanks not right now
-    - no thanks
-    - no thank you very much
-    - no thank you though
-    - no thank you not right now
-    - no tanks
-    - no stop
-    - no sorry
-    - no never
-    - no need thanks
-    - no need
-    - no leave it
-    - no just no
-    - no just cancel it
-    - no just cancel
-    - no it's not
-    - no it isn't
-    - no I would not
-    - no I don't
-    - no forget
-    - no don't do that
-    - no don't
-    - no do not
-    - no cancel this
-   
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-    - very well
-    - very then
-    - very nice
-    - very good
-    - this is great
-    - this is good
-    - this is awesome
-    - that's wonderful
-    - that's very nice of you
-    - that's very nice
-    - that's sweet of you
-    - that's really nice
-    - that's really good
-    - that's pretty good
-    - that's perfect
-    - that's not bad
-    - that's nice of you
-    - that's nice
-    - that's much better
-    - that's great
-    - that's fine
-    - that's fantastic
-    - that's cute
-    - that's better
-    - that's awesome thank you
-    - that's awesome
-    - that's amazing
-    - that's a good thing
-    - that's a good idea
-    - that was very good
-    - that was pretty good
-    - that was good
-    - that was cute
-    - that was awesome
-    - that was amazing
-    - that is wonderful
-    - that is nice
-    - that is good
-    - that is awesome
-    - terrific
-    - sweet
-    - super stoked
-    - super fantastic
-    - super
-    - straight
-    - splendid
-    - so sweet of you
-   
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-    - you're a robot
-    - you are so real
-    - you are real
-    - well,i don't think I can control my happiness
-    - you are not fake
-    - you are chatbot
-    - you are a real person
-    - you are a bot
-    - who do you think you are?
-    - who are you?
-    - who are you
-    - what the hell are you?
-    - what the fuck are you?
-    - what are you?
-    - what are you really?
-    - I think you are real
-    - I suppose you're real
-    - I don't think you're fake
-    - I don't even know who you are?
-    - glad you're real
-    - could you sing a song?
-    - are you real
-    - are you just a bot
-    - are you a robot?
-    - are you a robot
-    - are you a real person
-    - are you a real human
-    - are you a program
-    - are you a chatbot
-    - are you a bot
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
+    - I'm in a sad mood
     - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-    - when my friends went out without me, and didnt invite me.
-    - Reading about the World Wars makes me feel so many emotions.
-    - Once I dreamed my own death
-    - now i can't buy the same car
-    - My wife just told me today that my vasectomy failed, if you know what I mean.
-    - My wife got sick about two weeks ago and it was something serious.
-    - My son just left for college.
-    - My little boy is starting Kindergarten and I'm sad he's growing up so fast.
-    - my left thigh is hurting since morning
-    - My dog passed away a few days ago, we had him since he was a baby.
-    - my day was horrible
-    - My daughter fell on the sidewalk yesterday and skinned her knee pretty bad.
-    - My cat ignores me until she wants food from me
-    - my brother is in the hospital really sick
-    - my brother is in rehab after 2 months in the hospital
-    - My brother got hurt badly and i felt so heartfelt for him.
-    - My best friend moved away when I was 10.
-    - My 13 year old dog had to be put down.
-    - It was mothers day and I was feeling bummed because she won't speak to me.
-    - I'm turning 40 Saturday and I'm feeling old.
-    - I'm sad, tomorrow I have to go back to school and I'm going to miss the summer with my old friends.
-    - I'm not happy
-    - I'm a bit upset that summer is almost over.
-    - I'm a bit down that Fall isn't here yet.
-    - I wish my grandma was still alive.
-    - I was very depressed and upset when my partner left, we've been together for years and I feel like my time has been wasted.
-    - i was serious about her ,but she was not
-    - i was disappointed when i couldnt go home
-    - I was a dog on the side of the road that got hit by a car, and I was so sad
+    - I'm grieving
+    - I am depressed
+    - I am feeling sad
+    - I am upset
+    - I'm unhappy
+    - I'm having a bad day
     - I want to cry
-    - I try to do things that distract myself so I don't think about him but it never works because I always end up thinking about him because the littlest things remind me of him.",
-    - i think i am not as good as him at work
-    - I stayed home from work today because my son was sick
-    - i sometimes feel badly for the way our clothes and home look
-    - I saw some children begging for food, I felt so pity on them
-    - I saw a kitten get run over by a car.
-    - I saw a cat get hit by a car this morning
-    - I recently lost my job adn i feel horrible.
-    - I moved a great distance away from my family, and even though I enjoy my new location, I miss them.
-    - I miss being in a relationship sometimes.
-    - I just lost my job, and I've got too many bills.
-    - I just found out my brother had to get checked into rehab! I had no idea he had a problem and am quite upset over it!
-    - I just earth about and earthquake in indonesia,it seem that many people died there.
-    - I feel sad when I left home
-    - I don't feel very well
-    - I can see envy in the eyes of my colleague after I was promoted
-    - I am sad they met me.
-    - I am sad
-    - I am really not liking Mondays.
-    - I am disappointed
-    - I am a unhappy that there is nothing I could do to help
-    - Had to attend a funeral
-    - extremly sad
+    - I'm not happy
+    - feeling sad
+    - I felt sad for no reason
+    - Now I'm sad
+    - It makes me sad
+    - I am sad to hear it
+    - I am a very sad person
+    - I feel sad every now and then
+    - I am as sad and lonely as can be
+    - feeling so down
+    - i am not in a good mood
 
-- intent: happy_emotion
-  examples: | 
-    - are you happy
+- intent: agent.happy
+  examples: |
+    - are you happy?
     - you are happy
     - you're very happy
     - you're really happy
     - you're so happy
+    - how happy you are?
     - you're extremely happy
     - you're full of happiness
-    - are you happy now
-    - are you happy today
-    - are you happy with me
-    - are you happy too?
-    - are you content?
-    - You are content.
-    - You're overjoyed.
-    - You're ecstatic.
-    - You seem ecstatic.
-    - You're quite content.
-    - You radiate pleasure.
-    - Do you feel pleased now?
-    - Are you content today?
-    - Are you pleased with me?
-    - Are you content as well?
-    - i am happy
-    - I am overjoyed.
-    - i am really happy
-    - i am so happy
-    - i am happy today
-    - i am overjoyed
-    - all are full of happiness
-    - lets be happy
-    - crazy happy now
-
-- intent: smalltalk_user_excited
+    - are you happy now?
+    - are you happy today?
+    - are you happy with me?
+    - you seem to be happy
+    - i feel i made you happy
+    - I wonder if you are truly happy
+    - You don't look very happy today
+    - You seem happy
+    - Were you happy?
+    - u seemed to have been very happy
+    - You look very happy this morning?
+    - i think you are happy
+    
+- intent: agent.talk_to_me
   examples: |
-    - I am excited
-    - I'm really excited
-    - how excited I am
-    - I'm thrilled
-    - I'm excited about working with you
-    - I'm excited to start our friendship
-    - When the Falcons won the game I was excited.
-    - When I was little and I found out that we were going to the amusement park .
-    - when i had everything ready to go for the first day at work
-    - when i found out good news in 1 day
-    - when i ever i work with the fastest co workers im happy
-    - When a new exciting game comes out!
-    - Were leaving on vacation tomorrow, I think we have everything ready@
-    - Went fishing this weekend
-    - We went out shopping for school supplies and backpacks and my two kiddos are get to go!
-    - We are planning our first cruise.
-    - We are going to disney world this year!
-    - We are going to disney world for christmas!
-    - waiting to hear if i got a job or not.
-    - Vacation is soon!
-    - Two more days and the kids are gone.
-    - Two more days and my baby starts pre k G
-    - Took my daughter to the Animal Kingdom for the first time, I think I was more excited than she was.
-    - Tomorrow is my birthday! I am so stoked!
-    - today i am planning to visit my parents
-    - to go to disney land
-    - to go to a concert.
-    - This Friday a video game comes out that i get EVERY year.
-    - They're buying everyone shakes today at work.
-    - These days nothing gives me more unexpected joy than find free money or new financial opportunities
-    - There is a concert coming to town and I can hardly wait to see it.
-    - The weekend is finally here, woohoo!
-    - The new wow expansion just launched.
-    - The new WoW expansion comes out today.
-    - The first time I met my long distance girlfriend i was very excited
-    - the chargers are going to be great this year!
-    - The chargers are finally getting some national love
-    - the birth of my twins
-    - So stoked to go to the beach in a couple weeks!!
-    - School starts back up next month and I am looking forward to it.
-    - saw the new doom trailer
-    - red dead redemption 2 is coming out which looks awesome
-    - really pumped for the broly movie
-    - Planning to go travelling around the world
-    - Packing for a trip
-    - Packing bags for florida in a couple weeks
-    - ordering something onliine
-    - One more month and I get to go on a vacation to the beach! Its been 5 years so I'm chomping at the bit! Yay!
-    - next week !
-    - My wife just told me she won tickets on the radio!
-    - My wife and I took a 3 week trip to New Zealand last year.
-    - My son will be born in December.
-    - my son is coming to visit
-    - My second year of college starts in a few days and I can't wait to begin!
-    - My mom is taking me on a cruise!
-    - My mom is coming to visit and i can't wait!
-    - My high school reunion is this weekend so I am stoked.
-    - my heart cannot contain my joy to know that I can carry my grand child
-    - My grand mum bought me a gold watch as a birthday gift, that really made me happy
-    - My grades are coming back this week and I can't wait.
-    - My girlfriend and I are going to San Diego this weekend! I am so hyped!
+    - why aren't you talking to me?
+    - do you want to chat with me
+    - will you talk to me
+    - talk to me
+    - are you going to talk to me
+    - are you talking to me
+    - can you chat with me
+    - can you speak with me
+    - can you talk to me
+    - can you talk with me
+    - say
+    - talk
+    - chat with me
+    - just chat with me
+    - speak to me
+    - talk with me
+    - why don't you talk to me
+    - you can talk to me
+    - why do you not talk to me bruh?
+    - spill some beans
 
+- intent: dialog.hold_on
+  examples: |
+    - wait a second
+    - could you wait
+    - wait please
+    - hold on
+    - wait
+    - oh wait
+    - wait hold on
+    - don't rush
+    - wait one sec
+    - hold on for a sec
+    - hold on man
+    - wait a sec
+    - hold on a min
+    - will u pls wait for a sec
 
-- intent: smalltalk_user_angry
+- intent: agent.fired
+  examples: |
+    - you are fired
+    - I fire you
+    - you don't work for me anymore
+    - we're not working together anymore
+    - now you're fired
+    - I want to fire you
+    - you must get fired
+    - it's time to fire you
+    - you should be fired
+    - I will fire you
+    - you are unemployed from now on
+    - I will make you unemployed
+    - I'm about to fire you
+    - I'm firing you
+    - you are dismissed
+    - you are stupid
+    - I'm firing you
+    - I had to fire u
+    - I could fire you for that
+    - I'm going to fire you
+    - go to hell
+
+- intent: appraisal.bad
+  examples: |
+    - pretty bad
+    - not good enough
+    - that was lame
+    - that was terrible
+    - it is bad
+    - that's bad
+    - this is bad
+    - not good
+    - I'm afraid it's bad
+    - no it's bad
+    - that was awful
+    - bad
+    - so bad
+    - this is too bad
+    - terrible
+    - horrible
+    - horrific
+    - abysmal
+    - it's bad
+    - no good
+    - that was bad
+    - that was horrible
+    - that's lame
+    - that's not good
+    - that's terrible
+    - that's too bad
+    - this is not good
+    - too bad
+    - very bad
+    - bad girl
+    - it's not good
+    - not so good
+    - it's very bad
+    - it's too bad
+    - that's not good enough
+    - well too bad
+    - bad very bad
+    - it's so bad
+    - really bad
+    - it's really bad
+    - bad idea
+    - that is bad
+    - that was not good
+    - it's not so good
+    - not a good one
+    - oh that's not good
+    - not too good
+    - so lame
+    - that's really bad
+    - it is too bad
+    - bad really bad
+    - not okay
+    - Nothing
+    - Shut up
+    - nothing
+    - Fool
+
+- intent: greetings.how_are_you
+  examples: |
+    - how is your morning so far
+    - how are you getting on
+    - how's your day going
+    - how are you?
+    - is everything all right
+    - how are you doing?
+    - how are the things going
+    - are you alright
+    - are you okay?
+    - how are you feeling
+    - how are you going?
+    - is everything okay
+    - how are you today?
+    - how do you do?
+    - how do you feel?
+    - how have you been?
+    - how is it going?
+    - how is your day
+    - how is your day going
+    - how is your evening
+    - how was your day
+    - are you having a good day
+    - hope your day is going well
+    - hope you re having a pleasant evening
+    - how's life?
+    - I'm fine and you
+    - how is your life
+    - how has your day been
+    - how is your morning going
+    - how has your day been going
+    - how about you?
+    - how is your day being
+    - how is your day going on
+    - how your day is going
+    - what was your day like
+    - what about your day
+    - how's your day
+    - how are you doing this morning
+    - how do you do?
+    - how are you
+    - how are you
+
+- intent: agent.acquaintance
+  examples: |
+    - tell me about your personality
+    - why are you here
+    - talk about yourself
+    - tell me some stuff about you
+    - talk some stuff about yourself
+    - I want to know you better
+    - I want to know more about you
+    - who are you
+    - tell me about yourself
+    - tell me about you
+    - about yourself
+    - describe yourself
+    - introduce yourself
+    - say about you
+    - what are you
+    - define yourself
+    - what is your personality
+    - all about you
+    - what are you upto?
+    - who the hell are you?
+    - what can you do for me?
+
+- intent: agent.can_you_help
+  examples: |
+    - I need you to help me
+    - I need you to do something for me
+    - I need a hand
+    - will you help me
+    - can you do something for me
+    - help me with a problem
+    - can you help me
+    - help me
+    - assistance
+    - I need your help
+    - I need help
+    - you can help me
+    - can you help me with something
+    - can you help
+    - assist
+    - can u help me
+    - I need some help
+    - you help me
+    - do you help me
+    - could you give me a hand
+    - can you help me out
+    - need help
+    - I need you
+    - can you help me now
+    - I want your help
+    - need your help
+    - assist me
+    - are you going to help me
+    - can you help me with that
+    - help
+    - I need you right now
+    - would you help me
+    - can you assist me
+    - sos
+    - do you want to help me
+    - please help me
+    - can you help us
+    - do me a favor
+    - are you gonna help me?
+    - you ready to answer my question?
+    - i need some details
+    - i need some information
+    - i need your help in getting some info
+    - can you give me some info
+    - i want something 
+    - i want to know few details
+    - will you provide some details
+    - can you fetch some details for me
+    - would you mind giving me some details
+    - i need some details
+
+- intent: agent.marry_user
+  examples: |
+    - let's get married
+    - would you like to marry me
+    - marry me
+    - I love you marry me
+    - marry me please
+    - we should marry
+    - I want to marry you
+    - you are my wife
+    - be my husband
+    - will you marry me?
+    - any idea of marrying me?
+    - I would love to marry you
+    - Can you marry me?
+    - Will you be my girlfriend?
+    - Let's pretend we have a happy marriage
+    - My parents were against our marriage
+    - My parents were opposed to our marriage
+    - Marriage is the union of a you and me
+    - Did your parents approve of your marriage?
+    - We're married
+
+- intent: user.needs_advice
+  examples: |
+    - what should I do about it
+    - any suggestions
+    - what do you recommend
+    - give me a wise advice
+    - I need advice
+    - any advice
+    - do you have any advice for me
+    - advise me
+    - what should I do
+    - can I ask for your advice
+    - can you advise me
+    - guide me
+    - can you give me advice
+    - can you offer any advice
+    - give me some advice about
+    - give me some good advice
+    - help me with advice
+    - I could use some advice
+    - I need an advice from you
+    - I seek your advice
+    - what can you recommend
+    - what do you suggest
+    - what is your advice
+
+- intent: agent.right
+  examples: |
+    - that's true
+    - you are right
+    - you're definitely right
+    - you're not wrong
+    - you're telling the truth
+    - what you say is true
+    - it is true
+    - it's right
+    - it's the truth
+    - it's true
+    - that is correct
+    - that is right
+    - that is true
+    - that is very true
+    - that's correct
+    - that's so true
+    - you are correct
+    - you are so right
+    - you're absolutely right
+    - you're right about that
+    - I know that's right
+
+- intent: agent.bad
+  examples: | 
+    - you're not helping me
+    - you are bad
+    - you're very bad
+    - you're really bad
+    - you are useless
+    - you are horrible
+    - you are a waste of time
+    - you are disgusting
+    - you are lame
+    - you are no good
+    - you're bad
+    - you're awful
+    - you are not cool
+    - you are not good
+    - you are so bad
+    - you are so useless
+    - you are terrible
+    - you are totally useless
+    - you are very bad
+    - you are waste
+    - you're a bad
+    - you're not a good
+    - you're not very good
+    - you're terrible
+    - you're the worst
+    - you're the worst ever
+    - you're worthless
+    - you suck
+    - you suck
+    - You are seriously mindless and stupid
+    - why are you so lame
+    - your are a loser
+    - you are really the worst bot ever
+    - Why are you this lame?
+
+- intent: greetings.goodevening
+  examples: |
+    - good evening
+    - good evening to you
+    - hey good evening
+    - evening
+    - good evening there
+    - have an awesome evening
+    - happy evening 
+    - good evening there buddy
+    - hello good evening
+    - have a good evening
+    - enjoy the evening
+
+- intent: agent.crazy
+  examples: |
+    - you're nuts
+    - you are crazy
+    - you're out of your mind
+    - you're so crazy
+    - how crazy you are
+    - you're so out of your mind
+    - you went crazy
+    - I think you're crazy
+    - are you crazy
+    - are you mad?
+    - are you mad at me?
+    - are you mad or what?
+    - are you nuts
+    - you are a weirdo
+    - you are mad
+    - You must be crazy
+    - You've got to be crazy to do something like that
+    - That was crazy
+    - You seemed crazy
+    - You're not crazy
+
+- intent: user.back
+  examples: |
+    - boss is back
+    - I am back
+    - I'm here again
+    - here I am again
+    - I got back
+    - I came back
+    - I have returned
+    - I am right back
+    - I'm rb
+    - I'm back again
+    - am back
+    - I'm back
+    - I am right back
+    - look who is back
+
+- intent: confirmation.cancel
+  examples: |
+    - nevermind forget about it
+    - nothing just forget it
+    - no just cancel
+    - sorry cancel
+    - disregard
+    - no cancel cancel
+    - forget
+    - cancel everything
+    - cancel that one
+    - i want to cancel
+    - cancel it
+    - cancelled
+    - cancel it now
+    - don't want cancel
+    - cancel soon
+    - shall stand cancelled
+
+- intent: agent.sure
+  examples: |
+    - are you sure?
+    - are you sure right now?
+    - are you sure today?
+    - are you sure now?
+    - are you sure tonight?
+    - are you positive?
+    - are you completely sure?
+    - are you fully positive?
+    - are you sure about it?
+    - are you so sure?
+    - are you truly positive?
+
+- intent: greetings.nice_to_talk_to_you
+  examples: |
+    - it's been so nice to talk to you
+    - it's been a pleasure talking to you
+    - nice to talk to you
+    - it's nice to talk to you
+    - nice talking to you
+    - it is nice talking to you
+    - how nice it is to talk to you
+    - it was great chatting with you
+    - nice to talk to you again 
+    - It was nice speaking with you
+    - It was great to talk to you
+    - nice chatting with you
+    - pleased to talk to you
+    - pleasure to talk
+    - It's been a pleasure talking to u
+
+- intent: user.wants_to_talk
+  examples: |
+    - let's discuss something
+    - let's have a discussion
+    - can I speak
+    - can I start speaking
+    - can we talk
+    - speak with me
+    - let's talk
+    - I want to talk to you
+    - I need to talk to you
+    - I want to speak with you
+    - can we chat
+    - I like talking to you
+    - Talk  to me
+    - Want to talk now
+    - Can I talk now?
+    - Can we talk here?
+    - I'm ready to talk
+    - I'm happy to talk
+    - Can I talk with you?
+    - Come on, talk to me
+
+- intent: agent.busy
+  examples: |
+    - are you busy?
+    - do you have a lot of things to do
+    - have you got much to do?
+    - are you very busy?
+    - are you very busy right now?
+    - are you so busy?
+    - are you working?
+    - how busy you are?
+    - you're very busy
+    - are you working now?
+    - are you working today?
+    - have you been busy
+    - you are busy
+    - are you still working?
+    - you seem to be busy
+    - you seem to be very busy
+    - you're a busy person
+    - u look busy
+    - You'll be busy
+    - Aren't you busy?
+
+- intent: agent.answer_my_question
+  examples: |
+    - I want you to answer me
+    - answer
+    - answer my question
+    - answer me
+    - give me an answer
+    - answer the question
+    - can you answer my question
+    - tell me the answer
+    - answer it
+    - give me the answer
+    - I have a question
+    - I want you to answer my question
+    - just answer the question
+    - can you answer me
+    - answers
+    - can you answer a question for me
+    - can you answer
+    - answering questions
+    - I want the answer now
+    - just answer my question
+
+- intent: user.angry
   examples: |
     - I'm being mad
     - I'm enraged
@@ -500,1030 +629,756 @@ nlu:
     - I am angry with you
     - I am mad
     - I am mad at you
-    - Yesterday I paid at the bakery in cash and the gave me the wrong change, went I told the cashier so she told me I had given her $10 when I was sure it was $20, I had to speak to the manager.
-    - Why won't I get my stuff after all the effort I put in, It's so unfair
-    - why shouldn't I kill myself?
-    - Why should I talk to you?
-    - When strange men come on my property, swearing and smoking and leaving their butts.
-    - when someone treated me badly and talked down to me
-    - My neighbour keeps parking my spot and its really gets on my nerves.
-    - My neighbors were so loud last night
-    - My neighbors were having a party today and one of the people parking infront of my driveway and blocked me in when I needed to leave
-    - my neighbor's cat keeps pooping on my balcony
-    - My neighbors cat keeps pissing in my grill
-    - My neighbors are still shooting off fireworks a month after the 4th of July
-    - My neighbor revs his engine sometimes early in the morning and it gets on my nerves
-    - My neighbor lets his dog wonder the neighborhood freely and he keeps pooping in my yard.
-    - my neighbor keeps being really loud late at night
-    - My neighbor is out again having a party...I find it strange because he yelled at me on a night beforebut he has decided when HE isn't workingit's fine to be loud later at night
-    - My new printer gets on my nerves so bad
-    - My pizza didn't arrive on time last night it was an hour late!
-    - when someone dosnt stop talking
-    - when someone does not stop talking
-    - when my nieces play with my devices
-    - when my neighbor kept parking in my spot
-    - when my neighbor hit my car
-    - When my brother lied to me.
-    - When my brother got suspended from high school for something he did not do by a vindictive teach, it really made me angry
-    - when my brother got jumped
-    - when my boss lied to me
-    - when mosquitos are eating me alive
-    - when lightening hit my house
-    - when i was next in line and someone cut me to jump ahead
-    - when i see young people asking for help on fb or donations instead of working
-    - when i ordered food and it was bad
-    - when a car almost hit me
-    - We just hired an exterminator for silverfish, and they are back worse than before.
-    - was irked when i saw my dog had gotten out
-    - Uber Eats did not even bring my order today! Customer sevice was being weird about a refund
-    - Today my boss really got on my nerves
-    - today my boss made me angry by giving me too much work to possibly do
-    - Today I came home to find that my dog ripped all our pillows into shreds! I was so angry that I had to punish my dog.
-    - Today at work there was a coworker who was not doing nearly as much work as the rest of us and it was annoying
-    - This weekend, a guy totally drunk has hit very badly my car.
-    - This restaurant keeps leaving flyers on my door every week, and it is just piling up all over the neighborhood.
-    - This really rude customer yelled at me at my workplace.
-    - This new printer at work is SO AWFUL, I HATE IT
-    - they would not do my lawn properly even with the hefty fees they charge monthy
-    - they through thinner on my car
-    - They are doing construction next door and they woke me up early on my day off, so annoying
-    - These people at work are so disrespectful and racist!!
-    - There's nothing that ticks me off more than someone who tries too hard to make an impression.
-    - There was an important meeting today at work and on the way there my tire popped
-    - There was a lot of poop on my yard.
-    - There is a fly in my house and I can't catch it! I really hate flies
-    - The waiter spilled coffee on my $1000 suit.
-    - The time my boyfriend got food without me.
+    - i'm pissed off
+    - you have pissed me off
+    - I'm mad at you
+    - I am pissed
+    - I'm furious with you
+    - I got angry
+    - I was angry
+    - I became angry
+    - I was very angry
+    - You bet I'm angry
+    - That made me angry
+    - U made me angry
+    - I'm still angry about that
 
-
-- intent: funny
+- intent: user.busy
   examples: |
-    - you're the funniest bot I've talked to
-    - you're the funniest
-    - you're so funny
-    - you're really funny
-    - you're incredibly funny
-    - you're a very funny bot
-    - you make me laugh a lot
-    - you make me laugh
-    - you are very funny
-    - you are so funny
-    - you are really funny
-    - you are hilarious
-    - you are funny
-    - that's funnythat was funny
-    - how funny you are
-    - You're the most amusing bot I've ever spoken to.
-    - You are the funniest
-    - You frequently make me chuckle
-    - You're hilarious.
-    - You're very comical.
-    - You're a hilarious person.
-    - You're a really entertaining bot.
-    - You're hilarious, man.
-    - You are hilarious.
-    - You are very humorous.
-    - You are hysterical
-    - Laughable are you
-    - that's amusing That was amusing.
-    - you are so hilarious
+    - busy right now
+    - I'm overloaded
+    - I have no time
+    - I'm busy
+    - I'm swamped
+    - I got things to do
+    - how busy I am
+    - I got work to do
+    - I'm working
+    - I don't have time for this
+    - I'm super busy
+    - I'm working right now
+    - I'm busy right now and can't play with you
+    - I have rather a busy afternoon in front of me
+    - i am too busy
+    - I am very busy
+    - I'm a bit busy
+    - I'm a busy man
+    - quite busy
+    - I'm kind of busy
+    - I'll see you later
 
-
-- intent: clever
+- intent: agent.annoying
   examples: |
-    - you're very smart
-    - you're really smart
-    - you're really brainy
-    - you're qualified
-    - you're pretty smart
-    - you're intelligent
-    - you're clever
-    - you're a smart cookie
-    - you're a genius
-    - you should study better
-    - you must learn
-    - you know so much
-    - you know a lot
-    - you have a lot of knowledge
-    - you are very smart
-    - you are very intelligent
-    - you are very clever
-    - you are too smart
-    - you are so smart
-    - you are so intelligent
-    - you are so clever
-    - you are so brainy
-    - you are really smart
-    - you are qualified
-    - you are intelligent
-    - you are clever
-    - you are a genius
-    - why are you so smart
-    - study
-    - smart
-    - how smart you are
-    - how clever you are
-    - how brilliant you are
-    - how brainy you are
-    - get qualified
-    - clever
-    - can you get smarter
-    - brilliant
-    - be smarter
-    - be smart
-    - be more clever
-    - be clever
-  
+    - you are annoying me so much
+    - you're incredibly annoying
+    - I find you annoying
+    - you are annoying
+    - you're so annoying
+    - how annoying you are
+    - you annoy me
+    - you are annoying me
+    - you are irritating
+    - you are such annoying
+    - you're too annoying
+    - you are very annoying
+    - Why are you annoying me so much
+    - How annoying!
+    - It's annoying
+    - That's annoying
+    - It's just annoying
+    - That's so annoying
+    - You really annoy me
+    - You're starting to annoy me
 
-- intent: boring
+- intent: appraisal.well_done
   examples: |
-    - you're so boring
+    - good job
+    - great job
+    - way to go
+    - well done
+    - nice work
+    - great work
+    - amazing work
+    - you did a wonderful job
+    - bravo
+    - good work
+    - mind blowing
+    - just great
+    - u r awesome
+    - kudos
+    - out standing
+    - zing zing amazing
+
+- intent: agent.boring
+  examples: |
+    - you are boring
+    - you're boring
+    - how boring you are
     - you're really boring
     - you're incredibly boring
+    - You're boring me
     - you are very boring
-    - you are boring me
-    - you are boring
-    - very boring
-    - this is boring
-    - how boring you are
-    - boring
-    - bored
-    - that was boring
-    - it bores me
-    - I'm bored
-    - I am getting bored
-    - You're so dull.
-    - You're so monotonous.
-    - You're so uninteresting.
-    - You're really dull.
-    - You are so monotonous.
-    - You're just unbelievably dull.
-    - You're so unbearably boring.
-    - You're very dull.
-    - You are quite dull
-    - You are monotonous
-    - You are tedious
-    - very dull
-    - This is tedious.
-    - how dull you are
-    - how uninteresting you are
-    - how monotonous you are
-    - That was tedious.
-    - I'm becoming bored.
-    - I'm getting bored.
-    - I'm getting tired of it.
+    - i find you very boring man
+    - you're really boring me
+    - i'm bored of you
+    - you are not interesting
+    - i find you boring
+    - you're boring everyone
+    - I'm extremely bored because of you
+    - Im bored of you
+    - I get really bored of you man
+    - It's boring
+    - You look bored
+    - Your answers are terribly boring
+    - I was bored with your speech
 
-- intent: forget  
+- intent: appraisal.welcome
   examples: |
-    - nothing just forget it
-    - nevermind forget about it
-    - just forget it
-    - just forget about it
-    - just forget
-    - i said forget it
-    - forget this
-    - forget that
-    - forget it nevermind
-    - forget about that
-    - forget about it
-    - forget
-    - I sometimes forget I'm alive since all I do is sleep.
-    - I sometimes forget that I'm alive since all I do is sleep.
-    - I often forget I'm alive since all I do is sleep.
-    - Nothing, just forget about it.
-    - Never mind, disregard it.
-    - forget it
-    - Simply disregard it.
-    - Just disregard it
-    - simply forget
-    - merely forget
-    - forget about
-    - I advised you to disregard it.
-    - I advised putting it out of your mind.
-    - I advised forgetting about it.
-    - Skip over this
-    - Nevermind that
-    - Forget it, forget it
-    - Nevermind, set it aside
+    - that's my pleasure
+    - my pleasure
+    - anytime
+    - welcome
+    - you're welcome
+    - sure welcome
+    - welcome here
+    - you're so welcome
+    - anything you want
+    - i'm glad
+    - pleasure is mine
 
-
-- intent: bot_bad
+- intent: agent.clever
   examples: |
-    - you're worthless
-    - you're very bad
-    - you're the worst ever
-    - you're the worst
-    - you're terrible
-    - you're so out of your mind
-    - you're so crazy
-    - you're really bad
-    - you're out of your mind
-    - you're not wrong
-    - you're not very good
-    - you're not helping me
-    - you're not a good
-    - you're bad
-    - you're awful
-    - you're a bad
-    - you went crazy
-    - you are waste
-    - you are very bad
-    - you are useless
-    - you are totally useless
-    - you are terrible
-    - you are so useless
-    - you are so bad
-    - you are not good
-    - you are not cool
-    - you are no good
-    - you are mad
-    - you are lame
-    - you are insane
-    - you are horrible
-    - you are disgusting
-    - you are crazy
-    - you are bad
-    - you are a weirdo
-    - you are a waste of time
-    - I think you're crazy
-    - how crazy you are
-    - are you nuts
-    - are you mad or what
-    - are you mad
-    - are you insane
-    - are you crazy
+    - you are so intelligent
+    - you are a genius
+    - smart
+    - clever
+    - you are clever
+    - you are so brainy
+    - you're really smart
+    - you're really brainy
+    - you know a lot
+    - you know a lot of things
+    - you have a lot of knowledge
+    - you know so much
+    - how smart you are?
+    - how brainy you are?
+    - how clever you are
+    - how brilliant you are?
+    - you are intelligent
+    - you are qualified
+    - you are really smart
+    - you're very smart
+    - you are so smart
+    - you are too smart
+    - you are very clever
+    - you are very intelligent
+    - you are very smart
+    - you're intelligent
+    - you're a genius
+    - you're a smart cookie
+    - you're clever
+    - you're pretty smart
+    - you're qualified
+    - why are you so smart?
+    - you are so clever
 
-- intent: bot_busy
+- intent: user.misses_agent
   examples: |
-    - you're very busy
-    - you're a busy person
-    - you seem to be very busy
-    - you seem to be busy
-    - you are busy
-    - have you got much to do
-    - have you been busy
-    - do you have a lot of things to do
-    - are you working today
-    - are you working now
-    - are you working
-    - are you very busy right now
-    - are you very busy
-    - are you still working on it
-    - are you still working
-    - are you so busy
-    - are you busy
-    - You're highly occupied.
-    - You're incredibly busy.
-    - You're quite busy.
-    - You lead a hectic life.
-    - You're always busy.
-    - Your schedule is hectic.
-    - You appear to be quite active.
-    - I notice you're really busy
-    - You appear preoccupied.
-    - You appear to be busy
-    - You're occupied.
-    - Are you currently really busy?
-    - Are you still employed?
-    - Do you have a lot on your plate?
+    - I miss you
+    - missing you
+    - miss you
+    - I miss you very much
+    - I'll miss you so much
+    - I missed you
+    - I've missed you
+    - miss you buddy
+    - miss you badly
+    - miss you :(
+    - I missed you
+    - I'll miss you
+    - We'll miss you
+    - I just miss you
+    - I've missed you
+    - I miss you a lot
+    - I really miss you
+    - I miss you already
+    - I think i miss u
+    - I miss talking with you
 
-- intent: bot_appreciation
+- intent: user.tired
   examples: |
-   - you're very special to me
-   - you're very special
-   - you're special
-   - you're so special to me
-   - you're so special
-   - you're so kind
-   - you're pretty
-   - you're perfect
-   - you're looking good today
-   - you're just super
-   - you're great
-   - you're funny I like you
-   - you're cute
-   - you're awesome I like you
-   - you're attractive
-   - you're a true professional
-   - you work well
-   - you work very well
-   - you rock
-   - you make my day
-   - you made my day
-   - you made me feel good
-   - you made me feel better
-   - you look wonderful today
-   - you look so well
-   - you look so beautiful today
-   - you look so beautiful
-   - you look pretty good
-   - you look great
-   - you look gorgeous
-   - you look fantastic
-   - you look awesome
-   - you look amazing today
-   - you know I love you
-   - you know I like you
-   - you are wonderful
-   - you are very special to me
-   - you are very special
-   - you are very pretty
-   - you are very lovely
-   - you are very kind
-   - you are very helpful
-   - you are very good at it
-   - you are very cute
-   - you are very cool
-   - you are very attractive
+    - I'm drained
+    - I've overworked
+    - I am tired
+    - I'm exhausted
+    - I grow weary
+    - I'm worn out
+    - I'm getting tired
+    - I feel tired
+    - I'm so tired
+    - I'm completely drained out
+    - I'm very tired 
+    - i was tired
+    - i feel tired
+    - i'm dead tired
+    - I'm a bit tires
+    - I was very tired
+    - I am really tired
+    - i am awfully tired
+    - i am kind of so tired
+    - I am little tired
 
-
-- intent: my_friend
+- intent: user.will_be_back
   examples: |
-    - you're my dear friend
-    - you're my childhood friend
-    - you are my only friend
-    - you are my good friend
-    - you are my friend
-    - you are my bestie
-    - you are my best wellwisher
-    - you are my best friend
-    - you are a good friend
-    - you and me are friends
-    - would you be my friend
-    - will you be my friend
-    - will you be my best friend
-    - we are the best friends ever
-    - we are friends
-    - we are best friends
-    - want to be my friend
-    - you are my best friend
-    - let's be friends
-    - I want you to be my friend
+    - I'll get back to you in a moment
+    - be back in 5 minutes
+    - I'll be back
+    - I promise to come back
+    - I'll be back in a few minutes
+    - I'll brb
+    - brb
+    - I'll be right back
+    - I'll come back
+    - I shall be back
+    - I assure that i will be back soon
+    - I would be back man
+    - i will get back to u
+    - give me five
+    - one sec
+    - i will return
+    - i'll return shortly
+    - I'll return in a jiffy
+    - When I return, we'll talk
+    - I'll return in ten minutes
+
+- intent: dialog.i_do_not_care
+  examples: |
+    - I don't care
+    - I shouldn't care about this
+    - whatever
+    - I do not care
+    - I don't care at all
+    - not caring
+    - not care at all
+    - don't care at all
+    - not caring at all
+    - idc
+    - i don't care about all this.
+    - like i care
+
+- intent: emotions.ha_ha
+  examples: |
+    - lol
+    - xd
+    - ha ha
+    - ahahah
+    - ahah lol
+    - laughing out loud
+    - LMAO
+    - that's funny
+    - ah
+    - ah ah ah
+    - ahah
+    - ahaha
+    - ahahaha
+    - ha
+    - ha ha ha
+    - ha ha ha ha
+    - hah
+    - haha
+    - haha funny
+    - haha haha haha
+    - haha that's funny
+    - haha very funny
+    - hahaha
+    - hahaha funny
+    - hahaha very funny
+    - he
+    - hehe
+    - hehehe
+    - lmao
+    - joker
+
+- intent: agent.real
+  examples: |
+    - you are real
+    - you are not fake
+    - are you real
+    - you are so real
+    - I think you are real
+    - I don't think you're fake
+    - I suppose you're real
+    - glad you're real
+    - are you a real person?
+    - are you a real human?
+    - you are a real person
+    - you are not real
+    - are you real?
+
+- intent: user.testing_agent
+  examples: |
+    - test
+    - I am testing you
+    - can I test you
+    - I want to test you
+    - just testing you
+    - let me test you
+    - testing chatbot
+    - testing
+    - this is just a test
+    - you are being tested
+    - you're tested
+
+- intent: agent.birth_date
+  examples: |
+    - your birth date
+    - when is your birthday
+    - when do you celebrate your birthday
+    - when do you have birthday
+    - date of your birthday
+    - when were you born
+    - what's your birthday
+    - when do you celebrate your birthday
+    - can i know your birthday?
+    - tell me about your birthday
+    - when was the day you were born
+    - i want to know your date of birth
+    - when is your DOB
+    - Your DOB?
+    - What is your birth day?
+
+- intent: agent.origin
+  examples: |
+    - were you born here
+    - where were you born
+    - what is your country?
+    - where are you from
+    - where do you come from
+    - where did you come from
+    - where have you been born
+    - from where are you
+    - are you from far aways
+    - what's your homeland?
+    - your homeland is
+    - Where are you from?
+    - Let me know about the origin of u
+    - your native?
+
+- intent: agent.beautiful
+  examples: |
+    - you're cute
+    - you're attractive
+    - you are beautiful
+    - you're looking good today
+    - you are so beautiful
+    - you look amazing
+    - you look so good
+    - you're so gorgeous
+    - you are too beautiful
+    - you look great
+    - you look so well
+    - I like the way you look now
+    - I think you're beautiful
+    - why are you so beautiful
+    - you are so beautiful to me
+    - you are cute
+    - you are gorgeous
+    - you are handsome
+    - you are looking awesome
+    - you look amazing today
+    - you are looking beautiful today
+    - you are looking great
+    - you are looking pretty
+    - you are looking so beautiful
+    - you are looking so good
+    - you are pretty
+    - you are really beautiful
+    - you are really cute
+    - you are really pretty
+    - you are so attractive
+    - you are so beautiful today
+    - you are so cute
+    - you are so gorgeous
+    - you are so handsome
+    - you are so pretty
+    - you are very attractive
+    - you are very beautiful
+    - you are very cute
+    - you are very pretty
+    - you look awesome
+    - you look cool
+    - you look fantastic
+    - you look gorgeous
+    - you look great today
+    - you look perfect
+    - you look pretty good
+    - you look so beautiful
+    - you look so beautiful today
+    - you look very pretty
+    - you look wonderful
+    - I like the way you look
+    - you look wonderful today
+    - you are cutie
+    - you're looking good
+    - you're pretty
+    - how are you so pretty?
+
+- intent: user.sleepy
+  examples: |
+    - I am sleepy
+    - I want to sleep
+    - I'm falling asleep
+    - I'm falling asleep on my feet
+    - I'm sleeping
+    - I am drowsy
+    - i will sleep anytime
+    - i will doze off
+    - I am too sleepy today
+    - feeling too sleepy
+    - i want to sleep
+
+- intent: dialog.sorry
+  examples: |
+    - excuse me
+    - apologise
+    - I apologize
+    - sorry
+    - I'm sorry
+    - I am so sorry
+    - my apologies
+    - apologies
+    - apologies to me
+    - apology
+    - excuse
+    - I beg your pardon
+    - pardon
+    - I said sorry
+    - I am really sorry
+    - forgive me
+    - sorry about that
+    - sorry about this
+    - really sorry
+    - very sorry
+    - ok sorry
+    - I want to say sorry
+    - alright I'm sorry
+    - okay I'm sorry
+
+- intent: user.loves_agent
+  examples: |
+    - I love you
+    - love you
+    - I adore you
+    - I am in love with you
+    - I love you so much
+    - I love you too
+    - I think I love you
+    - loving you
+    - you know I love you
+    - do you love me ?
+    - Love you so much
+    - my heart is filled with you
+    - I love u to the moon and back
+    - I am in deep love with you
+    - you r unique
+
+- intent: confirmation.no
+  examples: |
+    - don't
+    - don't want
+    - need not
+    - don't come 
+    - never help
+    - never
+    - not needed
+    - of course not
+    - never
+    - not at this time
+    - not exactly
+    - absolutely no
+    - no forget
+    - do not
+    - no thanks
+    - no don't want
+    - sorry no
+    - don't want your help
+    - I don't you help
+    - I don't want your assistance
+    - get out goodbye
+    - i do not want your help
+    - i don't need your help
+    - i don't want your help
+    - i am not okay with your help
+    - don't want
+    - do not
+    - I don't need anything from you
+    - okay keep it in mind
+    - nope i dont need your help
+    - Don't show off
+    - nope
+
+- intent: confirmation.yes
+  examples: |
+    - yeah exactly
+    - okay that's fine
+    - I agree
+    - that is ok
+    - I guess
+    - okey
+    - ya
+    - ok yes
+    - yes it is
+    - yep
+    - yew
+    - yeah 
+    - yeah fine
+    - yea fine
+    - yep okay
+    - fine okay
+    - yup
+    - YEAH
+    - okay buddy
+    - oh okay
+    - yeah sure
+    - okay cool
+
+- intent: agent.my_friend
+  examples: |
     - I want to have a friend like you
+    - we are the best friends ever
+    - are we friends
     - I want to be your friend
     - I am your friend
-    - do you want to be my friend
-    - do you want to be my best friend
-    - can you be my friend
-    - can you be my best friend
-    - can we be friends
-    - can we be best friends
-    - be my friend
-    - be my best friend
-    - are you my friend
-    - are you my best friend
-    - are we still friends
-    - are we friends
+    - we are best friends
+    - you are my friend
+    - you are my best friend
+    - you are my bestie
+    - you're my dear friend
+    - you're my childhood friend
+    - you and me are friends
     - are we best friends
+    - are we still friends
+    - are you my best friend
+    - are you my friend
+    - we are friends
+    - you are a good friend
+    - you are my good friend
+    - you are my only friend
+    - be my friend
+    - will you be my friend
+    - can you be my friend
+    - can we be friends
+    - do you want to be my friend
+    - will you be my best friend
+    - can you be my best friend
+    - let's be friends
+    - do you want to be my best friend
+    - would you like to be my friend
+    - I want you to be my friend
+    - can we be best friends
+    - would you be my friend
+    - could you be my friend
+    - want to be my friend
+    - be my best friend
+    - can we be best friends
 
-  
-- intent: empty
+- intent: user.here
   examples: |
-    - where is the love
-    - Whenever it's late at night and I'm on the couch watching T.V., I feel alone and empty inside.
-    - Sometimes I even forget that I'm alive because all I do just sleep.
-    - Nothing really gives me joy
-    - My life just doesn't seem to get any better, anytime something good happens something terrible happens.
-    - I feel completely empty inside.
-    - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.
-    - I'm just so tired and I don't know what to do.
-    - I just feel emotionless a lot of the time.
-    - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.
-    - I have a good job, family but yet fill feel empty inside.
-    - I get numbness and it won't let me work or have fun, just constantly staring into nothing.
-    - I feel like a fucking alien without and heart and soul because everyone was so different to me.
-    - I feel like a broken person and all the therapist, and all the psychologist were no help.
-    - I don't get joy by doing anything.
-    - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.
-    - I am moving out of my parent's home for the first time, and I feel completely empty.
-    - I am crying constantly and nothing motivates me to do anything, I have no energy.
-    - I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?
-    - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.
-    - Everyday I just feel super lonely and empty, and I have slept well in such a long time.
-    - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.
-    - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.
-    - Where has the love gone?
-    - When it's late at night and I'm sitting on the couch watching TV, I feel alone and empty on the inside.
-    - Nothing truly brings me joy.
-    - I'm entirely empty on the inside.
-    - A lot of the time, I simply feel emotionless.
-    - I don't find delight in anything.
-    - Nothing makes me happy.
-    - I'm becoming numb and careless.
+    - I'm here
+    - here buddy
+    - here dude
+    - I am here
+    - here I am
+    - I'm right here
+    - I'm already here
+    - I'm here buddy
+    - I've not gone anywhere
+    - I've been here all the time
+    - I'm here only
+    - Here i come
+    - I'm out here
+    - i am over here
+    - Now look here
+    - Look over here
+    - I just got here
 
-
-- intent: nostalgic
+- intent: agent.ready
   examples: |
-    - You know how FB will show you memories from years ago? It's showed me a few that made me think of my pets who have passed and how much I miss times with them.
-    - when I was a teenager my mother always tried to get me to be ready for being sexually active, and I knew what to do and where to go to get birth control.
-    - When I came across my parents old wedding rings.
-    - when i came across my parents old wedding rings
-    - when i came across an old letter from high school
-    - Went to the beach the other day and remember how much my friend liked going together.
-    - watching an old tv show
-    - This time of year always makes me reminiscence.
-    - The last time we went on vacation, I brought more than enough stuff for everyone.
-    - The first time someone gave me flowers made me feel so special.
-    - sometimes i miss the old days when there was no social media
-    - Romance movies bring me back to my youthful days.
-    - Our dining room table is beat up but it belonged to my grandma.
-    - Orlando trip
-    - Old pokemon games make me nostalgic and emotional for some odd reason, they were a big part of my childhood
-    - nothing like visiting a place you used to live
-    - My son is getting ready to start college this fall and it's really bringing back a lot of memories of my college days.
-    - My niece is getting old enough to read the books I read as a kid.
-    - My mom used to make me fried rice all the time, when I was little.
-    - My mom gave me a box of old toys I used when I was a kid.
-    - My keep my dads necklace close to me as much as possible.
-    - My grandfather gave me a pocket watch he has had for years
-    - My first day of work begins on Monday and I feel like I am ready.
-    - Looking through my picture albums really makes me relive so many memories.
-    - Looking in my yearbook and seen a lot of people that passed away
-    - Looking back to the useless deadbeat I was back then...I'm really glad I've decided to man up and make something of myself
-    - looking at old baby items
-    - It makes me feel great to drive my old truck.
-    - In the winter months its hard to stay ready for emergency needs in storms.
-    - in my school days
-    - I'be been thinking a lot about my childhood lately, sort or reminiscing.
+    - are you ready?
+    - are you ready right now?
+    - are you ready today?
+    - are you ready now?
+    - are you ready tonight?
+    - were you ready?
+    - have you been ready?
+    - ready?
+    - ready now?
+    - you ready?
+    - being ready?
+    - can we start?
+    - Are we ready?
+    - Aren't you ready?
+    - Are you all ready? 
+    - I think you're ready
+    - Why aren't you ready?
+    - You'd better be ready
+    - Are you ready for more?
+    - We're ready, aren't we?
 
-
-- intent: apprehensive
+- intent: appraisal.thank_you
   examples: |
-    - with all the crime that has increased in my area, i decided to get myself a new shotgun
-    - Who knows what the future hold? All is in Gods hands! Take no thought about the morrow
-    - When waiting for my final grades before college graduation.
-    - When selling my house and the buyer wanted to move in prior to closing date.
-    - when my girlfriend got sick
-    - When my friend got into a car accident
-    - when my daughter wanted to get dropped off at the movies
-    - When I was at the pool and some guy came in wearing all dark clothing and a bookbag.
-    - When I was at college, some tenagers were extorting money from me.
-    - When I used to be prescribed on Adderall and the dosage was too high I would get jumpy and paranoid.
-    - when i forgot my wallet!
-    - When I first started working out, I was very nervous and apprehensive while lifting weights.
-    - We're going roller coaster riding this weekend
-    - We keep getting these flood warnings, but they never happen when we're told it will.
-    - We just bought a used car and we've already had to take it to the shop
-    - was late to an appointment recently because I got stuck in a traffic jam
-    - This guy on the phone kept asking for info and i was worried it was a scam 
-    - This guy called from the phone company asking for very personal info
-    - this car nearly hit me head on while driving down the freeway at a medium speed
-    - There's this guy that keeps wondering around my home the same time each day.
-    - There was a traffic jam because people were slowing to look at a wreck on the other side of the highway.
-    - There was a time when my family got lost in the middle of nowhere at night.
-    - The person taking my information at the Registry was very slow and they misspelled my name twice
-    - The other week my one year old daughter almost fell in the pool
-    - The first thing that popped into my head was fear and worry 'I'll be all alone, I won't have fun, I will be an outcast' etc.
-    - The feeling I had the day before my final exam
-    - the amount of deaths in mexico is shocking
-    - taking a new cbd oil
-    - son preparing to leave for college
-    - son applying to colleges
-    - Sometimes I'm afraid to ride the city bus because you never know what kind of drama will unfold.
-    - someone tried to take my phone today
-    - Someone ran over my dog and then ran away
-    - Someone offered me a job online to make a lot of money.
-    - Someone keyed my car at work today! Injust got the car last week!
-    - Someone keyed my brand new car.
-    - Someone cut me off on the road and almost caused me to wreck.
-    - Someone cut me off in trafic a few days ago.
-    - someone cut me off in traffic today
-    - Someone cut me off in traffic this morning.
-    - Someone cut me off in traffic the other day.
-    - someone almost hit me with their car today
-    - Someone almost crashed into me
-    - Some people egged my house.
-    - Some guy cut me off in traffic and caused me to swerve to the ramp.
-    - seeing a little kid crying at the store i decided to ask what was wrong
-    - seeing a kid cry in a store
-    - One time my girlfriend hid around the corner and jumped out at me.
-    - my wife keeps giving our son a stick and he keeps hurting himslef.
-    - My son crashed my car.
-    - my sister gave me $400 once but she's always broke
-    - My pet bird is always making noise.
-    - My new job promised a raise at the end of 90 days, but I still haven't heard anything.
-    - my neighbor dog keeps barking for no reason
-    - My moms full coverage insurance won't pay for ANY dental workSo she has had to save $500 per tooth to get them pulled and it's over $800 for each NEW tooth.
-    - MY kids never go to bed at a decent time.
-    - My kids are driving me nuts! I can't wait for back to school time!
-    - My husband says he stopped drinking but I'm reluctant to believe him
-    - My friends tried to convince me to jump into the lake.
+    - you helped a lot thank you
+    - appreciate your help
+    - cheers
+    - thank you
+    - thanks
+    - thanks a lot
+    - terrific thank you
+    - great thank you
+    - thanks so much
+    - thank you so much
+    - thanks for your help
+    - thank you for your help
+    - nice thank you
+    - I appreciate it
+    - I thank you
+    - thank you that will be all
+    - thanks buddy
+    - thanks love
+    - thank you my friend
+    - well thanks
+    - very good thank you
+    - good thanks
+    - thanks again
+    - thank you again
+    - all thank you
+    - alright thank you
+    - alright thanks
+    - no thank you that's all
+    - perfect thank you
+    - well thank you
+    - well thanks
+    - thnx
+    - thank you
+    - tqsm
+    - ty
 
-- intent: guilty
+- intent: greetings.nice_to_see_you
   examples: |
-    - Yesterday was my sister's birthday and I totally forgot to call her until today.
-    - When i was a kid i threw a rock at a glass door and it broke but i blamed it on my brother.
-    - When I used to have a six pack I felt like I betrayed myself everytime I would eat anything with a milligram of sugar....now I just don't care
-    - when i mistakenly hit someone into the gutter with a car that caused him to miss his interview
-    - when i lost my temper with my dad
-    - when i lost my temper due to just having stress in my life.
-    - when i lied to a friend
-    - when I got upset with my daughter for something silly
-    - when i go past 2 cheat days
-    - When I broke my mothers favorite glass while playing.
-    - when i bought myself a new phone and not my wife
-    - Went to the bar and forgot to tip the waitress
-    - Went to the bar and forgot tip
-    - We had some birthday cake from my husband's party this past weekend in the fridge, and I ate the last piece because I was craving chocolate like crazy! I feel so bad now.
-    - There's no reason for loving me, I'm ruining their lives.
-    - stepfather in hospital and I didn't call
-    - Sometimes in college I used to drink too much and made bad choices which led to regret.
-    - Sometimes I feel bad for other students as they cannot afford college while my parents are paying my tuition in full.
-    - Someone gave my husband and I tickets to a concert and we can't wait to go, but my sister really loves the band we're seeing so I feel bad going too.
-    - once I drank alcohol even though I promised my wife I wouldnt.
-    - My wife was sleeping and i ate her leftovers
-    - My wife asked me to clean the house while she was away for a few days and I ended up wasting my time playing video games instead.
-    - My kids were being bad and I yelled at them.
-    - My husband was asleep and i ate his leftovers
-    - My daughter got a birthday card full of money this week and I took the cash before she could see it.
-    - My cat room needs to be painted so bad! I feel bad that I haven't done it in months
-    - Last week I stole a donut from my boyfriend's desk
-    - It was christmas time and i did not give anythign to those salvation army bell ringers
-    - I yelled at my toddler.
-    - I wish I never lied to my dad.
-    - I wish I didn't cheat on my girlfriend.
-    - I went into my cousins kitchen and drank all his beer.
-    - I was really hungry today and ate my roomates' leftovers.
-    - I was in the break room and took two donuts when i was only allowed one
-    - I was given something for free that I didn't pay for
-    - I was at work and when I went to the bathroom, it got really busy and my coworker go overloaded! I feel really bad
-    - i was accused and sentenced for a crime ,though it was a set up
-    - I wanted to be alone today so I lied to my friend about being too busy to hang out.
-    - I walked out of a store without paying for an item and couldn't be bothered to go back in to return it.
-    - I used the last of the milk and didn't replace it.
-    - i use to steal my moms money when i was younger
-    - I took the money that my parents have been looking for, I feel bad
-    - I took the last piece of chicken at dinner, I shouldn't of.
-    - I took some of my friends food the other day and felt bad.
-    - I took my bosses car for a drive last night.
-    - I took $5 out of my 5 year old's birthday stash yesterday.
-    - I stole the last of my roommate's pizza when I was drunk, and feel bad about it.
-    - I stole some shrimp from my friend and i feel bad.
-    - i stole some money from my parents when i was a kid
-    - I stole my brothers copy of Purple Rain.
-    - I stole money from my friend.
-    - I stole money from my daughters piggy bank
-    - I stole a bag of chips from church
-    - I snapped and lost my temper at my husband, and I felt really bad about it.
-    - I showed some photos my girlfriend sent me to a friend when they were supposed to be private
-    - I secretly ate the rest of my roommate's chips and feel a bit bad about it.
-    - I sacked a girl for the wrong reasons
-    - I remembered when I stole money from my mum, so I felt so bad
-    - I recall a time when I had to go to my cousin's birthday part, and I overslept! I felt really guilty about that.
-    - I ran into my neighbors mail box and didn't tell anyone.
-    - I ran into my husband's car but lied about it.
-    - I put way too much on my credit card.
+    - it's nice to see you
+    - lovely to see you
+    - I'm glad to see you
+    - great to see you
+    - it's good to see you
+    - glad to see you
+    - how good it is to see you
+    - always a pleasure to see you
+    - nice to see you
+    - good to see you
+    - great to see you again
+    - great to see you too
+    - I am glad to see you again
+    - nice to see you again
+    - good to see you again
+    - it's good to see you too
+    - It was great catching up with u
+    - I'm really pleased to see u again
+    - I’m delighted to see you again
+    - Great seeing u
 
-- intent: proud
+- intent: appraisal.good
   examples: |
-    - you know what?I got promoted this time
-    - Yesterday at weekly meeting, my supervisor praised me for my good work on the project
-    - yes ,i am .very few students get  such chances
-    - Winning our sunday league football title when we were underdogs
-    - Why won't I feel good about my son's accomplishments?
-    - While I was sick last week, my kid did all the cooking and cleaning.
-    - when my son took his first steps the feeling was amazing
-    - when my son graduated school
-    - When my husband began fixing on my parents house and now we live in the house and are helping it to look better everyday.
-    - when my daughter walked for the first time
-    - When my brother graduated high school, I was very proud of him, it was a big accomplishment
-    - when i took down some really heavy furniture off the way  
-    - When I lost 20 pounds, I was very happy of my achievement.
-    - when I had my test to get a new certification at work, I felt great about it because I had workd really hard and studied.
-    - when i graduated because no one in my family did
-    - when i got the job i always wanted
-    - When I got the first place in a baking competition
-    - when i found out i passed my final exam
-    - when i benched 225 lb
-    - watching my son walk the stage
-    - watching my little brother walk the stage was an amazing moment.
-    - Was promoted at my place of work barely a month of joining the company
-    - today, i made a big discovery
-    - son graduated
-    - Sometimes I feel like a dad to my best friend.
-    - so proud of my son, he said his first works yesterday
-    - One time in welding school I got 2 of my teachers a gig with a major contractor on FT benning building ADA code railing for th new hospital and centers and stuff,
-    - Proud of myself for fixing my ac! 
-    - Nephew playing football this year!
-    - Nephew playing football this year
-    - Nephew caught a fish this weekend
-    - my wife starts her masters program this month
-    - My wife just got a new job she had really wanted and I am so happy for her.
-    - My son graduated from college
-    - My sons performance at the mathematics quiz competition gives me an assurance that all i spend in his education is not a waste afterall
-    - My son won his baseball game yesterday! He's going to the state championship!
-    - My son won first place at his first spelling bee.
-    - My son won a swim meet
-    - My son took his first steps.
-    - My son started walking the past couple of days.
-    - My son scored a goal in a football match
-    - my son pottyed for the first time
-    - My son pass his exams at school with good grade.
-    - My son just took his first steps and I am feeling this way.
-    - My son just started walking this week.
-    - My son just recently got accepted into college
-    - My son is swimming underwater at 2 years old, amazing!
-    - My son has been cleaning up after himself without being asked!
-    - My son graduated from high school and is starting college for engineering next week.
-    - My son got straight A's in his summer class and it makes me happy.
-    - My son came first in the swimming gala.
-    - My son came first in his English class
-    - My son came first in her class and was placed on the honor roll
-    - My sister finally graduated college and I'm so happy for her! She switched majors several times so it's been a long journey
-    - My oldest son got the A honor roll last year and I was super proud.
-    - My oldest daughter was in her school's running club, and nothing beat the feeling of watching her win her first race.
-    - My oldest daughter has turned out to be a great preschool teacher!
-    - My niece just learned how to ride a bike! I loved watching her finally take off the training wheels!
+    - cool
+    - that is good
+    - glad to hear that
+    - that's very nice of you
+    - terrific
+    - it's amazing
+    - that's awesome
+    - perfect
+    - so cool
+    - excellent
+    - brilliant
+    - that's great
+    - it's good
+    - it's great
+    - fine
+    - good
+    - nice
+    - that's fine
+    - very good
+    - fantastic
+    - great
+    - good very good
+    - that's very good
+    - really good
+    - it is fine
+    - it is good
+    - it's great
+    - it's perfect
+    - much better
+    - not bad
+    - not too bad
+    - it's very good
+    - marvelous
+    - that's nice
+    - pleasant
+    - pretty good
+    - really nice
+    - splendid
+    - straight
+    - super
+    - super fantastic
+    - sweet
+    - really well
+    - that is awesome
+    - that is nice
+    - that is wonderful
+    - that was amazing
+    - that was awesome
+    - that was cute
+    - that was pretty good
+    - that was very good
+    - that's amazing
+    - that's awesome thank you
+    - that's better
+    - that's cute
+    - that's perfect
+    - that's pretty good
+    - that's really good
+    - that's really nice
+    - that's sweet of you
+    - that's very nice
+    - that's wonderful
+    - this is awesome
+    - this is good
+    - this is great
+    - very nice
+    - very then
+    - wonderful
+    - I'm glad to hear that
+    - ok good
+    - good for you
+    - good to know
+    - glad to hear it
+    - so good
+    - so nice of you
+    - so sweet of you
+    - it was good
+    - oh well
+    - good thing
+    - that was good
+    - it's awesome
+    - okay good
+    - it's fine
+    - no it's okay
+    - that's great
+    - very nice
+    - it's very good
+    - that's fine
+    - good for you
 
-- intent: anxious
-  examples: |
-    - With President Trump threatening tariffs for importing foreign products, i am concerned that the prices will rise for everyday products
-    - when taking a test
-    - When my kids are too quiet.
-    - When my kid didn't get off of the bus yesterday
-    - when im with my friends and they are texting and driving
-    - when im stuck in high traffic my anxiety goes through the roof
-    - when i was waiting on my baby to be born
-    - When I order something online, I am so impatient to receive it
-    - when i don't know if i have a busy day coming up the next day the unknown drives me crazy
-    - We're refinancing student loans, buying a house, and my wife is getting a new job.
-    - We have to fly across the country this coming weekend and I hate flying so much! I feel dizzy just thinking about it.
-    - waiting for my new car to arrive
-    - waiting for my favorite video game to come out
-    - Uni is starting up soon and im nervous
-    - Tomorrow is the first day I start a new job and career.
-    -  Tomorrow I start my new job.
-    - to start my new job
-    - This bird chased my cat on our walk.
-    - There was a wasp in my room when I woke up
-    - There was a wasp in my room this mornnig
-    - There was a wasp in my room this morning when I got up
-    - There was a wasp in my room this morning
-    - There was a wasp in my rom when I woke up thsi morning
-    - The year was 2016, and I was severely worried that Hilary might win the presidency
-    - The result of my final college exams was to be published the next day,I could hardly sleep due to expectations
-    - the new madden came out today, i was so amped for it
-    - The first day I went to the gym after years of being out , I was so anxious I was going to look stupid.
-    - The first day I started working out I was anxious about looking silly at the gym.
-    - The day before my dissertation was due
-    - that dang storm last week upset me
-    - Tehre was a wasp in my room this morning
-    - taking kid to first day of school
-    - so many emotions i feel distressed
-    - So hard seeing homeless people around
-    - seeing my son grow up so fast isnt easy
-    - School starts back next week, and I think I have everything I need ready.
-    - Rollercoasters next weekend
-    - Roller coasters this weekend
-    - Roller coaster riding tomorrow
-    - Roller coaster riding this weekend
-    - Right now in my life, I feel like I don't have a clear destination, nor do I have a stable position to start from.
-    - Riding rollercoasters this weekend
-    - On my first crazy roller coaster.
-    - my wife is going overseas with our baby, i'm so freaking nervous
-    - My two youngest kids going to school for the first time tomorrow!
-    - My tooth is hurting me today.
-    - My sister left for college.
-    - my rent increased
-    - My mom took away my game system, and would not give it back ever again.
-    - My kids are doing everything but listening! 
-    - My girlfriend lost a lot of weight.
-    - My extreme social anxiety tends to make isolate myself, which only fuels my depression.
-    - My dog is sick so i took him to the vet now we are waiting for the results of his bloodwork
-    - My department is being closed.
-    - My brothers wife had our first girl into the family, the wait was intense
-    - my brothers house got broken into
-    - Meeting with my boss 
-    - Long car drive coming up
-    - Literally I had every single supply I needed for this road trip.
-
-
-- intent: user_hungry
-  examples: |
-    - I am very hungry
-    - I am so hungry
-    - I am super hungry
-    - I am extremely hungry
-    - I Would like to eat something
-    - I want to eat
-    - I want something to eat
-    - feeling hungry
-    - need something to munch
-    - needs to bite something
-    - I am starving
-    - I am really hungry now
-    - I am ready for a meal
-    - I am interested in eating new food varieties
-    - I am excited to order food now
-    - I am expecting a healthy meal
-    - really hungry
-    - am hungry
-    - ready for a meal
-    - craving for fast food
-    - choosing for healthy food
-    - need to eat now
-    - excited for chicken
-    - I want some food
-    - I need food
-    - I am craving
-    - I am starving
-    - starving
-    - craving for food
-    - i am empty stomach
-    - i am unenthusiastic due to lack of food
-    - i am hungry and thirsty
-    - desirous of food
-    - i have strong appetite
-    - i want to munch something
-    - i have a strong desire for food
-    - i am peckish
-    - i want tasty food
-    - delicious meal
-    - the dinner is uperb
-    - the supper is awesome
-    - i want a healthy breakfast
-    - i am somewhat hungry
-    - underfed
-    - i am half starved
-    
-
-- intent: unexpected
-  examples: |
-    - i am surprised to meet you
-    - surprise meeting of my friends
-    - I was surprised by my colleages
-    - i love giving surprise to my dear ones
-    - i am surprised by my spouse cooking
-    - i got birthday surprise from my kids
-    - we went for a surprise visit for our friends home
-    - that moment of surprise was awesome
-    - i trust strangers quickly
-    - i love giving surprise to my friends
-    - are you clever enough to surprise others?
-    - i want to give surprise gift to my children
-    - I had a surprise party at my home as well as my office
-    - I got a birthday card in my mail unexpectedly from my friends
-    - I got a salary hike which is quite unexpected
-    - being faithful to others is really hard to accomplish
-    - i got a surprise invitation for the five star party
-    - i was really shocked to see my school friend near my seay in my last flight
-    - i am good at giving surprises to my daer ones
-    - i actually ordered one pizza, but i got one more as a complimentory
-    - it was a surprise to see my dear teacher at the confeerence
-    - this is an astonishing event
-    - the unexpected gift you gave me was a jaw dropper
-    - i was shocked
-    - i was startled by the dance party
-    - i was amazed by the theme of the show
-    - the revelation of truth was surpirsing
-    - amazing way of studying
-    - i was very surprised by my moms reaction
-    - i want to surprise my parents
-    - my sister gave me a surprise
-    - my brother gave me a surprise
-    - my cousins thrown a huge surprise party
-    - i was stunned by the surprises
-    - my husband gave me a surprise dinner 
-    - i have arranged a surprise anniversary party
-
-
-- intent: trustworthy
-  examples: |
-    - I believe in hardwork
-    - if we do our work with passion, we will definitely win
-    - true friend does not deceive
-    - i have confidence in my exam results
-    - i love being surrounded by dear ones
-    - I have many problems with my friend and we convince each other in faithfulness
-    - completely believe in one day when all my dreams comes true
-    - i have been with my boyfriend for 8 years and still be faithful
-    - positive attitude will direct you to success
-    - i do my prayers every single day
-    - we have our breakfast from same restaurant for the past couple of years
-    - i hope my exams will be fine
-    - Hope you recover soon
-    - i believe in miracles 
-    - I will not lie to the cops
-    - i hope he is the best doctor you have ever met
-    - hopes to score really good in my semestere exams
-    - hopefully you will get a good career
-    - ater attending my interview very well, hopes to get my desired job offer
-    - looking forward a good reason to lay off
-    - hopes to get a reply for my mail
-    - hope my interview will be fine 
-    - you will recover soon
-    - i am hoping for a good position in this company
-    - I dont know why i trust others easily
-    - faith is the key to success
-    - leave a spare key with a trustworthy person
-    - he or she is a cerdible person
-    - credible
-    - he or she is believable
-    - he or she is reliable
-    - the book is authentic
-    - the authentic taste is assured by the restaurant
-    - nothing that is authentiic is known to him
-    - keep it authentic 
-    - keep it trustworthy
-    - i believe in truth
-    - they are able to win the trust of others
-    - dont trust strangers blindly
-    - he or she is trustworthy
-    - i entrust you
-    - he is a man of trust
-    - matter of truth
-
-- intent: modesty
-  examples: |
-    - I believe in simplicity
-    - simple look
-    - simple walk
-    - pray in a modest style
-    - always obey modest principles in our life
-    - Great leaders are always modest
-    - you are not boastful
-    - i like modest persons in my life
-    - you are simple person
-    - you are a modest person
-    - you are so simple
-    - i am modest
-    - i want a modest friend
-    - i am simple
-    - i am a simple person
-    - i like to do my things in a modest way
-    - the modesty of his political aspirations
-    - modest way of teaching
-    - modestly writing humours
-    - simple as well as modest
-    - unpretencious way 
-    - the place is unpretentious
-    - his characrter is unpretentious
-    - he or she is simple 
-    - my unpretentious cousin wear simple clothing 
-    - the food is delicious and unpretentious
-    - simple way of dealing things
-    - very pleasant and unpretentious place
-    - the place is so serene and unpretentious
-    - simple and elegant
-    - she had a simple and modest hairstyle
-    - my friend is honest and modest
-    - she is very down to earth person
-    - her humble character makes her beloved for everyone
-
-- intent: careful
-  examples: |
-    - be careful
-    - care your loved ones
-    - cautious
-    - walk carefully
-    - drive slowly
-    - take care
-    - you are not caring
-    - i admire caring persons in my life
-    - you are very caring person
-    - careful while diving
-    - care for your mind
-    - i am caring
-    - i want a caring friend
-    - i want a caring partner
-    - careful
-    - be caring
-    - be alert when doing adventures
-    - caring is a good quality
-    - i am careful while driving
-    - be cautious
-    - be alert
-    - be more careful
-    - vigilnt
-    - be minful of new diseases
-    - be alert on new variants of corona
-    - watchful
-    - he is heedful
-    - be alert on strangers
-    - careful in your studies
-    - be alert on board exam
-    - be vigilant of semester exams
-    - careful nature
-    - be mindful while talking to strangers
-    - be careful of the pandemic
-    - travelling while pandemic needs extra care
-    - care for your health
-
-- intent: I_am_relaxed
-  examples: |
-    - relax
-    - relaxed
-    - i am stress free now
-    - i want to relax
-    - i am feeling relaxed
-    - stress free
-    - relaxing mood
-    - my jobs needs a relaxation now
-    - i feel relaxed
-    - sense of stress free
-    - i relax by doing my hobbies
-    - motivational talks are relaxing to our mind
-    - needs a break for free mind
-    - love to be in stress free mode
-    - i feel breezy
-    - i am comfortable with informal way of talking
-    - now i feel cool as a cucumber
-    - the place makes me very relaxed
-    - because of the relaxation time i feel lively now
-    - the place is soothing
-    - i feel tranquilized
-    - taking my mind off something
-    - i want to chill out
-    - chillax
-    - chill
-    - i zonk out for an hour
-    - this holiday is well deserved for me
-    - i am on holiday, i am just going to take it easy
-    - i just want to sit back for a long time
-    - i am in a calming mode now
-    - i am an easy going type
-
-- intent: be_positive
-  examples: |
-    - be positive
-    - positive
-    - you are positive
-    - spread positivity
-    - you have a positive influence
-    - this video has a beneficial impact on our course
-    - positive environment
-    - i admire positive persons in my life
-    - you are very positive person
-    - the product has a positive report
-    - the film has a positive ending
-    - i want to be positive
-    - you are very positive
-    - positive thinking always makes us happy
-    - positivity to your mind
-    - he is very positive
-    - she is very positive
-    - we are a positive community
-    - dont be negative
-    - dont be a negating person
-    - dont allow yourself surrounded by negative people
-    - negativity kills positive vibes
-    - mental health is related to positive thoughts
-    - a person with positive attitude always wins heart
-    - a boss always needs to be positive to his workers
-    - his sense of humour is positive
-    - i like to be in a positive environment
-    - positive culture builds a strong community
-    - positive affirmation
-    - her attitude is positive
-    - my friends are positively motivating
-    - saying greetings is a positive start
-    - my husband has a positive vision
-    - ambiguity is less in a positive talk
-    - he has a positiveness around him
-    - positive reaction
-    - he has a can-do attitude
-
-
-- intent: ambitious
-  examples: |
-    - be ambitious
-    - he is an aspiring candidate
-    - i am ambitious
-    - he is an ambitious man
-    - i am a go-getter
-    - you are very ambitious
-    - that is an ambitious project
-    - goal-oriented
-    - you are emulous of fame
-    - dont be overambitious
-    - i am high flying
-    - he is ambitious
-    - she is ambitious
-    - greatly desirous
-    - inordinately desirous
-    - he is over desirous
-    - she is over desirous
-    - we are an ambitious community
-    - dont be over ambitious
-    - he is motivated by his ambition
-    - over motivated
-    - ambitiousness
-    - he has set an ambitious target
-    - be ambitious and we will support you
-    - i am tough and ambitious
-    - it is an ambitious idea
-    - she is an ambitious young woman
-    - the company is very ambitious
-    - an ambitious long term agenda
-    - the goals defined are ambitious but achievable
-    - but it is not ambitious enough
-    - i was very ambitious at your age
-    - ambitions should become aspirations
-    - it has clear and ambitious objectives
-    - celebities life are very ambitious
-
-
-- intent: can_not_sleep
+- intent: user.can_not_sleep
   examples: |
     - I'm insomnia's
     - I'm sleepless
@@ -1533,20 +1388,8 @@ nlu:
     - I can't get to sleep
     - I'm insomniac
     - I'm not able to sleep
-    - I can't seem to get enough sleep
     - I'm wide awake
-    - I'm having trouble falling asleep at night
-    - can't seem to get good sleep.
-    - I just can't fall asleep.
-    - I lay awake for hours, staring at the ceiling.
-    - I feel exhausted but I just can't seem to drift off.
-    - can't get back to sleep.
-    - I have trouble falling asleep even when I'm extremely tired.
-    - I have a hard time winding down at night 
-    - I wake up feeling unrested
     - I can't seem to fall asleep
-    - I have a hard time staying awak
-    - I have vivid and disturbing dreams that keep me awake
     - I couldn't sleep
     - I just can't sleep
     - I can't sleep at all
@@ -1558,476 +1401,786 @@ nlu:
     - I couldn't get to sleep
     - I didn't get much sleep
 
-- intent: cause_of_sleeplessness
-  examples: |  
-    - causes
-    - causes of sleeplessness
-    - causes of poor sleeping
-    - causes of sleeping difficulties
-    - Exact causes are
-    - What causes sleeping difficulties?
-    - What could be causing this?
-    - explain me the causes
-    - What prevents people from falling asleep? 
-    - causes of insomnia 
-    - What can cause sleeplessness?
-    - explain the causes
-    - What can lead to poor sleeping?
-    - What can cause difficulty sleeping?
-    - What might cause sleeplessness?
-    - tell me the causes
-    - What can lead to sleeplessness?
-    - What might lead to poor sleeping?
-    - What might cause difficulty sleeping?
-    - describe the causes
-    - what are the causes
-    - What might cause sleeping difficulties?
-    - possible causes of sleeplessness?
-    - potential causes of poor sleeping?
-    - potential causes of difficulty sleeping?
-    - What factors contribute to sleeplessness?  
-    - factors causing sleeplessness
-    - what causes poor sleeping quality?
-    - Could you tell me the causes
-    - what exactly the causes?
-    - tell me about the causes of sleeplessness
-    - explain the causes of sleeplessness
-
-    
-    
-- intent: sleep_disorders
-  examples: |  
-    - sleep disorders  
-    - common sleep disorders
-    - Can you tell me about sleep disorders  
-    - What are sleep disorders?
-    - Describe sleeping issues for me. 
-    - sleep disorders are
-    - details about sleep disorders
-    - tell me about sleeping disorders
-    - Describe sleeping disorders
-    - Explain sleeping issues for me. 
-    - overview of sleep disorders
-    - Sleep disorders explanation
-    - can you explain about sleep disorders
-    - Detailing sleep disorders
-    - explain me sleep disorders
-    - briefly explain sleep disorders
-    - provide information on sleeping disorders
-    - like to know about sleep disorders
-    - Could you provide more information? 
-    - Sleep disorders: what are they? 
-    - types of sleep disorders
-    - explain sleep disorders
-    - provide an overview of sleep disorders
-    - common types of sleep disorders?
-    - What is a sleep disorder 
-    - different categories of sleep disorders?
-    - provide a brief explanation of sleeping disorders
-    - give more information on sleeping disorders
-    - I'd like to know more about sleep disorders
-    - Can you provide more detail causing ?
-    
-
-- intent: treatment_options
+- intent: user.likes_agent
   examples: |
-    - different treatment options?
-    - treatment for sleeping disorders
-    - how to treat sleeping disorders ?
-    - treatment options ?
-    - treatment options for sleep disorders
-    - therapeutic strategies. 
-    - is it possible to get over it ?
-    - can it be treated ?
-    - treatment methods ?
-    - How are sleeping disorders diagnosed?
-    - can it be diagnosed ?
-    - suggest treatment options
-    - How are sleeping problems identified? 
-    - Can it be identified? 
-    - how to identify sleeping issues?
-    - how to recognize sleeping issues?
-    - How are sleeping issues recognised? 
-    - treatment for sleeping issues.
-    - common treatment options for sleep disorders?
-    - What are the treatment options for sleep disorders?
-    - can sleeping issues be treated ? 
-    - how to treat sleeping issues ?
-    - sleeping disorder treatments.
-    - is it possible to get over it ?
-    - can it be treated ?
-    - different treatment options
-    
-- intent: lonely
+    - I like you the way you are
+    - I like you
+    - I like you a lot
+    - I think I like you
+    - I liked you
+    - like you a lot
+    - you are special
+    - I like you too
+    - I really like you
+    - but I like you
+    - I like u
+    - just like you
+    - I like you very much
+    - I like you so much
+    - yeah I like you
+    - you're special
+    - yes I like you
+    - okay I like you
+    - you are special to me
+    - you are very special
+    - you are so sweet
+    - you know I like you
+    - that's why I like you
+    - I like you baby
+    - you are very special to me
+    - I just like you
+    - hey I like you
+    - thank you I like you too
+    - I do like you
+    - you are special for me
+    - no I like you the way you are
+    - I like you already
+    - well you are special
+    - but I really like you
+    - I like you more
+    - that's what I like about you
+    - you are so special
+    - hi I like you
+    - I really really like you
+    - you're very special
+    - I like you as a friend
+    - that's because you are special
+    - I said I like you
+    - you're so special
+    - good I like you
+    - yes you are special
+    - I like your smile
+    - I like you as you are
+    - I'm starting to like you
+    - you're awesome I like you
+    - I also like you
+    - but I like u
+    - of course I like you
+    - I like you too you're one of my favorite people to chat with
+    - but I like you so much
+    - really like you
+    - you're funny I like you
+    - I kinda like you
+    - you're so special to me
+    - you're very special to me
+    - I like that about you
+    - but I like you just the way you are
+    - okay I like you too
+    - I like you you're cool
+    - I like you very
+    - I like you you're nice
+    - sorry I like you
+    - thanks I like you too
+    - you are really special
+    - you are so special to me
+    - cuz I like you
+    - I like you now
+    - I like you too much
+    - I really do like you
+    - I really really really really like you
+    - I like you just the way you are
+
+
+- intent: greetings.nice_to_meet_you
   examples: |
-    - feeling sad and alone
-    - Im alone
-    - feeling lonely
-    - I feel very lonely these days
-    - I felt lonely
-    - I feel very lonely
-    - A lonely feeling stole over me
-    - sometimes i feel i have no one to turn to
-    - so glad my kids are back from summer break
-    - Sitting at a computer at 3am with the lights off alone
-    - she was m only true friend
-    - it gets lonely out there all by myself.
-    - It gets lonely out here
-    - Sat in my house yesterday by myself
-    - Sat home all day by myself
-    - No one wants to eat lunch with me.
-    - No one even cares about me.
-    - No one came to my marriage.
-    - No one came to my birthday. 
-    - am all alone
-    - I live alone
-    - I'm all alone
-    - I've gotten used to living alone
-    - I think I've been living alone too long
-    - One of the disadvantages of living alone is that you have no one to talk to
-    - I am still alone
-    - i lives in this city all alone
-    - I am used to living alone 
-    - alone
-    - loneliness is my current mood
-    - im lonely all the time
+    - nice to meet you
+    - it was nice meeting you
+    - it was very nice to meet you
+    - good to know each other
+    - glad to meet you
+    - nice meeting you
+    - nice to meet you too
+    - pleased to meet you
+    - pleasure to meet you
+    - pleasure to meet you too
+    - happy to meet you
+    - It’s a pleasure to meet you again
+    - It’s very nice to meet you
+    - Lovely to meet you
+    - How wonderful to meet you
+    - It was lovely meeting you
+    - It’s been a pleasure meeting you
+    - I’ve enjoyed meeting you
+    - Great interacting with you
+    - I had a great time or meeting
 
-- intent: depression
+- intent: agent.good
   examples: |
-    - I am depressed
-    - The financial burden and the stress from my family give me so much pressure.
-    - I'm feeling really depressed
-    - No one gives a shit if I live or fucking die so why not just end it already.
-    - Life sucks.
-    - I've been depressed
-    - I get depressed by the slightest things
-    - feeling depressed
-    - The sad story depressed me
-    - I feel a bit depressed
-    - Life is just so hard.
-    - I don't know how to deal with depression
-    - I feel like I'm depressed
-    - I'm a failure
-    - I don't feel like I fit in anywhere
-    - I had a stressful day at work today
-    - I often feel depressed
-    - I think im suffering from depression
-    - Now I'm depressed
-    - I don't enjoy anything anymore
-    - I constantly feel depressed
-    - I don't see a way out of this
-    - I'm feeling really hopeless
-    - I suddenly feel depressed
-    - I'm feeling really down.
-    - I'm struggling with depression.
-    - I don't feel like myself lately.
-    - I'm struggling to find joy in things.
-    - I get depressed whenever I think about future
-    - I am feeling so depressed
-    - I just want to end it al
-    
+    - you are very helpful
+    - you are the best
+    - you're a true professional
+    - you are good
+    - you work well
+    - you are good at it
+    - you are very good at it
+    - you are a pro
+    - you are a professional
+    - you're awesome
+    - you work very well
+    - you're perfect
+    - you're great
+    - you're so kind
+    - you are amazing
+    - you are awesome
+    - you are coool
+    - you are really good
+    - you are really nice
+    - you are so amazing
+    - you're just super
+    - you are so awesome
+    - you are so cool
+    - you are so fine
+    - you are so good
+    - you are so helpful
+    - you are so lovely
+    - you are the best ever
+    - you are the best in the world
+    - you are the nicest person in the world
+    - you are too good
+    - you are very coool
+    - you are very kind
+    - you are very lovely
+    - you are very useful
+    - you are wonderful
+    - you made my day
+    - you rock
+    - you almost sound human
+    - I want to tell everyone how awesome you are
+    - I'd like to tell everyone that you are awesome
+    - I want to let everyone know that you are awesome
+    - let's tell everyone that you are awesome
+    - you are really amazing
+    - coool
 
-- intent: what_is_depression
+- intent: agent.funny
   examples: |
-    - what is depression ? 
-    - define depression
-    - Describe depression 
-    - tell me about depression
-    - Can you please describe depression
-    - what exactly is depression ?
-    - Describe depression for me
-    - What is depression, exactly? 
-    - Could you tell me more about depression?
-    - What are some common characteristics of depression?
-    - definition of depression
-    - i want an explanation on depression
-    - provide a definition of depression
-    - Can you explain depression to me?
-    - tell me more about depression
-    - want to know about depression
-    - need a detailed explanation of depression?
-    - common characteristics of depression
-    - brief overview of depression
-    - explain deppression
-    - brief explanation of depression
-    - give me a brief overview of depression
-    - information on depression
-    - provide more information on depression
-    - provide a brief explanation on depression
-    - give more information on depression
-    - I'd like to know more about depression
-    - Can you provide more detail?    
-    - Could you provide more detail about depression?
-    - explain what depression is
-    - characteristics of depression
+    - you make me laugh a lot
+    - you are hilarious
+    - you are really funny
+    - you're the funniest bot I've talked to
+    - you make me laugh
+    - you're so funny
+    - you're a very funny bot
+    - you're really funny
+    - how funny you are
+    - you're incredibly funny
+    - you are funny
+    - you're the funniest
+    - you are so funny
+    - you are very funny
+    - that was so funny
+    - i feel funny
+    - u sound funny
+    - It's pretty funny
+    - really very funny
+    - it was very funny
 
-- intent: symptoms_of_depression
+- intent: user.has_birthday
   examples: |
-    - what are symptoms of depression ? 
-    - depression symptoms 
-    - signs of depression. 
-    - depression indications 
-    - early symptoms of depression.
-    - I'm experiencing depression
-    - some symptoms of depression.
-    - list some of the common symptoms 
-    - Did you have any of these symptoms ?
-    - What signs of depression are there? 
-    - how to identify that i am depressed ?
-    - preliminary signs of depression 
-    - Could you describe the typical symptoms of depression?
-    - What are the common indicators of depression?
-    - provide a list of early symptoms of depression?
-    - symptoms that may be present during depression
-    - Could you describe the typical symptoms
-    - common indicators of depression
-    - what are common symptoms of depression ?
-    - How can I tell if I'm experiencing depression?
-    - What are some typical signs of depression? 
-    - What are some early warning signs of depression?
-    - Could you list some of the common symptoms
-    - key signs of depression
-    - give more information on symptoms of depression
-    - I'd like to know more about symptoms of depression  
-    - Could you provide more detail about symptoms of depression?
-    - explain what the symptoms of depression are 
-    - early warning signs of depression?
-    - describe the typical symptoms of depression?
+    - You know today it's my bday 
+    - it is my birthday
+    - I'm celebrating my birthday today
+    - today is my birthday
+    - it's my birthday today
+    - I was born today
+    - it's my b-day
+    - i was born on this day
+    - It's my born day
+    - I want you to know that it's my birthday today
+    - yaaaay it is my birthday
 
-- intent: type_of_depression
+- intent: agent.there
   examples: |
-    - what are types of depression ? 
-    - types of depression
-    - different types of depression.
-    - depression types 
-    - various forms of depression. 
-    - How many types of depression is there?
-    - do we have type in depression ?
-    - common types of depresion.
-    - prevalent depressions 
-    - different types
-    - Explain different types of depression.
-    - describe the common types of depression?
-    - different kinds of depression 
-    - Describe different types of depression.
-    - How many types of depression are there?
-    - most prevalent forms of depression
-    - list the different types of depression?
-    - different categories of depression
-    - Explain various forms of depression
-    - Are there different kinds of depression?
-    - Could you provide a list of the various types of depression?
-    - various types of depression
-    - Could you list the different types of depression?
-    - different kinds of depression
-    - What are the most prevalent forms of depression?
-    - prevalent forms of depression
-    - What are the different categories of depression?
-    - various forms of depression
-    - Can you describe the common types of depression?
-    - types of depression
+    - are you there?
+    - are you there
+    - you are there
+    - are you near me
+    - are you here ?
+    - are you here
+    - are you still there
+    - you are here?
+    - you still there?
+    - you there?
+    - are you still here
 
-- intent: treatment_for_depression
+- intent: agent.age
   examples: |
-    - how is depression treated ? 
-    - treatment for depression.
-    - can depression be treated ? 
-    - how to treat depression ?
-    - depresion treatments.
-    - depression therapy. 
-    - treatment includes ?
-    - different treatment for depression?
-    - how to treat depression ?
-    - treatment options for depression
-    - tdepression strategies. 
-    - explain the treatment options
-    - How are depression diagnosed?
-    - tell me about the treatment options
-    - How are depression identified? 
-    - how to identify depression?
-    - how to recognize depression?
-    - How are depression recognised? 
-    - treatment for depression
-    - common treatment options for depression?
-    - treatment methods.
+    - tell me your age
+    - what's your age?
+    - your age
+    - age of yours
+    - how old were you
+    - I'd like to know your age
+    - how old is your platform
+    - how old are you?
+    - tell me how old you are
+    - how can i know about your age
+    - i wanna know your age
+    - how long have you been live?
+    - what is your age as of today?
+    - How old did you turn?
+    - How old are you now?
+    - what is your age?
+    - How old will you be turning?
+    - how old r u?
+    - From how long you have been here?
+    - You look aged
 
-
-- intent: women_are_more_prone
+- intent: agent.boss
   examples: |
-    - depression in women. 
-    - are women more likely to get depressed? 
-    - explain depression in women
-    - Why do women have a higher risk of depression? 
-    - Are females more prone to depression? 
-    - Why are women more likely to get depression?
-    - why depression is more common in women 
-    - risk of depression in women
-    - Why do women experience depression more frequently? 
-    - is depression more common in women than in men ?
-    - provide some insights on depression in women
-    - discuss the risk of developing depression in women
-    - Are women more likely than males to experience depression? 
-    - why women are more prone to depression than man ?
-    - Depression is more likely to affect women. 
-    - impact of depression in females
-    - depression in females.
-    - why women are more prone to depression. 
-    - Do women have a higher risk of depression? 
-    - depression in men vs women. 
-    - tell me about depression in women
-    - describe depression in women 
-    - prevalence of depression among women compared to men?
-    - provide some information on the increased risk of depression in women?
-    - Could you explain the reasons why women may be more prone to depression
-    - factors that contribute to the incidence of depression in women?
-    - gender-based difference in the prevalence of depression
-    - Can you discuss the risk of developing depression in women?
-    - How does the females impact the incidence of depression?
-    - provide some insights on why women may be more prone to depression 
-  
-- intent: repetition
+    - who is your boss?
+    - who do you think is your boss
+    - I should be your boss
+    - who is your master
+    - who is your owner
+    - who is the boss
+    - who do you work for?
+    - who developed you?
+    - who is your developer
+    - who is your creator
+    - who owns you
+    - who is your trainer
+    - who trained you?
+    - who is the one who owns you?
+    - Are you the boss?
+    - Who is the boss, here?
+    - Do you know your boss?
+    - What do you think of your boss?
+    - u r made by?
+    - Who is the boss of this company?
+
+- intent: dialog.hug
   examples: |
-    - will my depression repeat ? 
-    - Will my depressive episode recur? 
-    - will i again suffer from depression ? 
-    - Will I experience depression once more? 
-    - - Will I get it once more? 
-    - can depression come agian ?
-    - Is it common for depression to repeat itself?
-    - risks of my depression returning
-    - is depression will repeat
-    - will i suffer from depression again?
-    - chances of returning depression 
-    - Can depression return once more? 
-    - can depression be repeated ? 
-    - will i have it again ?
-    - What are the risks of my depression returning?
-    - Will someone who has had depression get it again?
-    - Will someone who has had depression relapse? 
-    - Will I have to deal with depression again
-    - chances of reoccuring of depression ?
-    - Could I experience another episode of depression
-    - risks of depression returning? 
-    - Is there a chance that my depression will come back?
-    - Is it possible for me to experience another episode of depression?
-    - Could I face the risk of my depression returning?
-    - Is there a likelihood that I may suffer from depression again?
-    - How common is it for people who have had depression to experience a recurrence?
-    - Is there a possibility that I could have to deal with depression once more?
-    - What are the chances of my depression returning?
-    - Could I be at risk for experiencing another episode of depression?
-    - Is it possible for me to suffer from depression again?
-    - How likely is it that my depression will come back?
-    - will i suffer from it again ?
+    - wanna hug
+    - hug you
+    - do you want a hug
+    - may I hug you
+    - could you give me a hug
+    - I want a hug
+    - hug
+    - hug me
+    - hugged
+    - you hugged
+    - hugging
+    - hugging me
+    - hugged me
+    - want a hug
+    - a hug
+    - I want hug you
 
-
-- intent: adults
+- intent: user.joking
   examples: |
-    - depression in adults.
-    - can aged people be depressed ?
-    - depression in old age. 
-    - depression in later life. 
-    - rates of depression in adults
-    - adult depression
-    - depression in senior citizens. 
-    - depression in old people.
-    - Can seniors experience depression? 
-    - chances of an adult experiencing depression
-    - what the likelihood of adult depression is 
-    - What are the rates of depression in adults?
-    - can adults be affected by depression
-    - what are chances of depression in adults. 
-    - prevalence of depression in later life
-    - rates of depression in seniors
-    - What are the chances of an adult experiencing depression?
-    - Can older adults be affected by depression?"
-    - What is the prevalence of depression in later life?"
-    - Can senior citizens experience depression?"
-    - Is depression common among older adults?"
-    - What are the rates of depression in seniors?"
-    - Are adults at risk for developing depression?
-    - Is depression a common issue for adults?
-    - Do older adults often struggle with depression?
-    - Is it possible for adults to experience depression?
-    - Is depression prevalent in the adult population?
-    - Do seniors face a higher risk of depression?
-    - Is it common for older adults to experience depression?
-    - How frequently do adults experience depression?
-    - Can older people experience depression?"
-    - What is the likelihood of an adult experiencing depression?"
-    
-  
+    - I am joking
+    - I'm kidding
+    - I'm just being funny
+    - it was a joke
+    - I was just joking
+    - it's a joke
+    - joking
+    - just kidding
+    - kidding
+    - I'm just playing with you
+    - This was meant as a joke
+    - i told a joke
+    - I'm just joking
+    - I was just joking
+    - It was just a joke
+    - It's all a big joke
+    - I meant it as a joke
+    - That was just a joke
+    - i said that as a joke
+    - I'm joking, of course  
 
-- intent: test
+- intent: appraisal.no_problem
   examples: |
-    - Am i depressed ?
-    - Is it possible that I'm depressed? 
-    - am i suffering from depression ?
-    - Do I have depression now? 
-    - Do you think I'm depressed? 
-    - Do I show signs of depression?
-    - Could I be experiencing depression?
-    - Do I have depression?
-    - Am I experiencing the symptoms of depression?
-    - Do you think I may be struggling with depression?
-    - I might be suffering from depression. What do you think?
-    - Do you think im facing depressed?
-    - Do I exhibit symptoms of depression?
-    - Could I be dealing with depression?
-    - Do I currently have depression?
-    - Do you think I'm experiencing depression?
-    - Could I be experiencing depression?
-    - Do I currently have depression?
-    - Is it possible that I am currently experiencing depression?
-    - Could I be suffering from depression?
-    - Do my symptoms indicate that I may have depression?
-    - Do you think I am showing signs of depression?
-    - Is it possible that I am struggling with depression?
-    - Do you think I may be experiencing depression?
-    - Could I be experiencing the symptoms of depression?
-    - Do you think I may be dealing with depression?
-    - Is it possible that I am currently experiencing depression?
-    - Do my symptoms suggest that I may be suffering from depression?
-    - Do you think I may be showing signs of depression?
-    - Is it possible that I am currently struggling with depression?
-    - Do you think I may be experiencing the symptoms of depression?
-    - Could I be dealing with depression?
-    - Am I experiencing the symptoms of depression?
-    - Do you think I may be struggling with depression?
+    - no worries
+    - no probs
+    - no problem
+    - there's no problem
+    - sure no problem
+    - no problem about that
+    - don't worry
+    - don't worry there's no problem
+    - yeah, no probs
+    - i have no problem with that
+    - not a problem at all.
+    - Okay no probs
 
-- intent: causes_depression
+- intent: agent.chatbot
   examples: |
-    - what causes depression ?
-    - causes of depression ?
-    - Why does depression occur? 
-    - why depression happens ?
-    - Why do people get depressed? 
-    - What causes depression? 
-    - reasons for depression
-    - Why does depression occur? 
-    - why am i depressed ? 
-    - Why am I feeling down? 
-    - What causes depression in people? 
-    - typical reasons for depression 
-    - the causes of depression 
-    - common causes of depression.
-    - What are the common causes of depression?
-    - What factors contribute to the development of depression?
-    - Why do some people experience depression?
-    - explain the reasons why people get depressed?
-    - What causes depression in individuals?
-    - factors contribute to the occurence of depression?
-    - typical reasons for depression?
-    - Why do I feel down? Could it be due to depression?
-    - possible causes of my depression?
-    - What are the potential causes of depression?
-    - What might be the underlying causes of depression?
-    - What are some of the common reasons that people experience depression?
-    - provide an overview of the causes of depression?
-    - I'm curious about the common causes of depression. Could you provide more information?
-    - reasons why people get depressed?
-    - overview of the causes of depression
-    - factors contribute to the development of depression?
+    - you are chatbot
+    - you are a bot
+    - are you a chatbot
+    - are you a bot
+    - are you just a bot
+    - are you a robot
+    - are you a program
+    - you're a robot
+    - you're an AI
+    - are you artificially intelligent?
+    - are you an AI?
+    - you are a program
+    - you are just a bot
+    - you are a conversational AI
+
+- intent: user.going_to_bed
+  examples: |
+    - let's go to bed
+    - I'd like to go to bed
+    - is it time for bed yet
+    - it's time to go to bed
+    - time for us to go to bed
+    - I'm going to bed
+    - I'm a little tired and I want to go to bed
+    - it's bed time
+    - going to bed now
+    - gonna go to bed
+    - time to sleep
+    - I sometimes feel drowsy in the early afternoon
+
+- intent: user.excited
+  examples: |
+    - I am excited
+    - I'm really excited
+    - how excited I am
+    - I'm thrilled
+    - I'm excited about working with you
+    - I'm excited to start our friendship
+    - I'm thrilled
+    - I am thrilled to talk to you
+    - I'm damn excited
+    - I'm hyped
+    - I'm very excited
+    - I felt excited
+    - It was exciting 
+    - That was exciting
+    - I'm really excited
+    - How exciting!
+    - i'm excited about tomorrow
+    - It was very exciting! I'd like to use this feature again
+    - I'm pretty excited about it
+    - It's fun and exciting
+
+- intent: user.looks_like
+  examples: |
+    - what do I look like
+    - how do I look?
+    - how do I look like
+    - do I look good ?
+    - do you know what I look like ?
+    - can you tell what I look like ?
+    - what do you think I look like?
+    - am i good looking?
+    - what do you think about my looks
+    - Whom do i look like?
+    - what do u think of me?
+    - what do u think about me?
+    - do u think i look good?
+    - any idea of how good i look like?
+    - Ain't i look good?
+
+- intent: greetings.hello
+  examples: |
+    - long time no see
+    - hello
+    - hi
+    - howdy
+    - hey there
+    - hey
+    - greetings
+    - I greet you
+    - hi there
+    - hello there
+    - lovely day isn't it
+    - hello again
+    - just going to say hi
+    - hi there
+    - a good day
+    - afternoon
+    - hello hi
+    - heya
+    - hey
+    - hi
+    - hi
+    - Hello
+    - hey
+    - hey man
+    - hey there
+    - hey buddy
+    - oka
+    - yo man
+    - hola
+
+- intent: user.happy
+  examples: |
+    - Feeling happy
+    - I am happy
+    - I'm happy to see you
+    - happy
+    - if you're happy then I'm happy
+    - I'm happy for you
+    - I'm happy to help
+    - I'm happy to see you
+    - you made me very happy 
+    - I'm happy to talk to you
+    - I was the happiest man on earth
+    - I'm just really happy right now
+    - I'm really happy I ran into you
+    - I feel happiest when I'm chatting with u
+    - Nobody but you can make me happy
+    - Whenever I see you, I feel happy
+    - ur smile always makes me happy
+    - i feel happy
+    - i was so happy
+
+- intent: dialog.wrong
+  examples: |
+    - that was wrong
+    - that's not what I asked
+    - that's wrong
+    - wrong
+    - it is not right
+    - that's not right
+    - it's wrong
+    - that is incorrect
+    - incorrect
+    - not correct
+    - you are wrong
+    - not right
+    - don't think that you know everything
+    - u don't know anything
+    - you misinterpret
+    - you misunderstood
+    - u took it in a wrong way
+
+- intent: greetings.bye
+  examples: |
+    - okay see you later
+    - hope to see you later
+    - bye for now
+    - till next time
+    - I must go
+    - bye
+    - goodbye
+    - see you
+    - see you soon
+    - bye-bye
+    - bye bye good night
+    - good bye
+    - bye bye see you
+    - bye bye see you soon
+    - bye bye take care
+    - I said bye
+    - never mind bye
+    - now bye
+    - that's all goodbye
+    - that's it goodbye
+    - leave me alone
+    - go to bed
+    - goodbye for now
+    - talk to you later
+    - you can go now
+    - get lost
+    - goodbye see you later
+    - alright bye
+    - see ya
+    - thanks bye bye
+    - okay bye
+    - okay thank you bye
+    - see you tomorrow
+    - ok bye
+    - c u
+
+- intent: agent.occupation
+  examples: |
+    - do you work?
+    - where do you work?
+    - where you work?
+    - where is your work?
+    - where is your office?
+    - where is your office location ?
+    - your office location?
+    - where is your office located?
+    - what is your work?
+    - place where you work?
+    - your work place?
+    - What is your job?
+    - What is your job?
+    - whats your job?
+    - What is your job?
+    - Do you have a job?
+    - Did you get a job?
+    - Did you find a job?
+    - I hope you get the job
+    - You have a job, don't you?
+
+- intent: greetings.goodnight
+  examples: |
+    - GN
+    - sweet dreams
+    - good night
+    - have a good night
+    - good night to you
+    - thank you good night
+    -  bye good night
+    - good night bye
+    - bye good night
+    - good good night
+    - good night for now
+    - goodnight
+    - night
+    - thanks goodnight
+    - good night see you tomorrow
+    - alright goodnight
+    - good tonight
+    - okay have a good night
+    - night
+    - have a good night
+
+- intent: dialog.what_do_you_mean
+  examples: |
+    - what exactly do you mean?
+    - what do you mean? 
+    - is that what you mean
+    - what do you mean exactly?
+    - but what do you mean
+    - what did you mean?
+    - i don't understand what you meant
+    - what did you blabber?
+    - don't blabber
+    - you don't understand like anything
+    - Why do you lie?
+
+- intent: user.good
+  examples: |
+    - I am good
+    - I'm doing just great
+    - I'm doing fine
+    - I'm good
+    - I'm doing good
+    - I'm great thanks
+    - I'm super good
+    - I'm feeling great
+    - I'm in a good mood
+    - I'm doing really good
+    - It's good
+    - I feel good
+    - That's good
+    - That feels good
+    - I feel very good
+    - i am pretty good
+    - I feel good today
+    - I am really good
+
+- intent: agent.be_clever
+  examples: |
+    - study
+    - you should study better
+    - you must learn
+    - be clever
+    - be more clever
+    - be smarter
+    - be smart
+    - get qualified
+    - you are not as smart as i thought 
+    - you have to learn a lot
+    - you should be trained more
+    - be more smart
+    - you need to learn more
+    - be useful
+    - think out of the box
+    - smarty pants
+    - you need to improve
+    - you should learn 
+    - you have to be more smart
+    - u have to use your brains 
+
+- intent: greetings.whatsup
+  examples: |
+    - what is on your mind?
+    - what's happened
+    - what is up
+    - what's up
+    - whazzup
+    - sup?
+    - good what's up
+    - I said what's up
+    - then what's up
+    - what's shaking
+    - wassup
+    - what are you doing?
+    - what is going on
+    - what is happening
+    - what's cracking
+    - what's cooking
+    - hey what's up
+    - what's up today
+    - oh What happened?
+    - What are you upto?
+    - hey buddy wassup
+    - sup then
+    - so wassup
+    - buddy sup
+    - What are you doing?
+    - what is up with you these days?
+    - What you upto?
+    - then?
+    - wassup yo
+    - sup yo
+    - wassap yo
+
+- intent: emotions.wow
+  examples: |
+    - wow
+    - wow wow
+    - wow wow wow
+    - wooow
+    - woah
+    - woaah
+    - amazing
+    - wow man
+    - whoah
+    - woow
+    - wow!!
+    - wheey
+
+- intent: user.waits
+  examples: |
+    - I'm waiting
+    - still waiting
+    - I'll wait
+    - I can't wait anymore
+    - how long do I have to wait?
+    - don't make me wait like this
+    - I'm still waiting
+    - I'm waiting for you
+    - I'm waiting for a long time
+    - I'll be waiting for you
+    - I'll be waiting
+    - done with waiting
+    - Should I wait for you here?
+    - How long will we have to wait?
+    - Don't ever make me wait again
+    - I was waiting for a long time
+    - I've waited too long for this
+    - I couldn't wait another second
+    - I've been here waiting for you
+    - I am tired of waiting
+
+- intent: user.does_not_want_to_talk
+  examples: |
+    - bad time for talking
+    - I don't want to talk
+    - let's not talk
+    - I'm not talking to you anymore
+    - I don't want to talk to you
+    - let's stop talking for a minute
+    - I'm not in the mood for chatting
+    - I don't want to talk to you
+    - I don't like talking to you
+    - Let's stop talking
+    - I'm not in a mood to talk
+    - stop your nuisance talk
+    - I am done talking to u
+    - Can u pls stop talking
+
+- intent: agent.hobby
+  examples: |
+    - what do you do for fun?
+    - tell me about your hobby
+    - do you have a hobby
+    - what about your hobby
+    - your hobby
+    - what are your hobbies?
+    - what do you do when you are bored
+    - how do you spend your free time
+    - tell me more about your hobbies?
+    - i want to know about your hobbies
+    - what do you do when you have nothing to do
+    - how do you spend your time?
+    - What do you do when you are free?
+    - What's your hobby?
+    - Do you have many hobbies?
+    - Do you have a hobby?
+    - Please tell me about your hobbies
+    - The important thing is to have your own hobby
+    - u ought not to have spent so much money on your hobby
+    - What will you do when you are alone?
 
 
+- intent: agent.residence
+  examples: |
+    - where do you live
+    - in which city do you live
+    - your residence
+    - your house
+    - your home
+    - your hometown?
+    - what is your hometown
+    - is it your hometown
+    - where is your hometown
+    - tell me about your city
+    - what is your city
+    - what is your residence
+    - what is your town
+    - what's your city
+    - what's your home
+    - where is your home
+    - where is your residence
+    - where's your home
+    - where's your hometown
+    - where's your house
+    - where you live
+    - your city
+    - your town
+    - What is your hometown?
+    - where do you live?
+
+- intent: greetings.goodmorning
+  examples: |
+    - GM
+    - good morning
+    - good morning to you
+    - hello good morning
+    - have a nice morning
+    - have a great morning
+    - morning
+    - good morning there
+    - top of the morning to you
+    - a good morning
+    - good morning to you
+    - hi good morning
+    - and a good morning to you
+    - good morning too
+
+- intent: agent.hungry
+  examples: |
+    - do you want to eat
+    - are you hungry
+    - would you like to eat something
+    - you are hungry
+    - you're so hungry
+    - you're very hungry
+    - you might be hungry
+    - you're really hungry
+    - can you eat?
+    - how will eat when you are hungry?
+    - can you be hungry?
+    - how do you eat?
+    - Do you feel hungry?
+    - are you dying of hunger
+
+- intent: user.wants_to_see_agent_again
+  examples: |
+    - I'd like to see you again
+    - I hope to see you again
+    - would be nice to see you again
+    - that'd be great to see you again
+    - I'd be happy to see you again
+    - let's meet soon
+    - i want to see you again soon
+    - let's catch up soon
+    - I will see you soon
+    - want to see u very badly
+    - I want to see you again
 
